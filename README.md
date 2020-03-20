@@ -1,12 +1,7 @@
-# books
-interactive map of book exchange places from different sources
-
-### Current stage
-
-- german wikipedia lists scraped successfully
-- code public
-- map under construction
-
+## books
+interactive map of book exchange places from different sources  
+[contact me](mailto:berry-b@gmx.de) to request an update of the map.  
+**This is work in progress: only the wikipedia list is included so far**
 
 ### Sources
 - [x] https://de.wikipedia.org/wiki/Liste_%C3%B6ffentlicher_B%C3%BCcherschr%C3%A4nke
@@ -21,13 +16,3 @@ interactive map of book exchange places from different sources
 
 Adresses to coordinates (I think):  
 https://de.batchgeo.com/
-
-
-
-### Outlook
-nice html landing page directly with map
-include:
-
-- link to this page
-- send update request
-- locator / adress search / distance tools

@@ -2,8 +2,8 @@
 # interactive map from different sources
 # Berry Boessenkool, berry-b@gmx.de
 
-library(leaflet) # leaflet, addTiles, addCircleMarkers
-library(leaflet.extras) # addControlGPS, gpsOptions, activateGPS
+library(leaflet) # leaflet, addTiles, addCircleMarkers, addMeasure
+library(leaflet.extras) # addControlGPS, gpsOptions, activateGPS, addSearchOSM
 
 
 # Wikipedia ----
@@ -20,10 +20,17 @@ write.table(wiki_table, "table.txt", sep="\t", quote=FALSE, row.names=FALSE, na=
 wiki_table$popup <- berryFunctions::popleaf(wiki_table, na.rm=TRUE)
 
 map <- leaflet(wiki_table) %>% addTiles() %>% 
-       addCircleMarkers(~lon, ~lat, popup=~popup) %>% 
-       addControlGPS(options=gpsOptions(position="topleft", 
-                     activate=TRUE, autoCenter=TRUE, maxZoom=15, setView=TRUE))
+  addCircleMarkers(~lon, ~lat, popup=~popup) %>% 
+  addControl(position="bottomleft", html='<a href="https://github.com/brry/books">Map by Berry B.</a><br><a href="mailto:berry-b@gmx.de">Request update</a>') %>% 
+  addSearchOSM() %>% 
+  addScaleBar() %>% 
+  addMeasure(primaryLengthUnit="kilometers", primaryAreaUnit="hectares",
+            activeColor="#3D535D", completedColor="#7D4479") %>% 
+  addControlGPS(options=gpsOptions(position="topleft", 
+                activate=TRUE, autoCenter=TRUE, maxZoom=15, setView=TRUE))
 map
+
+
 
 # Export:
 {
