@@ -37,7 +37,7 @@ scrape_wiki <- function(listURL)
 if(listURL!="") listURL <- paste0("_",listURL)
 url <- paste0("https://de.wikipedia.org/wiki/Liste_%C3%B6ffentlicher_B%C3%BCcherschr%C3%A4nke",
               listURL)
-if(listURL=="") listURL <- "landingPage" # for error messaging + source reference
+if(listURL=="") listURL <- "_landingPage" # for error messaging + source reference
 listURL <- paste0("de.wiki",listURL)
 
 # read table ----

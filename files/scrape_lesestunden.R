@@ -7,7 +7,10 @@ berryFunctions::library2("rjson")
 table_lesestunden <- rjson::fromJSON(file="https://www.lesestunden.de/buchschrank/v1/bookcase")
 table_lesestunden <- lapply(table_lesestunden, function(x) {
   x[sapply(x, is.null)] <- NA
-  unlist(x)})
+  x <- unlist(x)
+  x <- gsub("\n", " ", x)
+  x <- gsub("\t", " ", x)
+  x})
 table_lesestunden <- data.frame(do.call(rbind, table_lesestunden), stringsAsFactors=FALSE)
 colnames(table_lesestunden) <- sub("lng", "lon", colnames(table_lesestunden))
 table_lesestunden$Source <- "lesestunden.de"

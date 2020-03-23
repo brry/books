@@ -36,7 +36,7 @@ node
 out;
 ' # "Speichere als OSM Rohdaten" at C:/Dropbox/R/books  /files/export.osm
 
-cases <- readLines("files/export.osm", encoding="UTF-8")
+cases <- readLines("files/export.osm", encoding="UTF-8", warn=FALSE)
 n_beg <- grep( "<node id", cases)
 n_end <- grep("</node>", cases)
 if(length(n_beg)!=length(n_end)) stop("Length n_beg (",length(n_beg),") != length n_end (",length(n_end),")")

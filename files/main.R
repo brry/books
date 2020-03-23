@@ -29,13 +29,13 @@ table_osm <- read.table("files/table_osm.txt", sep="\t", header=TRUE, quote="", 
 
 source("files/scrape_lesestunden.R")
 write.table(table_lesestunden, "files/table_lesestunden.txt", sep="\t", quote=FALSE, row.names=FALSE, na="")
-table_lesestunden <- read.table("files/table_lesestunden.txt", sep="\t", header=TRUE, quote="", stringsAsFactors=FALSE)
-
+table_lesestunden <- read.table("files/table_lesestunden.txt", sep="\t", header=TRUE, quote="", stringsAsFactors=FALSE, comment.char="")
 
 
 
 # colors ----
 
+{
 table_wiki$col <- "blue"
 table_tauschgnom$col <- "red"
 table_osm$col <- "green"
@@ -60,7 +60,6 @@ table <- read.table("files/table.txt", sep="\t", header=TRUE, fill=TRUE, quote="
 
 
 # Map ----
-{
 table[table==""] <- NA
 sel <- ! colnames(table) %in% c("col","group")
 table$popup <- berryFunctions::popleaf(table, sel=sel, na.rm=TRUE)
