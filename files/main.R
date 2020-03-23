@@ -14,22 +14,27 @@ library2(leaflet.extras) # addControlGPS, gpsOptions, activateGPS, addSearchOSM
 
 # Scrape sources ----
 
+write_books <- function(table, file) write.table(x=table, file=file, sep="\t", 
+                                                 quote=FALSE, row.names=FALSE, na="")
+read_books <- function(file, ...) read.table(file, sep="\t", header=TRUE, quote="", 
+                                        stringsAsFactors=FALSE, comment.char="", ...)
+
 source("files/scrape_wiki.R") # 10-30 secs
-write.table(table_wiki, "files/table_wiki.txt", sep="\t", quote=FALSE, row.names=FALSE, na="")
-table_wiki <- read.table("files/table_wiki.txt", sep="\t", header=TRUE, quote="", stringsAsFactors=FALSE)
+write_books(table_wiki, "files/table_wiki.txt")
+table_wiki <- read_books("files/table_wiki.txt")
 
 source("files/scrape_tauschgnom.R")
 table_tauschgnom <- table_tauschgnom[1:5, ] # permission request pending
-write.table(table_tauschgnom, "files/table_tauschgnom.txt", sep="\t", quote=FALSE, row.names=FALSE, na="")
-table_tauschgnom <- read.table("files/table_tauschgnom.txt", sep="\t", header=TRUE, quote="", stringsAsFactors=FALSE)
+write_books(table_tauschgnom, "files/table_tauschgnom.txt")
+table_tauschgnom <- read_books("files/table_tauschgnom.txt")
 
 source("files/scrape_osm.R")
-write.table(table_osm, "files/table_osm.txt", sep="\t", quote=FALSE, row.names=FALSE, na="")
-table_osm <- read.table("files/table_osm.txt", sep="\t", header=TRUE, quote="", stringsAsFactors=FALSE)
+write_books(table_osm, "files/table_osm.txt")
+table_osm <- read_books("files/table_osm.txt")
 
 source("files/scrape_lesestunden.R")
-write.table(table_lesestunden, "files/table_lesestunden.txt", sep="\t", quote=FALSE, row.names=FALSE, na="")
-table_lesestunden <- read.table("files/table_lesestunden.txt", sep="\t", header=TRUE, quote="", stringsAsFactors=FALSE, comment.char="")
+write_books(table_lesestunden, "files/table_lesestunden.txt")
+table_lesestunden <- read_books("files/table_lesestunden.txt")
 
 
 
@@ -55,8 +60,8 @@ table <- Reduce(function(...) merge(..., all=TRUE), list(
   table_lesestunden
   ))
 
-write.table(table, "files/table.txt", sep="\t", quote=FALSE, row.names=FALSE, na="")
-table <- read.table("files/table.txt", sep="\t", header=TRUE, fill=TRUE, quote="", stringsAsFactors=FALSE)
+write_books(table, "files/table.txt")
+table <- read_books("files/table.txt")
 
 
 # Map ----
