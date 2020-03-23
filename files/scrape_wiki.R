@@ -99,8 +99,6 @@ out
 # Test ----
 
 # currently manual testing. ToDo: systematic tests
-
-
 if(FALSE){
 str(testcase)
 testcase <- scrape_wiki(wiki_lists[1]) # Bayern
@@ -108,3 +106,10 @@ testcase <- scrape_wiki(wiki_lists[3]) # Brandenburg
 testcase <- scrape_wiki(wiki_lists[55]) # Landkreis_Ravensburg
 testcase <- scrape_wiki(wiki_lists[60]) # Landing page
 }
+
+
+# Call ----
+
+table_wiki <- pbapply::pblapply(wiki_lists, scrape_wiki) # ca 30 secs
+table_wiki <- Reduce(function(...) merge(..., all=TRUE), table_wiki)
+rm(wiki_lists, scrape_wiki)

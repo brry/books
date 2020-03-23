@@ -1,0 +1,6 @@
+lat	lon	Ort	Lage	Source	col	group
+48.84082	10.09916	Aalen	Bleichgartenstraße	tauschgnom.de	red	Tauschgnom
+48.8349826	10.1143214	Aalen	Droste-Hülshoff-Weg	tauschgnom.de	red	Tauschgnom
+48.83931	10.09327	Aalen	Spritzenhausplatz	tauschgnom.de	red	Tauschgnom
+48.8383	10.091	Aalen	Friedhofstraße	tauschgnom.de	red	Tauschgnom
+48.8426058	10.0922615	Aalen	Schleifbrückenstraße	tauschgnom.de	red	Tauschgnom
