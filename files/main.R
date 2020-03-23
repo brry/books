@@ -11,9 +11,10 @@ library2(leaflet) # leaflet, addTiles, addCircleMarkers, addMeasure
 library2(leaflet.extras) # addControlGPS, gpsOptions, activateGPS, addSearchOSM
 
 
+
 # Scrape sources ----
 
-source("files/scrape_wiki.R")
+source("files/scrape_wiki.R") # 10-30 secs
 write.table(table_wiki, "files/table_wiki.txt", sep="\t", quote=FALSE, row.names=FALSE, na="")
 table_wiki <- read.table("files/table_wiki.txt", sep="\t", header=TRUE, quote="", stringsAsFactors=FALSE)
 
@@ -22,20 +23,29 @@ table_tauschgnom <- table_tauschgnom[1:5, ] # permission request pending
 write.table(table_tauschgnom, "files/table_tauschgnom.txt", sep="\t", quote=FALSE, row.names=FALSE, na="")
 table_tauschgnom <- read.table("files/table_tauschgnom.txt", sep="\t", header=TRUE, quote="", stringsAsFactors=FALSE)
 
+source("files/scrape_osm.R")
+write.table(table_osm, "files/table_osm.txt", sep="\t", quote=FALSE, row.names=FALSE, na="")
+table_osm <- read.table("files/table_osm.txt", sep="\t", header=TRUE, quote="", stringsAsFactors=FALSE)
+
+
+
 
 # colors ----
 
 table_wiki$col <- "blue"
 table_tauschgnom$col <- "red"
+table_osm$col <- "green"
 
 table_wiki$group <- "Wikipedia"
 table_tauschgnom$group <- "Tauschgnom"
+table_osm$group <- "OSM"
   
 # Merge sources ----
 
 table <- Reduce(function(...) merge(..., all=TRUE), list(
   table_wiki, 
-  table_tauschgnom
+  table_tauschgnom,
+  table_osm
   ))
 
 write.table(table, "files/table.txt", sep="\t", quote=FALSE, row.names=FALSE, na="")
@@ -55,7 +65,7 @@ map <- leaflet(table) %>%
   addCircleMarkers(~lon, ~lat, popup=~popup, color=~col, group=~group) %>% 
   addLayersControl(
     baseGroups=c("OSM (default)", "Esri WorldImagery"),
-    overlayGroups=c("Wikipedia", "Tauschgnom"),
+    overlayGroups=c("Wikipedia", "Tauschgnom", "OSM"),
     options=layersControlOptions(collapsed=FALSE)) %>% 
   addControl(position="bottomleft", html=html) %>% 
   addSearchOSM(options=searchOptions(autoCollapse=TRUE, minLength=2, hideMarkerOnCollapse=TRUE)) %>% 

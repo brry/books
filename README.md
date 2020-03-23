@@ -1,5 +1,5 @@
 ## books
-Interactive map of book exchange places from different sources  
+Interactive [map of book exchange places](https://brry.github.io/books) from different sources  
 Created by [Berry](https://brry.github.io) Boessenkool - 
 [contact me](mailto:berry-b@gmx.de) to request an update of the map.  
 **This is work in progress: not all lists are included so far**
@@ -11,9 +11,10 @@ Created by [Berry](https://brry.github.io) Boessenkool -
 - [ ] https://openbookcase.org/map
 - [ ] https://openbookcase.de/
 - [ ] https://book-exchange.zottelig.ch/
+- [ ] https://github.com/Binnette/bookcases-to-check
 - [ ] https://littlefreelibrary.org/
 - [ ] https://www.bookcrossing.com (potentially)
-- [ ] OpenStreetMap export amenity=public_bookcase (potentially)
+- [x] OpenStreetMap amenity=public_bookcase (through https://overpass-turbo.eu)
 
 Adresses to coordinates (I think):  
 https://de.batchgeo.com/
