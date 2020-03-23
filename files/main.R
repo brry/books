@@ -27,6 +27,10 @@ source("files/scrape_osm.R")
 write.table(table_osm, "files/table_osm.txt", sep="\t", quote=FALSE, row.names=FALSE, na="")
 table_osm <- read.table("files/table_osm.txt", sep="\t", header=TRUE, quote="", stringsAsFactors=FALSE)
 
+source("files/scrape_lesestunden.R")
+write.table(table_lesestunden, "files/table_lesestunden.txt", sep="\t", quote=FALSE, row.names=FALSE, na="")
+table_lesestunden <- read.table("files/table_lesestunden.txt", sep="\t", header=TRUE, quote="", stringsAsFactors=FALSE)
+
 
 
 
@@ -35,17 +39,20 @@ table_osm <- read.table("files/table_osm.txt", sep="\t", header=TRUE, quote="", 
 table_wiki$col <- "blue"
 table_tauschgnom$col <- "red"
 table_osm$col <- "green"
+table_lesestunden$col <- "yellow"
 
 table_wiki$group <- "Wikipedia"
 table_tauschgnom$group <- "Tauschgnom"
 table_osm$group <- "OSM"
+table_lesestunden$group <- "Lesestunden"
   
 # Merge sources ----
 
 table <- Reduce(function(...) merge(..., all=TRUE), list(
   table_wiki, 
   table_tauschgnom,
-  table_osm
+  table_osm,
+  table_lesestunden
   ))
 
 write.table(table, "files/table.txt", sep="\t", quote=FALSE, row.names=FALSE, na="")
@@ -53,6 +60,7 @@ table <- read.table("files/table.txt", sep="\t", header=TRUE, fill=TRUE, quote="
 
 
 # Map ----
+{
 table[table==""] <- NA
 sel <- ! colnames(table) %in% c("col","group")
 table$popup <- berryFunctions::popleaf(table, sel=sel, na.rm=TRUE)
@@ -65,7 +73,7 @@ map <- leaflet(table) %>%
   addCircleMarkers(~lon, ~lat, popup=~popup, color=~col, group=~group) %>% 
   addLayersControl(
     baseGroups=c("OSM (default)", "Esri WorldImagery"),
-    overlayGroups=c("Wikipedia", "Tauschgnom", "OSM"),
+    overlayGroups=c("Wikipedia", "Tauschgnom", "OSM", "Lesestunden"),
     options=layersControlOptions(collapsed=FALSE)) %>% 
   addControl(position="bottomleft", html=html) %>% 
   addSearchOSM(options=searchOptions(autoCollapse=TRUE, minLength=2, hideMarkerOnCollapse=TRUE)) %>% 
@@ -75,7 +83,7 @@ map <- leaflet(table) %>%
   addControlGPS(options=gpsOptions(position="topleft", 
                 activate=TRUE, autoCenter=TRUE, maxZoom=15, setView=TRUE))
 map
-
+}
 
 
 
