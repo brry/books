@@ -8,9 +8,7 @@ Created by [Berry](https://brry.github.io) Boessenkool -
 - [x] https://de.wikipedia.org/wiki/Liste_%C3%B6ffentlicher_B%C3%BCcherschr%C3%A4nke
 - [ ] https://www.tauschgnom.de/offene-buecherschraenke
 - [x] https://www.lesestunden.de/karte-oeffentlicher-buecherschraenke/
-- [ ] https://openbookcase.org/map
-- [ ] https://openbookcase.de/
-- [ ] https://book-exchange.zottelig.ch/
+- [ ] https://openbookcase.org/map / https://openbookcase.de/
 - [ ] https://github.com/Binnette/bookcases-to-check
 - [ ] https://littlefreelibrary.org/
 - [ ] https://www.bookcrossing.com (potentially)
