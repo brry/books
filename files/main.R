@@ -36,6 +36,10 @@ source("files/scrape_lesestunden.R")
 write_books(table_lesestunden, "files/table_lesestunden.txt")
 table_lesestunden <- read_books("files/table_lesestunden.txt")
 
+source("files/scrape_boite.R")
+write_books(table_boite, "files/table_boite.txt")
+table_boite <- read_books("files/table_boite.txt")
+
 
 
 # colors ----
@@ -44,12 +48,14 @@ table_lesestunden <- read_books("files/table_lesestunden.txt")
 table_wiki$col <- "blue"
 table_tauschgnom$col <- "red"
 table_osm$col <- "green"
-table_lesestunden$col <- "yellow"
+table_lesestunden$col <- "#ff9900"
+table_boite$col <- "purple"
 
 table_wiki$group <- "Wikipedia"
 table_tauschgnom$group <- "Tauschgnom"
 table_osm$group <- "OSM"
 table_lesestunden$group <- "Lesestunden"
+table_boite$group <- "BoiteLire"
   
 # Merge sources ----
 
@@ -57,7 +63,8 @@ table <- Reduce(function(...) merge(..., all=TRUE), list(
   table_wiki, 
   table_tauschgnom,
   table_osm,
-  table_lesestunden
+  table_lesestunden,
+  table_boite
   ))
 
 write_books(table, "files/table.txt")
@@ -77,7 +84,7 @@ map <- leaflet(table) %>%
   addCircleMarkers(~lon, ~lat, popup=~popup, color=~col, group=~group) %>% 
   addLayersControl(
     baseGroups=c("OSM (default)", "Esri WorldImagery"),
-    overlayGroups=c("Wikipedia", "Tauschgnom", "OSM", "Lesestunden"),
+    overlayGroups=c("Wikipedia", "Tauschgnom", "OSM", "Lesestunden", "BoiteLire"),
     options=layersControlOptions(collapsed=FALSE)) %>% 
   addControl(position="bottomleft", html=html) %>% 
   addSearchOSM(options=searchOptions(autoCollapse=TRUE, minLength=2, hideMarkerOnCollapse=TRUE)) %>% 
@@ -88,7 +95,6 @@ map <- leaflet(table) %>%
                 activate=TRUE, autoCenter=TRUE, maxZoom=15, setView=TRUE))
 map
 }
-
 
 
 

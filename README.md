@@ -9,7 +9,7 @@ Created by [Berry](https://brry.github.io) Boessenkool -
 - [ ] https://www.tauschgnom.de/offene-buecherschraenke
 - [x] https://www.lesestunden.de/karte-oeffentlicher-buecherschraenke/
 - [ ] https://openbookcase.org/map / https://openbookcase.de/
-- [ ] https://github.com/Binnette/bookcases-to-check
+- [x] https://www.boite-a-lire.com / https://github.com/Binnette/bookcases-to-check
 - [ ] https://littlefreelibrary.org/
 - [ ] https://www.bookcrossing.com (potentially)
 - [x] OpenStreetMap amenity=public_bookcase (through https://overpass-turbo.eu)
