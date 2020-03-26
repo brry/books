@@ -79,11 +79,11 @@ table$popup <- berryFunctions::popleaf(table, sel=sel, na.rm=TRUE)
 html <- paste0('Map by <a href="https://github.com/brry/books">Berry B</a>, ', Sys.Date())
 
 map <- leaflet(table) %>% 
-  addTiles(group = "OSM (default)") %>%
-  addProviderTiles(providers$Esri.WorldImagery, group="Esri WorldImagery") %>%
+  addTiles(group = "OSM (default)", options=providerTileOptions(maxZoom=19)) %>%
+  addProviderTiles(providers$Esri.WorldImagery, group="Esri WorldImagery", options=providerTileOptions(maxZoom=20)) %>%
   #addResetMapButton() %>% 
   addCircleMarkers(~lon, ~lat, popup=~popup, color=~col, group=~group) %>% 
-  addControl(position="topright", html='<font size="2">Zoom in before loading layers.</font>') %>% 
+  addControl(position="topright", html='<font size="1">Zoom in before loading layers.</font>') %>% 
   addLayersControl(
     baseGroups=c("OSM (default)", "Esri WorldImagery"),
     overlayGroups=c("Wikipedia", "Tauschgnom", "OSM", "Lesestunden", "BoiteLire"),
@@ -94,16 +94,15 @@ map <- leaflet(table) %>%
   hideGroup("Lesestunden") %>% 
   hideGroup("BoiteLire") %>% 
   addControl(position="bottomleft", html=html) %>% 
-  addSearchOSM(options=searchOptions(autoCollapse=TRUE, minLength=2, hideMarkerOnCollapse=TRUE)) %>% 
+  addSearchOSM(options=searchOptions(autoCollapse=TRUE, minLength=2, hideMarkerOnCollapse=TRUE, zoom=16)) %>% 
   addControlGPS(options=gpsOptions(position="topleft", 
-                activate=TRUE, autoCenter=TRUE, maxZoom=15, setView=TRUE)) %>% 
+                activate=TRUE, autoCenter=TRUE, maxZoom=16, setView=TRUE)) %>% 
   addMeasure(primaryLengthUnit="kilometers", primaryAreaUnit="hectares",
             activeColor="#3D535D", completedColor="#7D4479", position="topleft") %>% 
   addScaleBar(position="topleft") %>% 
   addFullscreenControl()
 map
 }
-
 
 
 # Export:
