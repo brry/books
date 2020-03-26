@@ -8,7 +8,7 @@ if(!requireNamespace("berryFunctions", quietly=TRUE)) install.packages("berryFun
 library(berryFunctions) # for 'library2' (like previous line) + usage in scrape scripts
 
 library2(leaflet) # leaflet, addTiles, addCircleMarkers, addMeasure
-library2(leaflet.extras) # addControlGPS, gpsOptions, activateGPS, addSearchOSM
+library2(leaflet.extras) # addControlGPS, gpsOptions, activateGPS, addSearchOSM, addFullscreenControl
 
 
 
@@ -83,17 +83,24 @@ map <- leaflet(table) %>%
   addProviderTiles(providers$Esri.WorldImagery, group="Esri WorldImagery") %>%
   #addResetMapButton() %>% 
   addCircleMarkers(~lon, ~lat, popup=~popup, color=~col, group=~group) %>% 
+  addControl(position="topright", html='<font size="2">Zoom in before loading layers.</font>') %>% 
   addLayersControl(
     baseGroups=c("OSM (default)", "Esri WorldImagery"),
     overlayGroups=c("Wikipedia", "Tauschgnom", "OSM", "Lesestunden", "BoiteLire"),
     options=layersControlOptions(collapsed=FALSE)) %>% 
+  hideGroup("Wikipedia") %>% 
+  hideGroup("Tauschgnom") %>% 
+  hideGroup("OSM") %>% 
+  hideGroup("Lesestunden") %>% 
+  hideGroup("BoiteLire") %>% 
   addControl(position="bottomleft", html=html) %>% 
   addSearchOSM(options=searchOptions(autoCollapse=TRUE, minLength=2, hideMarkerOnCollapse=TRUE)) %>% 
-  addScaleBar() %>% 
-  addMeasure(primaryLengthUnit="kilometers", primaryAreaUnit="hectares",
-            activeColor="#3D535D", completedColor="#7D4479") %>% 
   addControlGPS(options=gpsOptions(position="topleft", 
-                activate=TRUE, autoCenter=TRUE, maxZoom=15, setView=TRUE))
+                activate=TRUE, autoCenter=TRUE, maxZoom=15, setView=TRUE)) %>% 
+  addMeasure(primaryLengthUnit="kilometers", primaryAreaUnit="hectares",
+            activeColor="#3D535D", completedColor="#7D4479", position="topleft") %>% 
+  addScaleBar(position="topleft") %>% 
+  addFullscreenControl()
 map
 }
 
