@@ -19,43 +19,44 @@ write_books <- function(table, file) write.table(x=table, file=file, sep="\t",
 read_books <- function(file, ...) read.table(file, sep="\t", header=TRUE, quote="", 
                                         stringsAsFactors=FALSE, comment.char="", ...)
 
+if(FALSE) # be kind, only scrape manually
+{
 source("files/scrape_wiki.R") # 10-30 secs
-write_books(table_wiki, "files/table_wiki.txt")
-table_wiki <- read_books("files/table_wiki.txt")
-
 source("files/scrape_tauschgnom.R")
+source("files/scrape_osm.R")
+source("files/scrape_lesestunden.R")
+source("files/scrape_boite.R")
+
+write_books(table_wiki, "files/table_wiki.txt")
 table_tauschgnom <- table_tauschgnom[1:5, ] # permission request pending
 write_books(table_tauschgnom, "files/table_tauschgnom.txt")
-table_tauschgnom <- read_books("files/table_tauschgnom.txt")
-
-source("files/scrape_osm.R")
 write_books(table_osm, "files/table_osm.txt")
-table_osm <- read_books("files/table_osm.txt")
-
-source("files/scrape_lesestunden.R")
 write_books(table_lesestunden, "files/table_lesestunden.txt")
-table_lesestunden <- read_books("files/table_lesestunden.txt")
-
-source("files/scrape_boite.R")
 write_books(table_boite, "files/table_boite.txt")
-table_boite <- read_books("files/table_boite.txt")
+}
 
+
+table_wiki        <- read_books("files/table_wiki.txt")
+table_tauschgnom  <- read_books("files/table_tauschgnom.txt")
+table_osm         <- read_books("files/table_osm.txt")
+table_lesestunden <- read_books("files/table_lesestunden.txt")
+table_boite       <- read_books("files/table_boite.txt")
 
 
 # colors ----
 
 {
-table_wiki$col <- "blue"
-table_tauschgnom$col <- "red"
-table_osm$col <- "green"
+       table_wiki$col <- "blue"
+ table_tauschgnom$col <- "red"
+        table_osm$col <- "green"
 table_lesestunden$col <- "#ff9900"
-table_boite$col <- "purple"
+      table_boite$col <- "purple"
 
-table_wiki$group <- "Wikipedia"
-table_tauschgnom$group <- "Tauschgnom"
-table_osm$group <- "OSM"
+       table_wiki$group <- "Wikipedia"
+ table_tauschgnom$group <- "Tauschgnom"
+        table_osm$group <- "OSM"
 table_lesestunden$group <- "Lesestunden"
-table_boite$group <- "BoiteLire"
+      table_boite$group <- "BoiteLire"
   
 # Merge sources ----
 
@@ -95,9 +96,6 @@ map <- leaflet(table) %>%
                 activate=TRUE, autoCenter=TRUE, maxZoom=15, setView=TRUE))
 map
 }
-
-
-
 
 
 
