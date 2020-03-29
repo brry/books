@@ -67,8 +67,6 @@ table <- Reduce(function(...) merge(..., all=TRUE), list(
   table_boite
   ))
 
-write_books(table, "files/table.txt")
-table <- read_books("files/table.txt")
 
 
 # Map ----
