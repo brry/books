@@ -28,7 +28,6 @@ source("files/scrape_lesestunden.R")
 source("files/scrape_boite.R")
 
 write_books(table_wiki, "files/table_wiki.txt")
-table_tauschgnom <- table_tauschgnom[1:5, ] # permission request pending
 write_books(table_tauschgnom, "files/table_tauschgnom.txt")
 write_books(table_osm, "files/table_osm.txt")
 write_books(table_lesestunden, "files/table_lesestunden.txt")
