@@ -2,112 +2,106 @@
 # interactive map from different sources
 # Berry Boessenkool, berry-b@gmx.de
 
+
 # Needed packages -----
-
 if(!requireNamespace("berryFunctions", quietly=TRUE)) install.packages("berryFunctions")
-library(berryFunctions) # for 'library2' (like previous line) + usage in scrape scripts
-
-library2(leaflet) # leaflet, addTiles, addCircleMarkers, addMeasure
-library2(leaflet.extras) # addControlGPS, gpsOptions, activateGPS, addSearchOSM, addFullscreenControl
-
-
+berryFunctions::library2("rjson") # for the function fromJSON (in scrape.R)
+berryFunctions::library2(leaflet) # leaflet, addTiles, addCircleMarkers, addMeasure
+berryFunctions::library2(leaflet.extras) # addControlGPS, gpsOptions, activateGPS, 
+                                         # addSearchOSM, addFullscreenControl
+# Custom functions:
+write_books <- function(table, file) write.table(x=table, file=file, sep="\t", 
+                       quote=FALSE, row.names=FALSE, na="")
+read_books <- function(file, ...) read.table(file, sep="\t", header=TRUE, quote="", 
+                 stringsAsFactors=FALSE, comment.char="", ...)
+truncString <- function(x, n) ifelse(nchar(x)>n, paste0(substring(x, 1, n), "[trunc]"), x)
 
 # Scrape sources ----
+# be kind, only scrape manually, don't execute accidentally
+if(FALSE) source("files/scrape.R") # 10-50 secs
 
-write_books <- function(table, file) write.table(x=table, file=file, sep="\t", 
-                                                 quote=FALSE, row.names=FALSE, na="")
-read_books <- function(file, ...) read.table(file, sep="\t", header=TRUE, quote="", 
-                                        stringsAsFactors=FALSE, comment.char="", ...)
 
-if(FALSE) # be kind, only scrape manually
-{
-source("files/scrape.R") # 10-50 secs
-write_books(table_wiki, "files/table_wiki.txt")
-write_books(table_tauschgnom, "files/table_tauschgnom.txt")
-write_books(table_osm, "files/table_osm.txt")
-write_books(table_lesestunden, "files/table_lesestunden.txt")
-write_books(table_boite, "files/table_boite.txt")
-write_books(table_openbookcase, "files/table_openbookcase.txt")
+if(!exists("table_wpl")){
+table_wpl <- read_books("files/table_wpl.txt")
+table_tgn <- read_books("files/table_tgn.txt")
+table_osm <- read_books("files/table_osm.txt")
+table_lst <- read_books("files/table_lst.txt")
+table_bal <- read_books("files/table_bal.txt")
+table_obc <- read_books("files/table_obc.txt")
 }
 
+# colors, labels ----
 
-{
-table_wiki        <- read_books("files/table_wiki.txt")
-table_tauschgnom  <- read_books("files/table_tauschgnom.txt")
-table_osm         <- read_books("files/table_osm.txt")
-table_lesestunden <- read_books("files/table_lesestunden.txt")
-table_boite       <- read_books("files/table_boite.txt")
-table_openbookcase<- read_books("files/table_openbookcase.txt")
-}
+grp <- read.table(header=TRUE, sep=";", strip.white=TRUE, comment.char="", as.is=TRUE, text="
+Abb; Label        ; Color   ; URL
+wpl; Wikipedia    ; blue    ; de.wikipedia.org/wiki/Liste_öffentlicher_Bücherschränke
+tgn; Tauschgnom   ; red     ; www.tauschgnom.de/offene-buecherschraenke-karte
+osm; OSM          ; green   ; overpass-turbo.eu
+lst; Lesestunden  ; #ff9900 ; www.lesestunden.de/karte-oeffentlicher-buecherschraenke
+bal; Boite a Lire ; purple  ; www.boite-a-lire.com 
+obc; Openbookcase ; black   ; openbookcase.org/map
+")
+grp$Group <- paste0('<font color="',grp$Color,'">\U2B24 </font><a href="https://',
+                    grp$URL,'">',grp$Label,'</a>')
+rownames(grp) <- grp$Abb
 
-# colors ----
+table_wpl$group <- grp["wpl","Group"] ; table_wpl$col <- grp["wpl", "Color"]
+table_tgn$group <- grp["tgn","Group"] ; table_tgn$col <- grp["tgn", "Color"]
+table_osm$group <- grp["osm","Group"] ; table_osm$col <- grp["osm", "Color"]
+table_lst$group <- grp["lst","Group"] ; table_lst$col <- grp["lst", "Color"]
+table_bal$group <- grp["bal","Group"] ; table_bal$col <- grp["bal", "Color"]
+table_obc$group <- grp["obc","Group"] ; table_obc$col <- grp["obc", "Color"]
 
-{
-       table_wiki$col <- "blue"
- table_tauschgnom$col <- "red"
-        table_osm$col <- "green"
-table_lesestunden$col <- "#ff9900"
-      table_boite$col <- "purple"
-table_openbookcase$col <- "black"
-
-       table_wiki$group <- "Wikipedia"
- table_tauschgnom$group <- "Tauschgnom"
-        table_osm$group <- "OSM"
-table_lesestunden$group <- "Lesestunden"
-      table_boite$group <- "BoiteLire"
-table_openbookcase$group <- "Openbookcase"
-  
 # Merge sources ----
 
 table <- Reduce(function(...) merge(..., all=TRUE), list(
-  table_wiki, 
-  table_tauschgnom,
+  table_wpl, 
+  table_tgn,
   table_osm,
-  table_lesestunden,
-  table_boite,
-  table_openbookcase
+  table_lst,
+  table_bal,
+  table_obc
   ))
-
 
 
 # Map ----
 table[table==""] <- NA
+ll <- table[,c("lat","lon")] ; table$lat <- NULL ; table$lon <- NULL
+ll <- round(ll, 6)
+tocut <- ! colnames(table) %in% c("group", "OSM")
+table[,tocut] <- lapply(table[,tocut], truncString, 80) # cut long comments to reduce html size
+table <- cbind(table, ll) ; rm(ll, tocut)
 sel <- ! colnames(table) %in% c("col","group")
-table$lat <- round(table$lat, 6)
-table$lon <- round(table$lon, 6)
-table$popup <- berryFunctions::popleaf(table, sel=sel, na.rm=TRUE)
-html <- paste0('Map by <a href="https://github.com/brry/books">Berry B</a>, ', Sys.Date())
+table$popup <- berryFunctions::popleaf(table, sel=sel, na.rm=TRUE) ; rm(sel)
+# table$id <- nchar(table$popup)
 
+ref_html <- paste0('Map by <a href="https://github.com/brry/books">Berry B</a>, ', Sys.Date())
 map <- leaflet(table) %>% 
   addTiles(group = "OSM (default)", options=providerTileOptions(maxZoom=19)) %>%
-  addProviderTiles(providers$Esri.WorldImagery, group="Esri WorldImagery", options=providerTileOptions(maxZoom=20)) %>%
+  addProviderTiles(providers$Esri.WorldImagery, group="Esri WorldImagery", 
+                   options=providerTileOptions(maxZoom=20)) %>%
   #addResetMapButton() %>% 
   addCircleMarkers(~lon, ~lat, popup=~popup, color=~col, group=~group) %>% 
   addControl(position="topright", html='<font size="1">Zoom in before loading layers.</font>') %>% 
   addLayersControl(
     baseGroups=c("OSM (default)", "Esri WorldImagery"),
-    overlayGroups=c("Wikipedia", "Tauschgnom", "OSM", "Lesestunden", "BoiteLire", "Openbookcase"),
+    overlayGroups=grp$Group,
     options=layersControlOptions(collapsed=FALSE)) %>% 
-  hideGroup("Wikipedia") %>% 
-  hideGroup("Tauschgnom") %>% 
-  hideGroup("OSM") %>% 
-  hideGroup("Lesestunden") %>% 
-  hideGroup("BoiteLire") %>% 
-  hideGroup("Openbookcase") %>% 
-  addControl(position="bottomleft", html=html) %>% 
+  hideGroup(grp$Group) %>% 
+  addControl(position="bottomleft", html=ref_html) %>% 
   addSearchOSM(options=searchOptions(autoCollapse=TRUE, minLength=2, hideMarkerOnCollapse=TRUE, zoom=16)) %>% 
   addControlGPS(options=gpsOptions(position="topleft", 
                 activate=TRUE, autoCenter=TRUE, maxZoom=16, setView=TRUE)) %>% 
   addMeasure(primaryLengthUnit="kilometers", primaryAreaUnit="hectares",
             activeColor="#3D535D", completedColor="#7D4479", position="topleft") %>% 
   addScaleBar(position="topleft") %>% 
-  addFullscreenControl()
-map
-}
-
+  addFullscreenControl() %>% 
+  setView(10, 50, zoom=5)
+print(map)
+rm(ref_html)
 
 # Export:
-{
+if(T){
 htmlwidgets::saveWidget(map, "index.html", selfcontained=TRUE)
 # HTML head for mobile devices:
 # https://stackoverflow.com/questions/42702394/make-leaflet-map-mobile-responsive
