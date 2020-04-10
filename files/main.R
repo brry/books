@@ -21,14 +21,7 @@ read_books <- function(file, ...) read.table(file, sep="\t", header=TRUE, quote=
 
 if(FALSE) # be kind, only scrape manually
 {
-source("files/scrape_wiki.R") # 10-30 secs
-source("files/scrape_tauschgnom.R")
-source("files/scrape_osm.R")
-source("files/scrape_lesestunden.R")
-source("files/scrape_boite.R")
-source("files/scrape_openbookcase.R")
-  
-
+source("files/scrape.R") # 10-50 secs
 write_books(table_wiki, "files/table_wiki.txt")
 write_books(table_tauschgnom, "files/table_tauschgnom.txt")
 write_books(table_osm, "files/table_osm.txt")
