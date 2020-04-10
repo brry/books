@@ -456,7 +456,7 @@ de.wiki_in_Hessen	Offenbach am Main	Am Mehrgenerationenhaus, Weikertsblochstraße
 de.wiki_in_Hessen	Otzberg-Lengfeld	Parkplatz, Otzbergstraße	Telefonzelle	Durchgehend geöffneter Bücherschrank in einer privat hergerichteten Telefonzelle vom Typ FeH 55	Juli 2016	49.83296	8.90221						
 de.wiki_in_Hessen	Rodenbach-Niederrodenbach	Am Bahnhof	BOKX		2014	50.14728	9.01326						
 de.wiki_in_Hessen	Rodenbach-Oberrodenbach	Dorfplatz, Hanauer Straße	Bücherschrank		2016								
-de.wiki_in_Hessen	Rodgau-Dudenhofen	Freiherr-vom-Stein-Straße Rodgau-Dudenhofen, auf Höhe des dortigen Kindergartens	Rote Britische Telefonzelle	Der öffentliche Bücherschrank wird von Schülern (und vermutlich auch Lehrern) der nahen Freiherr-vom-Stein-Schule betreut. Die ursprülichen Glasscheiben wurden kurz nach Aufstellung von Vandalen zertrümmert, und bei der Wiederinstandsetzung durch bruchfesten Kunststoff ersetzt, um Verletzungsgefahren zu vermeiden.									
+de.wiki_in_Hessen	Rodgau-Dudenhofen	Freiherr-vom-Stein-Straße Rodgau-Dudenhofen, auf Höhe des dortigen Kindergartens	Rote Britische Telefonzelle	Der öffentliche Bücherschrank wird von Schülern (und vermutlich auch Lehrern) der nahen Freiherr-vom-Stein-Schule betreut. Die ursprülichen Glasscheiben wurden kurz nach Aufstellung von Vandalen zertrümmert, und bei der Wiederinstandsetzung durch bruchfesten Kunststoff ersetzt, um Verletzungsgefahren zu vermeiden.		50.008611	8.892778						
 de.wiki_in_Hessen	Rodgau-Jügesheim	Hintergasse, Vorplatz des Rathauses Rodgau-Jügesheim	Blau gestrichene, ehemalige Telekom-Telefonzelle.	Der öffentliche Bücherschrank wurde zweimal zerstört, einmal durch Brandstiftung, ein weiteres Mal durch Explosion eines sog. Polenböllers, aber beide Male wiederhergestellt									
 de.wiki_in_Hessen	Rüsselsheim am Main	Marktstraße, gegenüber der Bäckerei	Metallschrank	Barrierefreier Zugang; installiert und betreut durch die Facebook-Gruppe „APO Rüsselsheim“	2014	49.993849	8.412335						
 de.wiki_in_Hessen	Rüsselsheim am Main	Nähe Bahnhof		von beiden Seiten zu öffnen	Mär. 2015[33]	49.992042	8.412837						
@@ -471,19 +471,20 @@ de.wiki_in_Hessen	Seligenstadt (Main)	Platz der Freundschaft in Seligenstadt (No
 de.wiki_in_Hessen	Steinbach (Taunus)	Pinackerplatz	Telefonzelle		2014								
 de.wiki_in_Hessen	Taunusstein-Bleidenstadt	Anton-Hollinger-Platz	Holzschrank		2015	50.13737	8.137552						
 de.wiki_in_Hessen	Taunusstein-Orlen	Auf dem Gelände des EAW Wertstoffhofes, Hühnerstraße 1/B417	Container	Neben Büchern auch andere Dinge, wie Geschirr und Spielsachen	2016								
+de.wiki_in_Hessen	Trais-Münzenberg	Gegenüber Wetterstraße 12	Kleines Bücherschränkchen										
 de.wiki_in_Hessen	Trendelburg-Deisel	im Wartehäuschen der Bushaltestelle neben dem Pfarrhaus in der Mittelstraße	Bücherschrank			51.59245	9.40772						
 de.wiki_in_Hessen	Usingen	Im Bahnhofsgebäude, Bahnhofstraße 37	Öffentlicher Bücherschrank		2015								
 de.wiki_in_Hessen	Weiterstadt	Ecke Ludwigstraße, Ernst-Ludwig-Straße	Umgebauter Kleidercontainer		2014								
 de.wiki_in_Hessen	Weiterstadt-Riedbahn	Ecke Wiesenstraße / Grüner Weg	Umgebauter Kleidercontainer		2014	49.8878795	8.615884						
 de.wiki_in_Hessen	Wiesbaden	An der evangelischen Kirche (Elisabethenstraße 10)	Holzschrank		2015	50.007781	8.286857						
 de.wiki_in_Hessen	Wiesbaden	Bei den Tischtennisplatten am Stadtteilzentrum Schelmengraben (Hans-Böckler-Straße 5 bis 7)	Holzschrank		2013								
-de.wiki_in_Hessen	Wiesbaden	Ecke Yorckstraße/Scharnhorststraße	Bücherregal		Dez. 2010	50.0815124	8.2261916						
 de.wiki_in_Hessen	Wiesbaden	Frankfurter Straße 1, im Garten der Villa Clementine	Bücherregal		Sep. 2010	50.080243	8.245237						
 de.wiki_in_Hessen	Wiesbaden	Konradinerallee 11, am Eingang des Verwaltungsgebäudes (Gesundheitsamt, Soziale Arbeit)	Bücherregal		2012	50.0632241	8.2544017						
 de.wiki_in_Hessen	Wiesbaden	Luisenstraße 19, 65185            Wiesbaden	Öffentliches Bücherregal	Im Umweltladen, gegenüber ÖPNV Haltestelle Luisenplatz									
 de.wiki_in_Hessen	Wiesbaden	Vor den Hochhäusern in der Albert-Schweitzer-Allee	Bücherregal			50.044817	8.230817						
 de.wiki_in_Hessen	Wiesbaden	Vor der Aquanil-Wäscherei (Klopstockstraße 5)	Tauschbox	Neben Büchern auch andere Gegenstände, wie Geschirr, Spielzeug.	2016								
 de.wiki_in_Hessen	Wiesbaden-Schierstein	Ecke Christian-Bücher-Straße/Bernhard-Schwarz-Straße	Metallschrank			50.042333	8.19532						
+de.wiki_in_Hessen	Wiesbaden-Westend	Ecke Yorckstraße/Scharnhorststraße	Bücherregal	Holzschrank vor der Blücherschule	Dez. 2010	50.0815124	8.2261916						
 de.wiki_in_Mecklenburg-Vorpommern	Altefähr	an der Strandpromenade	Bücherschrank			54.33068	13.120907						
 de.wiki_in_Mecklenburg-Vorpommern	Barth	Louis-Fürnberg-Straße	Telefonzelle			54.3542241571	12.7184504271						
 de.wiki_in_Mecklenburg-Vorpommern	Boizenburg/Elbe	Markt 6 / neben dem Rathaus	Verteilerkasten			53.374528	10.723247						
@@ -493,6 +494,8 @@ de.wiki_in_Mecklenburg-Vorpommern	Godenswege	Godensweger Straße 2c	Bücherschrank
 de.wiki_in_Mecklenburg-Vorpommern	Karlshagen	Bei der Konzertmuschel am Strandvorplatz	Installation in Form eines Segels	Eigenbetrieb „Tourismus und Wirtschaft“[1]	2014	54.1218529	13.841427						
 de.wiki_in_Mecklenburg-Vorpommern	Karlshagen	Strandstraße 24	Telefonzelle	Aufgestellt von Familie Vratny		54.1199886	13.8370056						
 de.wiki_in_Mecklenburg-Vorpommern	Lohme, Insel Rügen		Wagen	Mobil in den Ortsteilen unterwegs[2]		54.582778	13.611667						
+de.wiki_in_Mecklenburg-Vorpommern	Ludwigslust	An der Bushaltestelle Alexandrinenplatz	Telefonzelle										
+de.wiki_in_Mecklenburg-Vorpommern	Ludwigslust	An der Klenowe Straße, gegenüber der Peter-Joseph-Lenne-Schule	Telefonzelle										
 de.wiki_in_Mecklenburg-Vorpommern	Marlow	mitten auf dem Marktplatz, Neben Rathaus und Brunnen	Telefonzelle		Nov. 2019								
 de.wiki_in_Mecklenburg-Vorpommern	Neubrandenburg	Am Reitbahnsee	Baumstamm	[3]	Aug. 2017								
 de.wiki_in_Mecklenburg-Vorpommern	Prerow	Am Strand bei der Surfschule	Bücherschrank	Im öffentlichen Bereich, auch außerhalb der Öffnungszeiten der Surfschule zugänglich		54.45783267	12.54364014						
@@ -638,6 +641,7 @@ de.wiki_in_Niedersachsen	Hildesheim-Stadtfeld	Siedlungsweg	Bücherschrank			52.15
 de.wiki_in_Niedersachsen	Hillerse	Rathaus Hillerse	Bücherschrank		Jan. 2016								
 de.wiki_in_Niedersachsen	Holle	Am Thie 1, Rathaus	Bücherschrank	Zu den Öffnungszeiten des Rathauses: Mo, Fr. 09–12 Uhr, Di. 13:30–16 Uhr, Do. 14–18 Uhr		52.085657	10.159669						
 de.wiki_in_Niedersachsen	Holzminden	Lutherkirchplatz	Offener Bücherschrank	[19]	14. Aug. 2013	51.828594	9.445594						
+de.wiki_in_Niedersachsen	Hornbostel	Helene-Segelke-Platz	Holzschrank		Nov. 2019	52.672787	9.840057						
 de.wiki_in_Niedersachsen	Hoya	Lange Straße	Bücherschrank			52.805933	9.142814						
 de.wiki_in_Niedersachsen	Hude-Altmoorhausen	Dorfstraße 29, beim Kindergarten	Telefonzelle	[20]	2013								
 de.wiki_in_Niedersachsen	Husum (bei Nienburg)	Rehburger Straße, Ecke: Zum Hahnenkamp	Bücherschrank	Aufgestellt von der Bürgerstiftung im Landkreis Nienburg		52.56431	9.25054						
@@ -1316,7 +1320,7 @@ de.wiki_in_Th%C3%BCringen	Bottendorf		Telefonzelle			51.305833	11.402222
 de.wiki_in_Th%C3%BCringen	Dachwig	Döllstädter Straße 3	Bücherregal	Bücherregal im Freibad, zugänglich während der Öffnungszeiten	2019								
 de.wiki_in_Th%C3%BCringen	Ebersdorf (Saalburg-Ebersdorf)	Zinzendorfplatz	Regal	In der Lesehalle	2012	50.48252	11.6642						
 de.wiki_in_Th%C3%BCringen	Eisenach		Regal im Aquaplex	blaues Regal im Eingangsbereich des Schwimmbades[1]	2017								
-de.wiki_in_Th%C3%BCringen	Eisenach	Hauseingang in der westlichen Goldschmiedenstraße	Regal	Seit Schließung des benachbarten Antiquariates werden regelmäßig im Eingangsbereich des unbewohnten Nachbarhauses Bücherstabel abgelegt.		50.9743	10.3211						
+de.wiki_in_Th%C3%BCringen	Eisenach	Hauseingang in der westlichen Goldschmiedenstraße	Regal	Seit Schließung des benachbarten Antiquariates werden regelmäßig im Eingangsbereich des unbewohnten Nachbarhauses Bücherstapel abgelegt.		50.9743	10.3211						
 de.wiki_in_Th%C3%BCringen	Eisenach OT Göringen	Lauchröder Straße	Telefonzelle	umgebaute Telefonzelle auf dem Hof des Dorfgemeinschaftshauses; Träger/Initiator: Verein Landleben Göringen-Wartha e.V.[3]	17. Aug. 2019								
 de.wiki_in_Th%C3%BCringen	Eisenach OT Hörschel	Rennsteigstraße	Bücherbaum	ausgehöhlter Birkenstamm auf dem Spielplatz des Ortes[2]	15. Juni 2019								
 de.wiki_in_Th%C3%BCringen	Erfurt	Egapark	Lesepavillon	Während der Öffnungszeiten der Erfurter Gartenbauausstellung zugänglich[4]		50.9657	11.001						
@@ -1338,10 +1342,11 @@ de.wiki_in_Th%C3%BCringen	Suhl	Jugendkulturzentrum Jugendschmiede, Bahnhofstraße
 de.wiki_in_Th%C3%BCringen	Waltershausen	Haus der Generationen, Schulplatz 4	Telefonzelle	vor dem Haus der Generationen (Öffnungszeiten: Mo–Do 9:30–16:30, Fr 9:30–13:00)		50.898685	10.554159						
 de.wiki_in_Th%C3%BCringen	Weimar	Ernst-Kohl-Straße 23	Betonregal mit Glastüren	Auf Initiative des Festivals für junge Literatur „Juli im Juni“ und des Architekten Florian Hoppe entstand die „Offene Bibliothek Weimar“; vor der Other Music Academy in Weimar.	2013	50.9892318	11.3245607						
 de.wiki_in_Th%C3%BCringen	Zella-Mehlis	Schubertpark	Telefonzelle	Die ausrangierte Telefonzelle wurde von den Mitarbeitern des Baubetriebshofs aufgehübscht und nach Entwürfen von Frank Melech gestaltet. Das Regal im Inneren hat die Tischlerei Thomas Gießler angefertigt	2016	50.6603	10.6569						
+de.wiki_im_Saarland	Beckingen	Parkstraße 3	Telefonzelle	Initiiert vom Ortsrat in Kooperation mit der KÖB Beckingen und der Gemeinde Beckingen. Öffnungszeiten: Montag–Samstag von 8–20 Uhr	align="right"	49.392783	6.700589						
 de.wiki_im_Saarland	Blieskastel	Haus des Bürgers, Luitpoldplatz 5	Schrank		2016								
 de.wiki_im_Saarland	Ensdorf	Marktplatz Ensdorf/Saar[1]	Telefonzelle für Menschen mit Behinderung	Medienzelle errichtet vom AWO Ortsverein mit Unterstützung der Gemeinde Ensdorf und der Aktion Mensch. Als Inhalt auch andere Medien möglich (CDs, DVDs, VHS Kassetten, Hörbücher)	2019								
 de.wiki_im_Saarland	Gronig	Dorfgemeinschaftshaus[2]	Schrank		2017								
-de.wiki_im_Saarland	Homburg	Bushaltestelle Christian-Weber-Platz, Talstraße 23	Schrank		2016								
+de.wiki_im_Saarland	Homburg	Bushaltestelle Christian-Weber-Platz, Talstraße 23	Schrank		2015								
 de.wiki_im_Saarland	Homburg	Kreisverwaltung Saarpfalz-Kreis, Am Forum 1	Schrank	Öffnungszeiten der Kreisverwaltung	2013								
 de.wiki_im_Saarland	Illingen	Arbeiter-Samariter-Bund, Poststraße 7	Schrank		2012								
 de.wiki_im_Saarland	Perl	Im Perler Rathaus, Trierer Straße 28	Regal	Öffnungszeiten wie Rathaus[3]	2013								
@@ -1431,7 +1436,7 @@ de.wiki_im_Landkreis_Rottweil	Sulz am Neckar	Berliner Straße 28	Hängeschrank aus
 de.wiki_im_Schwarzwald-Baar-Kreis	Bad Dürrheim	Huberstraße	Bücherregal			48.01467	8.534853						
 de.wiki_im_Schwarzwald-Baar-Kreis	Blumberg	Hauptstraße 73	Bücherregal	Bücherbaum Blumberg[1]		47.83957	8.53352						
 de.wiki_im_Schwarzwald-Baar-Kreis	Brigachtal	St.-Gallus-Straße 4	Bücherregal			48.01289	8.469826						
-de.wiki_im_Schwarzwald-Baar-Kreis	Dauchingen	Schwarzwaldstraße 27	Bücherregal	Bücherregal ZO[1]		48.0929316	8.5473719						
+de.wiki_im_Schwarzwald-Baar-Kreis	Dauchingen	Vordere Straße 1	Bücherregal	Bücherregal Bushaltestelle[1]		48.0929316	8.5473719						
 de.wiki_im_Schwarzwald-Baar-Kreis	Hüfingen	Hauptstraße 26	Baumstamm mit Fächern	Regale in Hüfingen, Bushaltestelle[2]	2010	47.925594	8.489406						
 de.wiki_im_Schwarzwald-Baar-Kreis	Niedereschach	Eschachstraße 2	Bücherregal	zwei Bücherbäume[1]		48.112672752535	8.5072478279471						
 de.wiki_im_Schwarzwald-Baar-Kreis	Obereschach	Johanniterweg 2	Bücherregal	Öffentliches Bücherregal Obereschach[1]		48.105945	8.470652						
@@ -1520,6 +1525,7 @@ de.wiki_im_Landkreis_Calw	Enzklösterle	Kirchweg 8	Bücherschrank	Bücherschrank[2]
 de.wiki_im_Landkreis_Calw	Nagold	Freudenstädter Straße 25	Bücherregal	durch den Stadtseniorenrat Nagold[2]		48.549349061	8.72262954712						
 de.wiki_im_Landkreis_Calw	Schömberg		Bücherschrank	Öffentlicher Bücherschrank Schömberg[3]									
 de.wiki_im_Landkreis_Calw	Wildberg	Dr.-Vesenmayer-Weg 8	Bücherregal	Bücherregal im Edeka[2]		48.624780368804	8.7407801150382						
+de.wiki_im_Enzkreis	Eisingen		Bücherschrank	Bücherschrank an der Gemeindebibliothek									
 de.wiki_im_Enzkreis	Engelsbrand	Tannenweg	Bücherschrank	Bücherschrank am Spielplatz[1]		48.829600018141	8.6518175527453						
 de.wiki_im_Enzkreis	Großglattbach	Vaihinger Straße 44	Bücherschrank	Haltestelle Kelter Wartehäuschen[1]		48.914827283632	8.8980041071773						
 de.wiki_im_Enzkreis	Mönsheim	Burgstraße 2	Bücherregal	Bücherregal im Foyer der alten Kelter[1]		48.862731467	8.86331677437						
@@ -1635,8 +1641,8 @@ de.wiki_in_Stuttgart	Vaihingen	Zürnstraße 2	Bücherschrank	Baumbibliothek Stuttga
 de.wiki_in_Stuttgart	Weilimdorf-Bergheim	Ernst-Reuter-Platz 3	Bücherschrank	Bücherschrank Giebel[2]	14. Juni 2016	48.803563	9.091495						
 de.wiki_in_Stuttgart	West	Reinsburgstraße 56, im Hof des ZSL	Telefonzelle	öffentlich zugängliche Bücherzelle, errichtet im Rahmen der Veranstaltungsreihe „Bunter Kulturwinter 2017/2018“, gefördert von der Aktion Mensch, eine Initiative des ZSL Stuttgart – Beratungsstelle für Menschen mit Behinderung	Apr. 2018								
 de.wiki_in_Heilbronn	Heilbronn	  Kirchbrunnenstraße 12	Bücherregal	Im Deutschhof im VHS Gebäude[1]		49.141123	9.218085						
+de.wiki_in_Heilbronn	Heilbronn	Kaiser-Friedrich-Platz	Bücherschrank	KEB, Stadtbücherei	April 2019								
 de.wiki_in_Heilbronn	Heilbronn	Untere Neckarstraße 21	BOKX Bücherschrank	Betreiber: Stadtbibliothek Heilbronn. Vor dem Soleo-Hallenbad, Platz am Bollwerksturm[1][2]	Apr. 2015	49.145489	9.2172						
-de.wiki_in_Heilbronn	Heilbronn	Wilhelmstraße 58/1	Bücherregal	Förderprogramm „Soziale Stadt“, ARKUS-Waschsalon, erreichbar zu den Öffnungszeiten		49.132876	9.218165						
 de.wiki_in_Heilbronn	Horkheim	Schleusenstraße 1	Bücherschrank	Straßenbibliothek Horkheim, Gruners Backstube[3]	2014	49.11572	9.168275						
 de.wiki_in_Heilbronn	Neckargartach		Bücherregal	begehbares Bücherregal im ehemaligen Gemeindehaus[4]									
 de.wiki_im_Landkreis_B%C3%B6blingen	Aidlingen	Hauptstraße 14	Bücherschrank	Aidlingen – Volkshochschule[1]		48.67814	8.897268						
@@ -1806,20 +1812,23 @@ de.wiki_im_Alb-Donau-Kreis	Obermarchtal		Bücherregal	Öffentliches Bücherregal im
 de.wiki_im_Landkreis_Biberach	Berkheim	Hauptstraße	Bücherregal	Bücherregal Berkheim, gegenüber vom Gasthaus Krone									
 de.wiki_im_Landkreis_Biberach	Biberach an der Riß	Klotzholzäcker 11	Bücherregal	Bücherregal Biberach an der Riß[1]		48.109642617324	9.8255217075348						
 de.wiki_im_Landkreis_Biberach	Laupheim	Biberacher Straße 11	Bücherregal	Offenes Bücherregal seit Juni 2017 im REWE-Markt an der Biberacher Straße. Stand zuvor ab Oktober 2016 im Markt der Einzelhandelskette Kaufland, bis dieser 2017 umgebaut wurde.[2]	2016	48.226622	9.877366						
+de.wiki_im_Bodenseekreis	Frickingen		Bücherschrank	Hinter dem Rathaus[1]	April 2018					Bodenseekreis			
 de.wiki_im_Bodenseekreis	Friedrichshafen		Bücherschrank	im Rathaus am Adenauerplatz im Warteraum des Bürgerservice zu den Öffnungszeiten						Bodenseekreis			
 de.wiki_im_Bodenseekreis	Kressbronn a. B.		Bücherregal	Im Lesepavillon im Seepark am Bodenseeufer	Juli 2019					Bodenseekreis			
 de.wiki_im_Bodenseekreis	Markdorf		Bücherschrank	im Mehrgenerationenhaus, Erdgeschoss, im offenen Wohnzimmer						Bodenseekreis			
-de.wiki_im_Bodenseekreis	Markdorf	Ravensburger Straße 23	Bücherschrank	Rathaus Markdorf[1]		47.7201851532	9.39142227173			Bodenseekreis			
-de.wiki_im_Bodenseekreis	Meersburg	Uferpromenade 2	Bücherschrank	am Bundesbahnhafen[1]		47.692353	9.272895			Bodenseekreis			
-de.wiki_im_Bodenseekreis	Nußdorf	Zum Salm	Bücherregal	Bücherregal Nußdorf[1]		47.752865869726	9.1948646306992			Bodenseekreis			
-de.wiki_im_Bodenseekreis	Owingen	Hauptstraße 35	Bücherschrank	Bücherschrank Owingen[1]		47.809278332171	9.1719981282949			Bodenseekreis			
-de.wiki_im_Bodenseekreis	Tettnang	Dorfstraße 19	Bücherschrank	Bücherschrank im Dorfladen[1]		47.6231967	9.6602235			Bodenseekreis			
-de.wiki_im_Bodenseekreis	Überlingen	Grabenstraße 2	Edelstahlregal	Gefördert durch Lesezeichen e. V. am Eingang zum Kurpark,[2][1] am Kurpark Grabenstraße/Ecke Promenade, ein Edelstahlregal	2009	47.7670009218	9.1566649451852			Bodenseekreis			
-de.wiki_im_Bodenseekreis	Überlingen	Kurt-Hahn-Straße	Bücherregal	Bücherregal beim Kauf[1]		47.775776	9.151729			Bodenseekreis			
-de.wiki_im_Bodenseekreis	Überlingen	Strandweg 32	Bücherschrank	Beim Ostbad[1]		47.759284	9.176491			Bodenseekreis			
-de.wiki_im_Bodenseekreis	Überlingen	Wilhelm-Beck-Straße 35	Bücherschrank	Ecke Wilhelm-Beck-Straße/Säntisstraße[1]		47.772456	9.144498			Bodenseekreis			
-de.wiki_im_Bodenseekreis	Überlingen-Lippertsreute	Hauptstraße	Bücherzelle	Ecke Hauptstraße/Wackenweilerstraße[3]		47.803964	9.23712			Bodenseekreis			
-de.wiki_im_Bodenseekreis	Uhldingen-Mühlhofen-Unteruhldingen	Strandpromenade 5	Bücherregal	Bücherregal am Naturstrand Unteruhldingen[1]		47.724411607587	9.2279770030683			Bodenseekreis			
+de.wiki_im_Bodenseekreis	Markdorf	Ravensburger Straße 23	Bücherschrank	Rathaus Markdorf[2]		47.7201851532	9.39142227173			Bodenseekreis			
+de.wiki_im_Bodenseekreis	Meersburg	Uferpromenade 2	Bücherschrank	am Bundesbahnhafen[2]		47.692353	9.272895			Bodenseekreis			
+de.wiki_im_Bodenseekreis	Nußdorf	Zum Salm	Bücherregal	Bücherregal Nußdorf[2]		47.752865869726	9.1948646306992			Bodenseekreis			
+de.wiki_im_Bodenseekreis	Owingen	Hauptstraße 35	Bücherschrank	Bücherschrank Owingen[2]		47.809278332171	9.1719981282949			Bodenseekreis			
+de.wiki_im_Bodenseekreis	Salem		Bücherschrank	Am Kreisverkehr in Stefansfeld	April 2019					Bodenseekreis			
+de.wiki_im_Bodenseekreis	Tettnang	Dorfstraße 19	Bücherschrank	Bücherschrank im Dorfladen[2]		47.6231967	9.6602235			Bodenseekreis			
+de.wiki_im_Bodenseekreis	Überlingen	Grabenstraße 2	Edelstahlregal	Gefördert durch Lesezeichen e. V. am Eingang zum Kurpark,[3][2] am Kurpark Grabenstraße/Ecke Promenade, ein Edelstahlregal	2009	47.7670009218	9.1566649451852			Bodenseekreis			
+de.wiki_im_Bodenseekreis	Überlingen	Kurt-Hahn-Straße	Bücherregal	Bücherregal beim Kauf[2]		47.775776	9.151729			Bodenseekreis			
+de.wiki_im_Bodenseekreis	Überlingen	Strandweg 32	Bücherschrank	Beim Ostbad[2]		47.759284	9.176491			Bodenseekreis			
+de.wiki_im_Bodenseekreis	Überlingen	Wilhelm-Beck-Straße 35	Bücherschrank	Ecke Wilhelm-Beck-Straße/Säntisstraße[2]		47.772456	9.144498			Bodenseekreis			
+de.wiki_im_Bodenseekreis	Überlingen-Lippertsreute	Hauptstraße	Bücherzelle	Ecke Hauptstraße/Wackenweilerstraße[4]		47.803964	9.23712			Bodenseekreis			
+de.wiki_im_Bodenseekreis	Uhldingen-Mühlhofen-Unteruhldingen	Strandpromenade 5	Bücherregal	Bücherregal am Naturstrand Unteruhldingen[2]		47.724411607587	9.2279770030683			Bodenseekreis			
+de.wiki_im_Bodenseekreis	Zussdorf-Wilhelmsdorf	Leonhardstrasse 3/1	Bücherschrank	Biohofladen Gebhardt/ Außenwand[5]	29. Juni 2016	47.8496491926854	9.43135768175125			Bodenseekreis			
 de.wiki_im_Landkreis_Ravensburg	Bodnegg	Sattlerstraße 27	Bücherregal			47.717499323862	9.6835362911224						
 de.wiki_im_Landkreis_Ravensburg	Horgenzell	Kornstraße 44	Telefonzelle	rote Telefonzelle vor dem Rathaus in Horgenzell									
 de.wiki_im_Landkreis_Ravensburg	Hoßkirch	Hauptstraße	Bücherschrank	Dorfladen[1]		47.940144053188	9.4470579922199						
@@ -2067,3 +2076,4 @@ de.wiki_in_der_Schweiz	Yverdon-les-Bains	Auf dem Place d'Armes	Bücherbox	Organis
 de.wiki_in_der_Schweiz	Zürich	 _ Bei der Alten Mühle _ Wydlerweg 19 _ 8047 Zürich	Bücherregal mit Glastüren	Rund um die Uhr zugänglich. Betrieben vom Quartierverein Hoch 9.		47.376437	8.486405						Zürich
 de.wiki_in_der_Schweiz	Zürich	Bahnhof Zürich Letten	Transhelvetischer Büchertausch			47.38715	8.5334						Zürich
 de.wiki_in_der_Schweiz	Zürich	Josefwiese	Josefwiese	Grosse Tonne mit Büchern zum Tauschen		47.3861187	8.5226829						Zürich
+de.wiki_in_der_Schweiz	Zürich	Rämistrasse 71 _ 8006 Zürich	Little Free Library an der Universität Zürich	Öffentl. Bibliothek im Eingangsbereich der UZH. Öffnungszeiten varierend (analog Info-Desk vis-a-vis), für alle zugänglich. _ Gegründet von der V-ATP (Vereinigung des admin. und techn. Personals der UZH)	Februar 2016								Zürich

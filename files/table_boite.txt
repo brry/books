@@ -3427,3 +3427,6 @@ Place du champ de foire	87300	Blond	France		boite-a-lire.com	46.0434185	1.017906
 Rue Fernand Desplanques	50770	Pirou	France	A droite juste en arrivant à la mer.	boite-a-lire.com	49.167589	-1.593755
 Square du 29 juin	26190	Saint jean en royans	France	Livre service dans un ancien frigo habillé d une cabane en bois situé sur une petite placette avec un banc pour lire sur place	boite-a-lire.com	45.0175921	5.2925089
 412 Avenue Notre Dame	85440	Talmont-Saint-Hilaire	France	En forme de petite maison	boite-a-lire.com	46.4428245	-1.6744838
+Plaisance	64600	ANGLET	France	La boite à lire se situe au milieu de parc de Plaisance, à coté de l air de jeux pour enfants.	boite-a-lire.com	43.474102	-1.49851
+9 avenue Adam	06767	Rouvroy	France	A l intérieur du hall sportif et culture Rox en haut des escaliers	boite-a-lire.com	49.5374063	5.49416
+place de l église st nicolas	49500	Segré en anjou bleu	France	La boite à livres est située sur le mur de l épicerie Au bord du Drugeot. Elle a été créée et installée par Familles Rurales	boite-a-lire.com	47.7444707	-0.8879569

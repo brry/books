@@ -269,7 +269,6 @@ id	title	streethousenumber	postcode	place	country	lat	lon	link	contact	opened	in
 331	Bücherzelle Bad Liebenwerda	Puschkinstraße 13	04924		Deutschland	51.525459611595	13.40057279895				2017-05-23	2019-09-05	lesestunden.de
 332	Bücherschrank Ingeln-Oesselse	Gleidinger Straße 24	30880	Laatzen	DE	52.279938	9.887218				2017-05-23	2017-05-23	lesestunden.de
 333	Bücherschrank Klein-Karben	Rathausstraße 37	61184	Karben	DE	50.22653	8.77382			24 / 7	2017-05-23	2017-05-23	lesestunden.de
-334	Bücherregal im Haus der Bürger Aldingen	Neckarstraße 56	71686		Deutschland	48.867241	9.256872	http://www.stadt-remseck.de/de/Freizeit+Kultur/Haus-der-Buerger		Im 1. OG zu den Öffnungszeiten: Mo - Fr 14:30 - 17:30 Uhr,  Di + Do 10:00 - 12:00 Uhr,  Sa + So geschlossen.	2017-05-23	2019-10-28	lesestunden.de
 335	Bücherschrank Kulmbach Holzmarkt	Holzmarkt 13	95326	Kulmbach	DE	50.107819	11.455076				2017-05-23	2017-05-23	lesestunden.de
 336	Bücherschrank Korber Höhe	Salierstraße 5	71334		Deutschland	48.837987	9.331942			24 / 7 (im Freien)	2017-05-23	2019-11-08	lesestunden.de
 337	Bücherschrank Leuphana Universität	Carl-von-Ossietzky-Straße 21	21335	Lüneburg	DE	53.228119	10.401199				2017-05-23	2017-05-23	lesestunden.de
@@ -291,7 +290,7 @@ id	title	streethousenumber	postcode	place	country	lat	lon	link	contact	opened	in
 353	Bücherschrank S-Plieningen	Filderhauptstraße 155	70599	Stuttgart	Deutschland	48.7103995	9.2028391				2017-05-23	2019-09-05	lesestunden.de
 354	Bücherschrank Potsdam	Platz der Einheit 14	14467	Potsdam		52.399152	13.058785		weserve@lions-ps.de	24 / 7	2017-05-23	2017-06-21	lesestunden.de
 355	Bücherschrank Rohrsen	Am Büschen 1	31627	Rohrsen	DE	52.703276	9.241519				2017-05-23	2017-05-23	lesestunden.de
-356	Bücherschrank Rüdersdorf	Brückenstraße 12B	15562	Rüdersdorf bei Berlin	DE	52.466969	13.793582				2017-05-23	2017-05-23	lesestunden.de
+356	Bücherregal Rüdersdorf	Brückenstraße 12b	15562	Rüdersdorf	Deutschland	52.466712365994	13.79474144429			24/7	2017-05-23	2020-03-30	lesestunden.de
 357	Bücherschrank Sachsenhausen II	Darmstädter Landstraße 104-106	60598	Frankfurt am Main	DE	50.097455	8.690797				2017-05-23	2017-05-23	lesestunden.de
 358	Bücherschrank Rodewald	Schwarmstedter Straße 5	31637	Rodewald	DE	52.663285	9.48302	www.buergerstiftung-nienburg.de/page.php?page=news&id=13609			2017-05-23	2017-05-23	lesestunden.de
 359	Bücherschrank Sandmühle / Heidesheim	Kreuzstraße 41	55262	Heidesheim am Rhein	DE	49.994374	8.121183			24 / 7	2017-05-23	2017-05-23	lesestunden.de
@@ -747,7 +746,6 @@ id	title	streethousenumber	postcode	place	country	lat	lon	link	contact	opened	in
 923	Lese & Lebe Buchhandlung - OBCZ	Waldfriedhofstraße 78	81377	München	DE	48.11259	11.50676		info@leseundlebe.de	Mo-Fr. 9.00 bis 18.30, Samstag 9.00 bis 13.00	2017-05-23	2017-05-23	lesestunden.de
 924	Lese-Oase	Am Pappelgraben 64-68	49080	Osnabrück	DE	52.265538	8.028152		anton.asche@mhinac.de		2017-05-23	2017-05-23	lesestunden.de
 925	Bücherregal Lennestadt	Postweg 	57368		Deutschland	51.104587	8.072305			24 / 7	2017-05-23	2020-02-17	lesestunden.de
-926	Lesebuche Chorin	Choriner Bahnhofstraße	16230	Chorin		52.903732271418	13.870329297988	http://www.facebook.com/Bio-Bistro-Lindenblatt-Bahnhof-Chorin-202712786426356/		24/7	2017-05-23	2018-09-13	lesestunden.de
 927	Lesebaum / Büchersegel Karlshagen	Strandpromenade 8	17449	Karlshagen	DE	54.1219008311	13.8415074348	www.karlshagen.de/kontakt	Eigenbetrieb "Tourismus und Wirtschaft", Hauptstraße 4, 17449 Ostseebad Karlshagen	rund um die Uhr zugänglich	2017-05-23	2017-05-23	lesestunden.de
 928	Bücherregal Schauspielhaus Linz	Promenade 39	4020	Linz	Österreich	48.30388	14.283364			Bücherregal im Lesefoyer Mo-Fr: 9-18 Uhr  Sa: 9-12:30 Uhr  sowie während der Vorstellungen	2017-05-23	2019-11-12	lesestunden.de
 931	Lesesaal im Rathaus Rottach-Egern	Nördliche Hauptstraße 9	83700	Rottach-Egern	DE	47.690248	11.770338		über Rathausverwaltung	Mo - Fr 8-18 Uhr; Sa, So und Feiertags von 9 - 18 Uhr	2017-05-23	2017-05-23	lesestunden.de
@@ -937,7 +935,6 @@ id	title	streethousenumber	postcode	place	country	lat	lon	link	contact	opened	in
 1153	Bücherschrank Öhringen	Bahnhof 1	74613		Deutschland	49.203194	9.502699			Im Hauptbahnhof Öhringen, zugänglich nur während der Öffnungszeiten	2017-05-23	2019-08-18	lesestunden.de
 1154	Ökohaus	Hermannstraße 36	18055	Rostock	DE	54.085825	12.135987	www.oekohaus-rostock.de			2017-05-23	2017-05-23	lesestunden.de
 1156	Ostercappeln (RWE)	Kirchplatz 6	49179	Ostercappeln	DE	52.344175	8.224795	bit.ly/innogycases		24 / 7	2017-05-23	2017-05-23	lesestunden.de
-1157	Open Bib - Hamburg	Überseeallee 16	20457		Deutschland	53.5402276953	10.0056481361			Immer	2017-05-23	2020-01-06	lesestunden.de
 1158	Bücherregal PH Linz	Salesianumweg 3	4020	Linz	Österreich	48.297917	14.273393			Mo-Do: 7:30 - 17:00 Uhr  Fr: 7:30 - 13:30 Uhr	2017-05-23	2019-11-12	lesestunden.de
 1159	Overath	Bahnhofplatz 1-3	51491	Overath	DE	50.932993	7.288211			24 / 7	2017-05-23	2017-05-23	lesestunden.de
 1160	Panschwitz-Kuckau	Poststraße 5A	01920	Panschwitz-Kuckau	DE	51.233652	14.19697				2017-05-23	2017-05-23	lesestunden.de
@@ -1962,7 +1959,7 @@ id	title	streethousenumber	postcode	place	country	lat	lon	link	contact	opened	in
 2374	Bücherschrank Rathaus Östringen	Westliche Hauptstraße 1	76684		Deutschland	49.175437857307	8.7955083930865			24/7	2017-11-08	2019-08-18	lesestunden.de
 2377	Bonn Holzlar	Paul-Langen-Straße 1A	53229	Bonn		50.745085054035	7.1686770021915	http://www.buergerstiftung-bonn.de/projekte/offene-buecherschraenke/			2017-11-11	2017-11-11	lesestunden.de
 2379	Bücherschrank Freiland	Friedrich-Engels-Straße 22	14473	Potsdam	Deutschland	52.3896732	13.0769762			24/7	2017-11-13	2019-11-15	lesestunden.de
-2380	Bücherregal im Foyer des Umweltamts	August-Bebel-Straße 77	33602	Bielefeld		52.0257559	8.53983			Mo.-Do. 6:30-18 Uhr, Fr. 6:30 - 15 Uhr	2017-11-13	2017-11-13	lesestunden.de
+2380	Bücherregal im Foyer des Umweltamts	August-Bebel-Straße 	33602	Bielefeld	Deutschland	52.0257559	8.53983			Gebäude wg. der Corona-Krise z. Zt. leider nicht geöffnet	2017-11-13	2020-04-03	lesestunden.de
 2381	Bücherschrank Asta-Uni Wuppertal	Gaußstraße 	42119	Wuppertal	Deutschland	51.246550293203	7.1472975603689				2017-11-14	2018-10-25	lesestunden.de
 2383	Historisches Rathaus Leinsweiler - Arkaden					49.183196206529	8.0190539360046				2017-11-16	2017-11-16	lesestunden.de
 2385	Bücherschrank Munzingen	Romanstraße 5	79112	Freiburg im Breisgau		47.968449841016	7.6990442723036			rund um die Uhr	2017-11-16	2017-11-16	lesestunden.de
@@ -2367,7 +2364,6 @@ id	title	streethousenumber	postcode	place	country	lat	lon	link	contact	opened	in
 2894	Bonn	Kurt-Georg-Kiesinger-Allee 1	53175	Bonn	de	50.704719	7.135127			24 h / 7 Tage	2018-09-22	2018-09-22	lesestunden.de
 2897	Bonn - Bad Godesberg	 	53173	Bonn	Deutschland	50.684829	7.154475		im REWE-Markt	Von 7 bis 22 Uhr	2018-09-22	2019-10-22	lesestunden.de
 2898	Bücherschrank HdM\Lernwelt	Nobelstraße 	70569	Stuttgart	Deutschland	48.7422527409	9.10045623779	http://www.hdm-stuttgart.de/bibliothek	bibliothek@hdm-stuttgart.de	6.00 bis 24.00 Uhr	2018-09-22	2019-09-05	lesestunden.de
-2899	Bücherschrank Grenzhausen	Schenkendorfplatz 	56203		Deutschland	50.440214	7.663024				2018-09-22	2020-01-05	lesestunden.de
 2900	Büchertelefonzelle Bergen		29303		de	52.809205	9.962111				2018-09-22	2018-09-22	lesestunden.de
 2902	BücherboXX - EuropaboXX I		10717		de	52.489163	13.319625			24 / 7	2018-09-22	2018-09-22	lesestunden.de
 2903	Bücherzelle Wilde Rübe	Wildenbruchstraße 25	12045		Deutschland	52.486671	13.447196	www.wilde-ruebe.de/176.html		Dienstag bis Samstag 12.00 bis 18.00 Uhr     Montag:  Mädchentag   13:00 bis 19:00 Uhr  Feiertage  An allen Berliner Feiertagen sowie Heiligabend und Silvester  bleibt die Wilde Rübe geschlossen!	2018-09-22	2020-03-01	lesestunden.de
@@ -2539,7 +2535,6 @@ id	title	streethousenumber	postcode	place	country	lat	lon	link	contact	opened	in
 3094	Bücherschrank Groß-Gerau	Am Marktplatz 16	64521		Deutschland	49.919026	8.486071			Bei der Bushaltestelle 24/7	2018-09-22	2019-09-07	lesestunden.de
 3095	Bücherregal DA Biomarkt	Dieburger Straße 77	64287	Darmstadt	Deutschland	49.878597	8.668165	http://www.terraverde.bio		Im Biomarkt Terra Verde Wochentags: 08:00 - 19:00 Uhr	2018-09-22	2019-08-22	lesestunden.de
 3096	Bücherregal Fichtenberg		74427		de	48.9861638	9.7121509			immer	2018-09-22	2018-09-22	lesestunden.de
-3097	Bücherregal Dauchingen	Schwarzwaldstraße 27	78083	Dauchingen	Deutschland	48.0929316	8.5473719				2018-09-22	2019-08-16	lesestunden.de
 3098	Bockenau (Innogy)	Mainzer Straße	55595		de	49.837335	7.680876	bit.ly/innogycases		24 / 7	2018-09-22	2018-09-22	lesestunden.de
 3099	Sohren (Innogy)	Hauptstraße 66	55487		de	49.929065	7.304304	bit.ly/innogycases		24 / 7	2018-09-22	2018-09-22	lesestunden.de
 3100	Brüggen-Bracht (Innogy)	Marktstraße	41379		de	51.282776	6.194744	bit.ly/innogycases		24 / 7	2018-09-22	2018-09-22	lesestunden.de
@@ -2668,7 +2663,7 @@ id	title	streethousenumber	postcode	place	country	lat	lon	link	contact	opened	in
 3248	Bücherschrank in der RaiBa	Bachstraße 6	89610	Oberdischingen	Deutschland	48.301997098983	9.8299349471927			24h täglich	2018-09-24	2018-09-24	lesestunden.de
 3249	Bücherschrank Ingolstadt	Schrannenstraße 30	85049	Ingolstadt	Deutschland	48.765437576686	11.425582766533	http://matthaeus-ingolstadt.de/?page_id=2060	http://matthaeus-ingolstadt.de/?page_id=2060	24/7	2018-09-24	2019-08-18	lesestunden.de
 3250	Bücherschrank am Kulturbüro Konstanz	 39	78462		Deutschland	47.662908973834	9.1751128435135	http://www.konstanz.de/rathaus/medienportal/mitteilungen/07761/index.html	Wessenbergstraße 39 / 39 a		2018-09-25	2019-08-16	lesestunden.de
-3251	Bücherbox Rosengarten	Lisbeth-Weidner-Weg 7	74538	Rosengarten	Deutschland	49.090672127589	9.7330693155527			An der Bushaltestelle  24/7	2018-09-26	2019-08-17	lesestunden.de
+3251	Bücherbox Rosengarten	Kirchgasse 6	74538	Rosengarten	Deutschland	49.090151328019	9.7346286848187				2018-09-26	2020-04-10	lesestunden.de
 3253	Bücherschrank im Bürgerbüro	Untere Laube 24	78462		Deutschland	47.662764458105	9.1723501682282	https://www.facebook.com/groups/366982186686421/permalink/2078026962248593/?__xts__%5B0%5D=68.ARDMylD4DlUgUMNFRRtIIZu-HqjwvnjEp5QdTZODPixUMdoi5Qb1_0Atq8o55HZuKXcxnBvZluO91E8MN-imYLruC9-z1d3pVNXSRkJCIvJtC8OSMbko2pkvRbo6yYS-VZ-p09GDmTFzn1sNu-uN4VDN9Ajfo2V5dCK0HuQ1TNh80xQ7FdNJWg&__tn__=-UC-R	buergerbuero@konstanz.de	Zu Öffnungszeiten des Bürgerbüros: Mo - Fr 7.30 Uhr - 18.00 Uhr	2018-09-26	2019-08-16	lesestunden.de
 3254	Bücherschrank im Alpenblumengarten	Enzianstraße 	87459		Deutschland	47.565841741639	10.564126968384			Tagsüber, durchgehend	2018-09-27	2018-09-27	lesestunden.de
 3255	Kulturpunkt Bruck	Fröbelstraße 6	91058	Erlangen	Deutschland	49.578841317624	10.992797613144	www.kulturpunkt-bruck.de	Fröbelstr. 6, 91058 Erlangen	offener Bücherschrank	2018-09-27	2018-09-27	lesestunden.de
@@ -2879,7 +2874,7 @@ id	title	streethousenumber	postcode	place	country	lat	lon	link	contact	opened	in
 3481	Bücherschrank Borstel	Sulinger Straße 	27246	Borstel	Deutschland	52.669488808016	8.9708472043276				2019-02-24	2019-09-07	lesestunden.de
 3482	Bücherschrank Gehrden	Zum Mittelholz 29	33034		Deutschland	51.662325423305	9.111056663096				2019-02-27	2019-02-27	lesestunden.de
 3483	Schwalbach Markplatz (S-Bahn-Station)	L 3014 	65824	Schwalbach	Deutschland	50.154319125102	8.528197221458			24/7	2019-03-01	2019-09-16	lesestunden.de
-3484	Büchervitrine Horkheim	Schleusenstraße 1	74081	Heilbronn	Deutschland	49.115746796082	9.1682737871014				2019-03-01	2019-08-17	lesestunden.de
+3484	Büchervitrine HN-Horkheim	Schleusenstraße 1	74081	Heilbronn	Deutschland	49.115746796082	9.1682737871014				2019-03-01	2020-04-04	lesestunden.de
 3488	text	Talstraße 	98574		Deutschland	50.73002229595	10.504537671804	text	text	text	2019-03-04	2019-03-04	lesestunden.de
 3489	text	Talstraße 	98574		Deutschland	50.730353784772	10.504012964666	text		text	2019-03-04	2019-03-04	lesestunden.de
 3490	text	Talstraße 	98574		Deutschland	50.730353784772	10.504012964666				2019-03-04	2019-03-04	lesestunden.de
@@ -2927,7 +2922,6 @@ id	title	streethousenumber	postcode	place	country	lat	lon	link	contact	opened	in
 3535	Telefonzelle	Kirchstraße 	65232		Deutschland	50.137404531552	8.1375037688726				2019-04-08	2019-04-08	lesestunden.de
 3536	Regal im Café Glaskasten	Schöfferstraße 	64295	Darmstadt	Deutschland	49.867364419491	8.6382579803467	https://www.h-da.de/studium/studentisches-leben/glaskasten/	E-Mail: glaskasten@asta-hda.de Tel.: 06151.  16 - 3 88 03	Während der Vorlesungszeiten: 8-17 Uhr	2019-04-08	2019-04-08	lesestunden.de
 3537	Adolfsecker Bücherstube	Borner Straße 	65307		Deutschland	50.160842045335	8.0798084759814			10-18Uhr	2019-04-09	2019-04-09	lesestunden.de
-3538	Helpup am Marktplatz	Ellernstraße 3	33813		Deutschland	51.969841215904	8.7080865719835				2019-04-09	2019-04-09	lesestunden.de
 3539	Bücherregal Radolfszell Rathauseingang	Bodanrückstraße 17	78315	Radolfzell am Bodensee	Deutschland	47.774557648997	9.0284389257431			24/7	2019-04-11	2019-10-03	lesestunden.de
 3540	Tausch-Schränkle Radolfzell	Öschlestraße 20	78315	Radolfzell am Bodensee	Deutschland	47.752561136281	8.939097225666			24/07	2019-04-11	2019-08-17	lesestunden.de
 3541	Buecherbord	Zum Vulting 22	59514	Welver	Deutschland	51.5778017	8.0345461			durchgehend geöffnet	2019-04-12	2019-04-12	lesestunden.de
@@ -3236,7 +3230,6 @@ id	title	streethousenumber	postcode	place	country	lat	lon	link	contact	opened	in
 3872	Bücherschrank Oberwinter	Klostergäßchen 4	53424		Deutschland	50.613885877257	7.2077093124062				2019-07-23	2019-07-23	lesestunden.de
 3873	Bücherschrank Rolandseck	Bonner Straße 52	53424		Deutschland	50.628890160044	7.2086427211434				2019-07-23	2019-07-23	lesestunden.de
 3874	Bücherzelle	Winkeler Straße 54	65366		Deutschland	49.984161410608	7.9665496945381				2019-07-23	2019-07-23	lesestunden.de
-3875	Bücherschrank Hattersheim	Hessendamm 	65795		Deutschland	50.071126194256	8.4865924715996			24/7	2019-07-24	2019-09-07	lesestunden.de
 3876	Bücherschrank RA Woite & Woite	Seydlitzviertel 5	16303		Deutschland	53.06594972684	14.290879368782	http://RA-Woite.de			2019-07-24	2019-11-19	lesestunden.de
 3877	Themencamping Grünewalder Lauch	Lauchstraße 101	01979		Deutschland	51.508558598971	13.66676401144				2019-07-28	2019-07-28	lesestunden.de
 3878	Gerderather Bücherkiste	Vossemer Straße 7	41812		Deutschland	51.096878587861	6.2169125676155			24/7	2019-07-29	2019-07-29	lesestunden.de
@@ -3994,3 +3987,23 @@ id	title	streethousenumber	postcode	place	country	lat	lon	link	contact	opened	in
 4669	Büchertausch	Pfirsichblütenweg 45	13127		Deutschland	52.595723406212	13.424520773833				2020-03-28	2020-03-28	lesestunden.de
 4670	text	Talstraße 	98574		Deutschland	50.73002229595	10.504537671804			text	2020-03-28	2020-03-28	lesestunden.de
 4671	Eselsohr Buchschrank in Buchheim	Hochmeisterstraße 2	51065	Köln	Deutschland	50.956788109227	7.0177011564374				2020-03-29	2020-03-29	lesestunden.de
+4672	Bücherbox Südring	Südring 	39288		Deutschland	52.262097032789	11.844134107232			24/7	2020-03-30	2020-03-30	lesestunden.de
+4673	Bushaltestelle	Vordere Straße 1	78083	Dauchingen	Deutschland	48.090170803221	8.5506253582662				2020-03-30	2020-03-30	lesestunden.de
+4674	Bücherschrank	Renoirstraße 	56566		Deutschland	50.458312789444	7.5193674489856				2020-04-01	2020-04-01	lesestunden.de
+4675	Ehemaliger Müllcontainer	Martinistraße 	20251	Hamburg	Deutschland	53.591351222255	9.9813966080546		www.kunstklinik.hamburg	rund um die Uhr	2020-04-02	2020-04-02	lesestunden.de
+4676	Bücherkiste Habermannsee	Kressenweg 	12621		Deutschland	52.494138890864	13.595035560429			24/7	2020-04-03	2020-04-03	lesestunden.de
+4677	Bücherschrank Herchen	Alte Brücke 3	51570	Windeck	Deutschland	50.780605863532	7.5104669126932				2020-04-03	2020-04-03	lesestunden.de
+4678	Kirchgemeinde Diessbach	Dorfstrasse 31c	3264	Diessbach bei Büren	Switzerland	47.108743578315	7.3619200555917			7/24	2020-04-04	2020-04-04	lesestunden.de
+4679	Schrank Lyss	Aarbergstrasse 27	3250		Switzerland	47.072562475928	7.3033927980392			7/24	2020-04-04	2020-04-04	lesestunden.de
+4680	Edeka Kühnle - Ein Bücherregal im Eingsngsbereich zugänglich, wenn der Supermarkt geöffnet hat	Fasanenstraße 8	75245	Neulingen	Deutschland	48.965181459389	8.7277327850461				2020-04-05	2020-04-05	lesestunden.de
+4681	Holzbücherschrank mit geziegeltem Dach	Frankfurter Straße 34	75433		Deutschland	48.998086542748	8.8054933771491			immer offen	2020-04-05	2020-04-05	lesestunden.de
+4682	KEB Bücherschrank	 	74072	Heilbronn	Deutschland	49.140925246182	9.2116971206101		071317411101	Jederzeit	2020-04-05	2020-04-05	lesestunden.de
+4683	Bücherschrank am Schlössle	Hauptstraße 7	74535	Mainhardt	Deutschland	49.0808388	9.5574844			öffentlich	2020-04-05	2020-04-05	lesestunden.de
+4684	Bücherschrank am Rathaus	Bahnhofstraße 8	71560	Sulzbach an der Murr	Deutschland	49.0021092	9.5011094			öffentlich	2020-04-05	2020-04-05	lesestunden.de
+4685	Bücherschrank an der alten Schule	Frankenstraße 8	71543	Wüstenrot	Deutschland	49.104716066602	9.4848432764411			öffentlich	2020-04-05	2020-04-05	lesestunden.de
+4686	Bücherschrank	Hochgasse 	56269		Deutschland	50.536695539032	7.660166323185				2020-04-06	2020-04-06	lesestunden.de
+4687	Englische Telefonzelle Stadt Vallendar	 1	56179		Deutschland	50.400871863195	7.6159527897835				2020-04-06	2020-04-06	lesestunden.de
+4688	Bücherschrank Aldingen	Neckarstraße 56	71686	Remseck am Neckar	Deutschland	48.867175855171	9.2568014183458			24/7 Beim Haus der Bürger Aldingen	2020-04-06	2020-04-06	lesestunden.de
+4689	Bücherbox für die Bahnhofstraße	Bahnhofstraße 28	12305		Deutschland	52.386753044293	13.399024419487				2020-04-09	2020-04-09	lesestunden.de
+4690	Bücherzelle	Am Markt 14	14558	Nuthetal	Deutschland	52.3187746	13.1277068			24/7	2020-04-09	2020-04-09	lesestunden.de
+4691	Bücherregal Rewe	 74	40699		Deutschland	51.200840167655	6.9125515222549			übliche Rewe Öffnungszeiten	2020-04-10	2020-04-10	lesestunden.de
