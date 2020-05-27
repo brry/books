@@ -1,17 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.2 b688b00f">
+<osm version="0.6" generator="Overpass API 0.7.56.1004 6cd3eaec">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-03-23T11:06:02Z"/>
+<meta osm_base="2020-05-27T19:54:03Z"/>
 
   <node id="21096730" lat="51.1166375" lon="-0.2608024">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="public_bookcase:type" v="phone_box"/>
-  </node>
-  <node id="33758122" lat="51.3945814" lon="-2.3599870">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="public_bookcase:type" v="phone_box"/>
-  </node>
-  <node id="153401248" lat="51.5209239" lon="-2.2448521">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="phone_box"/>
   </node>
@@ -30,11 +22,6 @@
     <tag k="location" v="outdoor"/>
     <tag k="public_bookcase:type" v="shelf"/>
   </node>
-  <node id="252954578" lat="51.9412354" lon="-2.3626367">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="name" v="Upleadon Book Box"/>
-    <tag k="public_bookcase:type" v="phone_box"/>
-  </node>
   <node id="258127539" lat="48.7071876" lon="-0.5829143">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="phone_box"/>
@@ -43,21 +30,6 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="man_made" v="telephone"/>
     <tag k="public_bookcase:type" v="phone_box"/>
-  </node>
-  <node id="271536487" lat="50.6394290" lon="-2.1990389">
-    <tag k="addr:city" v="Wareham"/>
-    <tag k="addr:country" v="GB"/>
-    <tag k="addr:province" v="Dorset"/>
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="booth" v="K6"/>
-    <tag k="covered" v="booth"/>
-    <tag k="operator" v="BT"/>
-    <tag k="payment:coins" v="no"/>
-    <tag k="payment:credit_cards" v="no"/>
-    <tag k="payment:debit_cards" v="no"/>
-    <tag k="payment:notes" v="no"/>
-    <tag k="payment:telephone_cards" v="no"/>
-    <tag k="phone" v="+44 1929 400237"/>
   </node>
   <node id="294630128" lat="52.1426060" lon="0.1191839">
     <tag k="amenity" v="public_bookcase"/>
@@ -70,10 +42,6 @@
     <tag k="covered" v="booth"/>
     <tag k="name" v="Book Swop"/>
     <tag k="operator" v="Finchampstead Parish Council"/>
-    <tag k="public_bookcase:type" v="phone_box"/>
-  </node>
-  <node id="305160642" lat="51.3956664" lon="-2.0036398">
-    <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="phone_box"/>
   </node>
   <node id="309359240" lat="51.4500301" lon="-1.9488914">
@@ -126,6 +94,8 @@
   </node>
   <node id="414090490" lat="53.1959056" lon="-1.7772822">
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="booth" v="K6"/>
+    <tag k="covered" v="booth"/>
     <tag k="disused:amenity" v="telephone"/>
     <tag k="library:location" v="located in the Red Phone Box"/>
     <tag k="source" v="survey"/>
@@ -141,6 +111,11 @@
     <tag k="name" v="La Cabine d'échanges"/>
     <tag k="operator" v="Maison des Associations"/>
     <tag k="website" v="https://www.lamaisondesassociations.ch/cabines"/>
+  </node>
+  <node id="416621275" lat="47.3478077" lon="8.3579729">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="disused:amenity" v="telephone"/>
+    <tag k="operator" v="Schul-/Gemeindebibliothek"/>
   </node>
   <node id="419112019" lat="52.3899293" lon="9.7456087">
     <tag k="addr:city" v="Hannover"/>
@@ -169,11 +144,6 @@
   <node id="444482370" lat="47.9197932" lon="-1.8605287">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="phone_box"/>
-  </node>
-  <node id="469846680" lat="52.0721099" lon="-2.1156145">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="man_made" v="telephone_box"/>
-    <tag k="note" v="From view driving past, appears to be a book exchange / mini-library"/>
   </node>
   <node id="470478670" lat="52.8910516" lon="-1.0904130">
     <tag k="amenity" v="public_bookcase"/>
@@ -227,6 +197,7 @@
   <node id="570371986" lat="50.1085241" lon="8.0982299">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Wambacher Bücherzelle"/>
+    <tag k="opening_hours:covid19" v="open"/>
     <tag k="public_bookcase:type" v="phone_box"/>
   </node>
   <node id="588766426" lat="49.2945262" lon="8.6991782">
@@ -301,6 +272,10 @@
     <tag k="description:de" v="Bücherschrank"/>
     <tag k="wheelchair" v="yes"/>
   </node>
+  <node id="734000749" lat="47.7547209" lon="-1.8844883">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="payment:telephone_cards" v="yes"/>
+  </node>
   <node id="759554381" lat="50.0617005" lon="8.8069017">
     <tag k="abandoned:amenity" v="telephone"/>
     <tag k="amenity" v="public_bookcase"/>
@@ -320,9 +295,16 @@
   <node id="767414320" lat="48.7419426" lon="7.3612996">
     <tag k="amenity" v="public_bookcase"/>
   </node>
-  <node id="812041980" lat="51.3475634" lon="-2.1011822">
+  <node id="822492138" lat="49.8886138" lon="15.5298474">
+    <tag k="addr:conscriptionnumber" v="151"/>
+    <tag k="addr:country" v="CZ"/>
+    <tag k="addr:housenumber" v="151"/>
+    <tag k="addr:place" v="Ronov nad Doubravou"/>
+    <tag k="addr:postcode" v="53842"/>
+    <tag k="addr:street" v="Chittussiho nám."/>
     <tag k="amenity" v="public_bookcase"/>
-    <tag k="name" v="Telephone Box Library"/>
+    <tag k="ref:ruian:addr" v="5277205"/>
+    <tag k="website" v="https://www.ronovnd.cz/mesto/knihovna-galerie/knihovna/"/>
   </node>
   <node id="831494356" lat="47.0594854" lon="15.4532270">
     <tag k="amenity" v="public_bookcase"/>
@@ -351,6 +333,15 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Öffentliches Bücherregal"/>
     <tag k="operator" v="Bürgerstiftung Kernen i.R."/>
+  </node>
+  <node id="917074536" lat="47.1046434" lon="8.6763477">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="contact:phone" v="+41 41 839 80 20"/>
+    <tag k="mapillary" v="QPdIdz3YatDaFtQaFS4wJQ"/>
+    <tag k="name" v="Büchertauschbörse"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="Gemeindeverwaltung Rothenthurm"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
   </node>
   <node id="931625681" lat="50.8806816" lon="6.8913792">
     <tag k="amenity" v="public_bookcase"/>
@@ -439,6 +430,10 @@
   <node id="1226763341" lat="49.4622495" lon="8.6042690">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="1234587680" lat="45.0688488" lon="4.8304257">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
   </node>
   <node id="1248985572" lat="52.3773463" lon="9.6848238">
     <tag k="amenity" v="public_bookcase"/>
@@ -582,9 +577,8 @@
   <node id="1559522024" lat="50.2550748" lon="8.6389994">
     <tag k="amenity" v="public_bookcase"/>
   </node>
-  <node id="1563931991" lat="50.7302126" lon="7.0983582">
+  <node id="1563931991" lat="50.7302027" lon="7.0983750">
     <tag k="amenity" v="public_bookcase"/>
-    <tag k="name" v="Offener Bücherschrank"/>
     <tag k="operator" v="Bürgerstiftung Bonn"/>
     <tag k="ref:isil" v="none"/>
     <tag k="wheelchair" v="yes"/>
@@ -627,8 +621,12 @@
     <tag k="name" v="Bücher tauschen"/>
   </node>
   <node id="1698530596" lat="50.0916956" lon="8.6071775">
+    <tag k="access:covid19" v="yes"/>
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="delivery:covid19" v="no"/>
     <tag k="name" v="Offener Bücherschrank"/>
+    <tag k="opening_hours" v="Mo-Su,PH 00:00-00:00"/>
+    <tag k="opening_hours:covid19" v="Mo-Su,PH 00:00-00:00"/>
     <tag k="wheelchair" v="yes"/>
   </node>
   <node id="1712766202" lat="49.4296343" lon="8.6819910">
@@ -690,13 +688,6 @@
     <tag k="man_made" v="telephone_box"/>
     <tag k="public_bookcase:type" v="phone_box"/>
   </node>
-  <node id="1769019887" lat="51.3951790" lon="-2.1741050">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="brand" v="Telephone Box"/>
-    <tag k="capacity" v="1"/>
-    <tag k="opening_hours" v="24/7"/>
-    <tag k="source" v="Local_knowledge"/>
-  </node>
   <node id="1770324727" lat="51.2563697" lon="7.1401768">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Öffentlicher Bücherschrank"/>
@@ -719,17 +710,14 @@
     <tag k="note" v="not working;place of remembrance"/>
     <tag k="public_bookcase:type" v="phone_box"/>
   </node>
-  <node id="1795089704" lat="51.3493933" lon="-2.0805903">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="booth" v="K6"/>
-    <tag k="covered" v="booth"/>
-    <tag k="name" v="The Lye Phonebox Public Bookcase"/>
-  </node>
   <node id="1802833263" lat="53.5821275" lon="9.9736673">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="description" v="Book Exchange"/>
     <tag k="public_bookcase:type" v="wooden_cabinet"/>
     <tag k="wikimedia_commons" v="File:Bücherschrank Eppendorf P1080085.JPG"/>
+  </node>
+  <node id="1826395646" lat="44.5875135" lon="4.1292155">
+    <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="1826689785" lat="52.4998661" lon="0.9231707">
     <tag k="amenity" v="public_bookcase"/>
@@ -1000,6 +988,13 @@
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="Lions Club Bad Krozingen-Staufen"/>
   </node>
+  <node id="2338256591" lat="52.0712592" lon="4.2726510">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="description" v="A box where you can put in a book or take one."/>
+    <tag k="name" v="Little Free Library"/>
+    <tag k="tourism" v="attraction"/>
+    <tag k="website" v="https://www.littlefreelibrary.org/"/>
+  </node>
   <node id="2359234512" lat="53.7714185" lon="7.7004009">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Vertrauensbücherei"/>
@@ -1035,6 +1030,12 @@
     <tag k="opening_hours" v="24/7"/>
     <tag k="public_bookcase:type" v="phone_box"/>
   </node>
+  <node id="2395648762" lat="44.3916493" lon="7.5517595">
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:street" v="Via Cacciatori delle Alpi"/>
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Biblioteca Civica"/>
+  </node>
   <node id="2402823724" lat="52.4005177" lon="9.7751797">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="description:de" v="Bücherschrank"/>
@@ -1050,6 +1051,11 @@
     <tag k="operator" v="Initiative Wir-sind-Breidert"/>
     <tag k="website" v="www.quartier-breidert.de"/>
     <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2409213436" lat="50.0788487" lon="14.4515879">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="disused:amenity" v="telephone"/>
+    <tag k="name" v="Knihobudka"/>
   </node>
   <node id="2410757528" lat="50.7141450" lon="7.0459154">
     <tag k="addr:city" v="Bonn"/>
@@ -1155,9 +1161,13 @@
     <tag k="public_bookcase:type" v="glass_cabinet"/>
   </node>
   <node id="2510586944" lat="48.5582221" lon="9.0502038">
+    <tag k="access:covid19" v="yes"/>
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="delivery:covid19" v="no"/>
     <tag k="description" v="Bücher in einem Baum zum tauschen und lesen"/>
     <tag k="name" v="Buchwechselbaum"/>
+    <tag k="opening_hours" v="Mo-Su,PH 00:00-23:55"/>
+    <tag k="opening_hours:covid19" v="Mo-Su,PH 00:00-23:55"/>
     <tag k="tourism" v="attraction"/>
   </node>
   <node id="2510966430" lat="47.0790266" lon="15.4489017">
@@ -1193,6 +1203,10 @@
     <tag k="opening_hours" v="24/7"/>
     <tag k="wheelchair" v="yes"/>
   </node>
+  <node id="2516685077" lat="48.6255003" lon="6.2048646">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
   <node id="2519595575" lat="47.6015569" lon="7.6640209">
     <tag k="amenity" v="public_bookcase"/>
   </node>
@@ -1227,9 +1241,21 @@
     <tag k="description" v="Frei zugänglicher Schrank mit Bücher. Mitnehmen, eigene hinbringen, ausleihen, behalten ..."/>
     <tag k="name" v="Öffentlicher Bücherschrank"/>
     <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="24/7"/>
     <tag k="operator" v="Bürgerverein Rintheim e. V."/>
     <tag k="operator:type" v="community"/>
     <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2638525255" lat="47.1919425" lon="8.3952697">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Bücherschrank"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="Bibliothek Sins"/>
+  </node>
+  <node id="2661411582" lat="44.6764215" lon="0.1809798">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="note" v="Sous la halle de Duras"/>
+    <tag k="type" v="little"/>
   </node>
   <node id="2662909015" lat="48.0768372" lon="16.3131159">
     <tag k="amenity" v="public_bookcase"/>
@@ -1337,10 +1363,26 @@
     <tag k="source" v="Stadtbibliothek Karlsruhe"/>
     <tag k="wheelchair" v="yes"/>
   </node>
+  <node id="2773974910" lat="45.4785985" lon="4.0463766">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="description" v="Ancienne cabine téléphonique France Télécom / Orange (+33 4 77 75 79 53)"/>
+    <tag k="payment:credit_cards" v="yes"/>
+    <tag k="payment:telephone_cards" v="yes"/>
+  </node>
   <node id="2789184754" lat="48.5409087" lon="9.0773047">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="description" v="Bücher in einem Baum zum tauschen und lesen"/>
     <tag k="name" v="Buchwechselbaum"/>
+  </node>
+  <node id="2791422546" lat="44.3721295" lon="9.1042211">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Bibliocabina"/>
+    <tag k="note" v="E' stata realizzata all'interno di una cabina tefonica dismessa"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2805760701" lat="52.4475436" lon="10.0120331">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="wheelchair" v="yes"/>
   </node>
   <node id="2813205030" lat="48.2107738" lon="16.3442647">
     <tag k="addr:city" v="Wien"/>
@@ -1364,6 +1406,10 @@
   </node>
   <node id="2830219970" lat="50.1204220" lon="8.6962509">
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Offener Bücherschrank Merianplatz"/>
+    <tag k="note" v="Kantstraße 25 (Betreiber)"/>
+    <tag k="operator" v="COPY ARTÉ"/>
+    <tag k="phone" v="+49 69 446645"/>
     <tag k="wheelchair" v="yes"/>
   </node>
   <node id="2837955336" lat="51.7747521" lon="6.4592409">
@@ -1416,7 +1462,7 @@
     <tag k="related:wikipedia" v="de:Liste öffentlicher Bücherschränke im Saarland"/>
     <tag k="start_date" v="2014"/>
   </node>
-  <node id="2880381822" lat="52.1822624" lon="4.5175206">
+  <node id="2880381822" lat="52.1821482" lon="4.5175261">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Openbare Ruil Mini-Bibliotheek"/>
   </node>
@@ -1442,6 +1488,7 @@
   </node>
   <node id="2908224108" lat="46.6548490" lon="5.5987211">
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Boîte à lire"/>
     <tag k="public_bookcase:type" v="phone_box"/>
     <tag k="was:amenity" v="telephone"/>
   </node>
@@ -1831,6 +1878,7 @@
   </node>
   <node id="3299899774" lat="48.7800847" lon="8.2695681">
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="inscription" v="bringen / nehmen / lesen"/>
     <tag k="name" v="Bücherschrank Ebersteinburg"/>
   </node>
   <node id="3301257591" lat="50.7752933" lon="7.2842904">
@@ -1880,6 +1928,10 @@
     <tag k="location" v="indoor"/>
     <tag k="name" v="Offener Bücherschrank im Bahnhof Altenbeken"/>
     <tag k="opening_hours" v="24/7"/>
+  </node>
+  <node id="3330451828" lat="49.0194649" lon="0.0471007">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
   </node>
   <node id="3331429622" lat="53.1182502" lon="9.7875325">
     <tag k="addr:city" v="Schneverdingen"/>
@@ -2316,11 +2368,13 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="level" v="1"/>
     <tag k="name" v="Tauschkiste"/>
+    <tag k="opening_hours:covid19" v="off"/>
   </node>
   <node id="3372919293" lat="54.0930972" lon="12.0975926">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="level" v="3"/>
     <tag k="name" v="Tauschkiste"/>
+    <tag k="opening_hours:covid19" v="off"/>
   </node>
   <node id="3373407763" lat="51.8285971" lon="9.4455789">
     <tag k="amenity" v="public_bookcase"/>
@@ -2421,12 +2475,18 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="colour" v="yellow"/>
   </node>
-  <node id="3383693281" lat="51.7583806" lon="-2.2473073">
+  <node id="3383972351" lat="44.0917484" lon="6.2341002">
+    <tag k="addr:city" v="Digne-les-Bains"/>
+    <tag k="addr:postcode" v="04000"/>
+    <tag k="addr:street" v="7 rue du Colonel Payan"/>
     <tag k="amenity" v="public_bookcase"/>
-    <tag k="disused:amenity" v="telephone"/>
-    <tag k="name" v="Randwick Book Swap"/>
-    <tag k="public_bookcase:type" v="phone_box"/>
-    <tag k="source" v="survey"/>
+    <tag k="internet_access" v="yes"/>
+    <tag k="internet_access:fee" v="no"/>
+    <tag k="operator" v="CCABV"/>
+    <tag k="phone" v="+33 4 92 31 28 49"/>
+    <tag k="survey:date" v="2018-02-11"/>
+    <tag k="website" v="http://mediatheque-digne.fr/"/>
+    <tag k="wheelchair" v="yes"/>
   </node>
   <node id="3384519002" lat="51.1678054" lon="6.9343580">
     <tag k="amenity" v="public_bookcase"/>
@@ -2722,6 +2782,7 @@
   <node id="3442438372" lat="54.1776648" lon="12.0823035">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Bücherbüchse"/>
+    <tag k="opening_hours:covid19" v="open"/>
   </node>
   <node id="3444505740" lat="51.7173401" lon="9.1822390">
     <tag k="amenity" v="public_bookcase"/>
@@ -2965,7 +3026,10 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="booth" v="K6"/>
     <tag k="covered" v="booth"/>
+    <tag k="defibrillator:location" v="inside red phone box, Main Street, Bolton Percy, YO23 7AQ"/>
     <tag k="disused:amenity" v="telephone"/>
+    <tag k="emergency" v="defibrillator"/>
+    <tag k="note" v="red phone box now contains a defibrillator and a public bookcase"/>
   </node>
   <node id="3544538385" lat="49.4797305" lon="10.9876760">
     <tag k="amenity" v="public_bookcase"/>
@@ -3136,8 +3200,9 @@
     <tag k="opening_hours" v="24/7"/>
     <tag k="public_bookcase:type" v="phone_box"/>
   </node>
-  <node id="3660437727" lat="49.9981164" lon="8.8661543">
+  <node id="3660437727" lat="49.9979966" lon="8.8660913">
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
   </node>
   <node id="3662324350" lat="50.9579078" lon="7.1167859">
     <tag k="amenity" v="public_bookcase"/>
@@ -3463,9 +3528,6 @@
   <node id="3772537586" lat="48.4468420" lon="-1.9873710">
     <tag k="amenity" v="public_bookcase"/>
   </node>
-  <node id="3772537610" lat="48.4557152" lon="-2.0274870">
-    <tag k="amenity" v="public_bookcase"/>
-  </node>
   <node id="3772537611" lat="48.1814826" lon="-1.6408540">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="operator" v="Mairie de Betton"/>
@@ -3520,8 +3582,12 @@
     <tag k="opening_hours" v="24/7"/>
   </node>
   <node id="3797316380" lat="48.8078295" lon="9.3208218">
+    <tag k="access:covid19" v="yes"/>
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="delivery:covid19" v="yes"/>
     <tag k="name" v="Öffentliches Bücherregal"/>
+    <tag k="opening_hours" v="Mo-Su,PH 00:00-23:55"/>
+    <tag k="opening_hours:covid19" v="Mo-Su,PH 00:00-23:55"/>
     <tag k="operator" v="Bürgerstiftung Kernen i.R."/>
   </node>
   <node id="3801731182" lat="52.3722877" lon="13.6155938">
@@ -3684,14 +3750,6 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Dierenboeken Voor Kinderen"/>
   </node>
-  <node id="3881532222" lat="49.3788062" lon="8.6917517">
-    <tag k="addr:city" v="Heidelberg"/>
-    <tag k="addr:housenumber" v="58"/>
-    <tag k="addr:postcode" v="69126"/>
-    <tag k="addr:street" v="Amalienstraße"/>
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="opening_hours" v="24/7"/>
-  </node>
   <node id="3888561745" lat="50.1397787" lon="8.3589817">
     <tag k="amenity" v="public_bookcase"/>
   </node>
@@ -3755,6 +3813,10 @@
     <tag k="name" v="La Boîte à Lire"/>
     <tag k="public_bookcase:type" v="reading_box"/>
     <tag k="second_hand" v="only"/>
+  </node>
+  <node id="3909400948" lat="45.5111826" lon="6.5943930">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
   </node>
   <node id="3923467722" lat="49.4754318" lon="6.0802899">
     <tag k="amenity" v="public_bookcase"/>
@@ -3924,6 +3986,14 @@
     <tag k="mapillary" v="w6C_bz7jFWf8R4JggFLFHQ"/>
     <tag k="name" v="Boite à livres Rue du 11 novembre La Riche"/>
   </node>
+  <node id="3990281481" lat="44.3496675" lon="2.5754420">
+    <tag k="addr:city" v="Rodez"/>
+    <tag k="addr:postcode" v="12000"/>
+    <tag k="addr:street" v="Passage du Mazel"/>
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Passe Livres"/>
+    <tag k="operator" v="Association &quot;Livre Ensemble&quot;"/>
+  </node>
   <node id="3996202483" lat="48.6749774" lon="5.8901894">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="capacity" v="250"/>
@@ -4092,6 +4162,9 @@
     <tag k="name" v="Csillaghegyi KönyvMegálló"/>
     <tag k="operator" v="Óbuda-Békásmegyer Önkormányzata;Óbudai Platán Könyvtár"/>
   </node>
+  <node id="4063672317" lat="44.4992897" lon="0.1659833">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
   <node id="4064728197" lat="51.2973605" lon="6.8502050">
     <tag k="addr:city" v="Ratingen"/>
     <tag k="addr:country" v="DE"/>
@@ -4250,11 +4323,13 @@
     <tag k="man_made" v="telephone_box"/>
   </node>
   <node id="4167721098" lat="49.9819877" lon="8.2457976">
+    <tag k="access:covid19" v="yes"/>
     <tag k="amenity" v="public_bookcase"/>
     <tag k="capacity" v="100"/>
     <tag k="lit" v="no"/>
     <tag k="noname" v="yes"/>
     <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="24/7"/>
     <tag k="public_bookcase:type" v="metal_cabinet"/>
   </node>
   <node id="4170568847" lat="53.3240337" lon="-1.2187785">
@@ -4304,6 +4379,12 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Runkeler Lesekiste"/>
     <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="4192755780" lat="44.1684069" lon="5.0685111">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Bibliocabine"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+    <tag k="tourism" v="attraction"/>
   </node>
   <node id="4193664908" lat="50.1058108" lon="14.2650403">
     <tag k="amenity" v="public_bookcase"/>
@@ -4533,26 +4614,6 @@
     <tag k="public_bookcase:type" v="metal_cabinet"/>
     <tag k="website" v="https://www.buecherschrank-so.ch/"/>
     <tag k="wikimedia_commons" v="File:Buecherschrank_Solothurn_CH.JPG"/>
-  </node>
-  <node id="4310820305" lat="48.0992828" lon="-2.0322488">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="opening_hours" v="Jul-Nov 00:00-24:00"/>
-    <tag k="source" v="Montfort Communauté juillet 2016"/>
-  </node>
-  <node id="4310820306" lat="48.1000854" lon="-2.0329331">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="opening_hours" v="Jul-Nov 00:00-24:00"/>
-    <tag k="source" v="Montfort Communauté juillet 2016"/>
-  </node>
-  <node id="4310820307" lat="48.1003146" lon="-2.0297305">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="opening_hours" v="Jul-Nov 00:00-24:00"/>
-    <tag k="source" v="Montfort Communauté juillet 2016"/>
-  </node>
-  <node id="4310820308" lat="48.1004937" lon="-2.0321714">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="opening_hours" v="Jul-Nov 00:00-24:00"/>
-    <tag k="source" v="Montfort Communauté juillet 2016"/>
   </node>
   <node id="4315460199" lat="48.1168190" lon="11.5266025">
     <tag k="amenity" v="public_bookcase"/>
@@ -4825,13 +4886,9 @@
     <tag k="name" v="Little Free Library"/>
     <tag k="website" v="https://www.littlefreelibrary.org/"/>
   </node>
-  <node id="4381394782" lat="48.7925833" lon="9.6014005">
-    <tag k="amenity" v="public_bookcase"/>
-  </node>
   <node id="4382277540" lat="49.7046794" lon="9.2627375">
     <tag k="access" v="permissive"/>
     <tag k="amenity" v="public_bookcase"/>
-    <tag k="name" v="Givebox"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="Jugendhaus Sankt Kilian"/>
     <tag k="public_bookcase:type" v="wooden_cabinet"/>
@@ -4952,6 +5009,9 @@
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="Staromestská knižnica"/>
   </node>
+  <node id="4416516967" lat="44.3885457" lon="0.8194540">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
   <node id="4417323285" lat="53.5289286" lon="7.7814535">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="image" v="https://commons.wikimedia.org/wiki/File:B%C3%BCchertelefonzelle_Leerhafe.jpg"/>
@@ -5062,6 +5122,10 @@
     <tag k="name" v="Öffentliches Bücherregal im Lesesaal Norddeich"/>
     <tag k="opening_hours" v="Mo-Su 11:00-17:00"/>
   </node>
+  <node id="4433888414" lat="48.2633025" lon="13.0233805">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="level" v="0"/>
+  </node>
   <node id="4435773176" lat="50.8433341" lon="4.4252821">
     <tag k="amenity" v="public_bookcase"/>
   </node>
@@ -5084,15 +5148,6 @@
   </node>
   <node id="4436497210" lat="48.5266916" lon="9.2034341">
     <tag k="amenity" v="public_bookcase"/>
-  </node>
-  <node id="4437573408" lat="49.6784595" lon="5.8044876">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="image" v="https://www.mapillary.com/map/im/ch4y8Ofr4YHneUpmEflHBA"/>
-    <tag k="mapillary" v="ch4y8Ofr4YHneUpmEflHBA"/>
-    <tag k="name" v="Boite à Livre nº11"/>
-    <tag k="opening_hours" v="24/7"/>
-    <tag k="public_bookcase:type" v="reading_box"/>
-    <tag k="survey:date" v="2018-04-18"/>
   </node>
   <node id="4437695758" lat="49.8910304" lon="13.8875463">
     <tag k="amenity" v="public_bookcase"/>
@@ -5338,6 +5393,7 @@
   </node>
   <node id="4573445031" lat="48.1520364" lon="17.1193514">
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
     <tag k="source" v="survey"/>
   </node>
   <node id="4573968211" lat="52.5601937" lon="9.1251859">
@@ -5403,6 +5459,9 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Plieninger Bücherregal"/>
     <tag k="opening_hours" v="24/7"/>
+  </node>
+  <node id="4602650831" lat="44.5530474" lon="-0.2449700">
+    <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="4610120702" lat="44.8466231" lon="-0.5803066">
     <tag k="amenity" v="public_bookcase"/>
@@ -5480,10 +5539,10 @@
     <tag k="level" v="0"/>
     <tag k="public_bookcase:type" v="metal_cabinet"/>
   </node>
-  <node id="4682104344" lat="47.6997812" lon="-2.1465757">
+  <node id="4683140404" lat="44.0742975" lon="10.4839388">
     <tag k="amenity" v="public_bookcase"/>
-    <tag k="source" v="Survey"/>
-    <tag k="survey:date" v="2018-11-04"/>
+    <tag k="brand" v="bookcrossing"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
   </node>
   <node id="4684785463" lat="47.7417250" lon="6.8276185">
     <tag k="amenity" v="public_bookcase"/>
@@ -5532,8 +5591,11 @@
     <tag k="source" v="survey"/>
     <tag k="website" v="https://www.zcm.cz/node/113/knihobudka"/>
   </node>
-  <node id="4689140110" lat="49.7627999" lon="13.3513271">
+  <node id="4689140110" lat="49.7630009" lon="13.3513325">
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Knihobudka Vinice"/>
+    <tag k="opening_hours" v="Mo-Th 09:00-18:00 Fr 09:00-13:00"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
     <tag k="source" v="survey"/>
   </node>
   <node id="4693577808" lat="48.1489062" lon="-1.8223233">
@@ -5739,7 +5801,7 @@
   <node id="4799816715" lat="51.8931778" lon="4.4661103">
     <tag k="amenity" v="public_bookcase"/>
   </node>
-  <node id="4805930054" lat="50.1202986" lon="8.7144839">
+  <node id="4805930054" lat="50.1202969" lon="8.7144785">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="noname" v="yes"/>
   </node>
@@ -5778,6 +5840,10 @@
   </node>
   <node id="4817727712" lat="50.1566628" lon="8.6570420">
     <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="4818770806" lat="50.0489024" lon="14.5458112">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="KnihoBudka"/>
   </node>
   <node id="4820005314" lat="47.7387593" lon="9.1559117">
     <tag k="amenity" v="public_bookcase"/>
@@ -5986,7 +6052,7 @@
     <tag k="public_bookcase:type" v="reading_box"/>
     <tag k="source" v="local_knowledge"/>
   </node>
-  <node id="4844318558" lat="48.8523995" lon="2.4716174">
+  <node id="4844318558" lat="48.8524176" lon="2.4715802">
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="4846379969" lat="52.0000699" lon="4.3304955">
@@ -6089,6 +6155,8 @@
   <node id="4861609069" lat="50.6269722" lon="7.0385130">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="RWE Bücherschrank"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
   </node>
   <node id="4862464566" lat="52.0105209" lon="4.3383139">
     <tag k="amenity" v="public_bookcase"/>
@@ -6201,6 +6269,9 @@
     <tag k="public_bookcase:type" v="shelter"/>
   </node>
   <node id="4881500947" lat="50.9117985" lon="6.9924106">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="4883178621" lat="44.5556477" lon="-0.2432218">
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="4883718381" lat="47.6467194" lon="13.6148896">
@@ -6418,6 +6489,9 @@
     <tag k="opening_hours" v="Mar-Oct 08:00-20:00"/>
     <tag k="website" v="http://www.bookcrossing.com/hunt/28/3379/84734/820506"/>
   </node>
+  <node id="4911065187" lat="44.0940536" lon="-1.3253192">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
   <node id="4911411404" lat="45.8534558" lon="9.3881519">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Bookcrossing Lecco"/>
@@ -6559,11 +6633,6 @@
   <node id="4926588867" lat="47.8039031" lon="9.2371558">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Bücherzelle"/>
-  </node>
-  <node id="4926707419" lat="46.2531709" lon="20.1402550">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="description" v="Egy telefonfülkében"/>
-    <tag k="description:en" v="In a telephone booth"/>
   </node>
   <node id="4930281043" lat="46.8951354" lon="6.9368331">
     <tag k="amenity" v="public_bookcase"/>
@@ -6923,6 +6992,10 @@
     <tag k="name" v="Knihovna - vymena knížek"/>
     <tag k="name:en" v="Free books library"/>
   </node>
+  <node id="5031725303" lat="44.5525130" lon="3.2910774">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="description" v="cabane à livres"/>
+  </node>
   <node id="5034257585" lat="47.2234257" lon="-1.5976384">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="description" v="Système de « livres voyageurs » : livres en acces libre"/>
@@ -7122,6 +7195,14 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Cabane à Livres"/>
   </node>
+  <node id="5091062279" lat="44.3335329" lon="8.5132256">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="artist_name" v="G. Mazzotti"/>
+    <tag k="artwork_type" v="sculpture"/>
+    <tag k="name" v="Idrante d'artista"/>
+    <tag k="tourism" v="artwork"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
   <node id="5092141264" lat="47.0214366" lon="12.6316488">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="operator" v="Bücherei Kals"/>
@@ -7213,6 +7294,10 @@
     <tag k="disused:amenity" v="telephone"/>
     <tag k="public_bookcase:type" v="phone_box"/>
   </node>
+  <node id="5125375500" lat="44.5710798" lon="5.9372801">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="La Poltrona"/>
+  </node>
   <node id="5126773171" lat="49.8429967" lon="2.2305109">
     <tag k="amenity" v="public_bookcase"/>
   </node>
@@ -7285,10 +7370,21 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="covered" v="yes"/>
   </node>
-  <node id="5151840124" lat="49.9414481" lon="11.5759276">
+  <node id="5151840124" lat="49.9414654" lon="11.5760295">
     <tag k="amenity" v="public_bookcase"/>
-    <tag k="name" v="Offener Kinderbücherschrank"/>
-    <tag k="operator" v="Evang. Familien-Bildungsstädte"/>
+    <tag k="description:de" v="Offener Kinderbücherschrank"/>
+    <tag k="operator" v="Evangelische Familien-Bildungsstädte"/>
+  </node>
+  <node id="5152097950" lat="44.1015814" lon="1.0876753">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
+  </node>
+  <node id="5152097951" lat="44.0999637" lon="1.0846741">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
+  </node>
+  <node id="5152097952" lat="44.1040285" lon="1.0856205">
+    <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="5153213662" lat="52.6696423" lon="8.9707218">
     <tag k="amenity" v="public_bookcase"/>
@@ -7372,6 +7468,7 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="capacity" v="400"/>
     <tag k="fixme" v="check position"/>
+    <tag k="name" v="Öffentlicher Bücherschrank"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="Gemeinde Tiefenbronn"/>
     <tag k="public_bookcase:type" v="shelter"/>
@@ -7439,11 +7536,6 @@
   <node id="5181506446" lat="54.0670084" lon="10.7698390">
     <tag k="amenity" v="public_bookcase"/>
   </node>
-  <node id="5181631115" lat="47.2766877" lon="-2.2108959">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="name" v="Boîte à livres"/>
-    <tag k="operator" v="Pop'Art café"/>
-  </node>
   <node id="5182419608" lat="44.8371194" lon="-0.5836395">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="noname" v="yes"/>
@@ -7461,10 +7553,6 @@
     <tag k="source" v="website image"/>
     <tag k="start_date" v="2017-07-01"/>
     <tag k="website" v="http://www.schwabinger-buecherschrank.de/"/>
-  </node>
-  <node id="5188200978" lat="48.8727982" lon="2.1949946">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="name" v="Cabine à lire"/>
   </node>
   <node id="5191316190" lat="49.9162670" lon="8.6521045">
     <tag k="amenity" v="public_bookcase"/>
@@ -7705,7 +7793,7 @@
     <tag k="name" v="Offener Bücherschrank Thun"/>
     <tag k="website" v="https://buecherschrank-thun.ch/"/>
   </node>
-  <node id="5244473027" lat="47.0607161" lon="8.3154405">
+  <node id="5244473027" lat="47.0605443" lon="8.3159877">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="capacity" v="200"/>
     <tag k="email" v="roessteffen@gmx.ch"/>
@@ -7898,10 +7986,10 @@
   <node id="5321768199" lat="47.6923705" lon="9.2729270">
     <tag k="amenity" v="public_bookcase"/>
   </node>
-  <node id="5323318012" lat="48.7514122" lon="2.3451447">
+  <node id="5323318012" lat="48.7514004" lon="2.3451586">
     <tag k="amenity" v="public_bookcase"/>
   </node>
-  <node id="5323321585" lat="48.7503195" lon="2.3450274">
+  <node id="5323321585" lat="48.7503115" lon="2.3450141">
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="5323487472" lat="48.7492550" lon="2.3480986">
@@ -8153,6 +8241,10 @@
   <node id="5408180318" lat="47.8092283" lon="9.1720421">
     <tag k="amenity" v="public_bookcase"/>
   </node>
+  <node id="5418805158" lat="44.3842296" lon="4.1002302">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Boîte à lire"/>
+  </node>
   <node id="5424806193" lat="46.5965822" lon="0.3357202">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="boite à livres"/>
@@ -8161,7 +8253,7 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="fee" v="no"/>
   </node>
-  <node id="5428400153" lat="49.2411643" lon="7.2732163">
+  <node id="5428400153" lat="49.2411512" lon="7.2732512">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="fixme:wikipedia" v="The wikipedia tag links to a list article, not an article about this specific feature. Needs a better link, or maybe rename &quot;wikipedia&quot; to &quot;related:wikipedia&quot;? See osm wiki - key:wikipedia : &quot;only provide links to articles which are 'about the feature'&quot;"/>
     <tag k="name" v="Öffentlicher Bücherschrank"/>
@@ -8435,6 +8527,11 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Bücherzelle"/>
   </node>
+  <node id="5552774650" lat="44.5000322" lon="11.3544452">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="20"/>
+    <tag k="name" v="Piccola biblioteca spontanea"/>
+  </node>
   <node id="5554608143" lat="50.1390432" lon="8.6706740">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="capacity" v="150"/>
@@ -8499,6 +8596,7 @@
   </node>
   <node id="5562498629" lat="49.9399759" lon="9.3477857">
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="fixme" v="Gibt es diese noch? Kann sie mit amenity=give_box dokumentiert werden? Ist sie doppelt eingetragen?"/>
     <tag k="name" v="Givebox"/>
   </node>
   <node id="5562878497" lat="50.4689222" lon="5.7353679">
@@ -8643,6 +8741,7 @@
   </node>
   <node id="5604445108" lat="49.7882522" lon="9.9321626">
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="fixme" v="Gibt es diese noch? Kann sie mit amenity=give_box dokumentiert werden? Ist sie doppelt eingetragen?"/>
     <tag k="name" v="Givebox im Freiraum"/>
     <tag k="opening_hours" v="Fr 16:00-22:00, Su 16:00-22:00, We 16:00-22:00, PH off"/>
     <tag k="operator" v="Freiraum Würzburg"/>
@@ -8725,6 +8824,12 @@
   <node id="5622919049" lat="47.6992607" lon="11.2341861">
     <tag k="amenity" v="public_bookcase"/>
   </node>
+  <node id="5623138428" lat="44.2072342" lon="0.6222239">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="5623138429" lat="44.2099870" lon="0.6301417">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
   <node id="5627366848" lat="45.8357655" lon="4.9978199">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="image" v="https://commons.wikimedia.org/wiki/File:Beynost_(Ain,_France)_-_oct_2017_-_bo%C3%AEte_%C3%A0_livres.JPG"/>
@@ -8743,6 +8848,12 @@
     <tag k="highway" v="bus_stop"/>
     <tag k="name" v="Roodt/Syre, Op der Gare"/>
     <tag k="public_transport" v="platform"/>
+  </node>
+  <node id="5633227712" lat="48.1271337" lon="11.5847250">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Offener Bücherschrank"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="phone" v="+49 89 4807040"/>
   </node>
   <node id="5633242782" lat="48.1542842" lon="11.6288628">
     <tag k="amenity" v="public_bookcase"/>
@@ -8812,8 +8923,7 @@
   <node id="5647739624" lat="47.8501987" lon="12.1196002">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="capacity" v="200"/>
-    <tag k="description" v="Britische Telefonzelle"/>
-    <tag k="name" v="Büchertausch-Telefonzelle im Bahnhof"/>
+    <tag k="description" v="Britische Telefonzelle zum Büchertausch"/>
   </node>
   <node id="5649477530" lat="50.5877034" lon="8.6974788">
     <tag k="access" v="permissive"/>
@@ -8903,6 +9013,12 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="&quot;zu verschenken&quot;-Tisch"/>
   </node>
+  <node id="5670193621" lat="51.0050305" lon="12.7729154">
+    <tag k="alt_name" v="Bücher-Buffet Wechselburg"/>
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Bücher-Buffet"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
   <node id="5670574464" lat="45.4992897" lon="6.0001217">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="description" v="Microbibliothèque avec 3 catégories: 3-6 ans, 7-10 ans, Ados"/>
@@ -8950,6 +9066,10 @@
     <tag k="name" v="Book Exchange"/>
     <tag k="operator" v="ISAP Zürich"/>
     <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="5680501462" lat="44.3412266" lon="2.5536376">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="source" v="survey 2018"/>
   </node>
   <node id="5685544116" lat="53.8913439" lon="11.4473221">
     <tag k="amenity" v="public_bookcase"/>
@@ -9006,6 +9126,9 @@
     <tag k="opening_hours" v="24/7"/>
     <tag k="public_bookcase:type" v="reading_box"/>
     <tag k="survey:date" v="2019-04-10"/>
+  </node>
+  <node id="5702500582" lat="44.2926903" lon="5.5959108">
+    <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="5702792496" lat="45.8638771" lon="5.9486296">
     <tag k="amenity" v="public_bookcase"/>
@@ -9485,6 +9608,9 @@
     <tag k="public_transport" v="stop_position"/>
     <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2016"/>
   </node>
+  <node id="5795278792" lat="46.9270602" lon="3.2612205">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
   <node id="5796840918" lat="46.3144482" lon="6.8675588">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="operator" v="Bibliothèque communale de Vionnaz"/>
@@ -9822,16 +9948,10 @@
   <node id="5859079834" lat="47.6140549" lon="7.5350800">
     <tag k="amenity" v="public_bookcase"/>
   </node>
-  <node id="5859136747" lat="47.1128513" lon="-2.1308602">
-    <tag k="amenity" v="public_bookcase"/>
-  </node>
   <node id="5859434670" lat="49.8468555" lon="7.8561773">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="capacity" v="200"/>
     <tag k="public_bookcase:type" v="metal_cabinet"/>
-  </node>
-  <node id="5859493903" lat="47.1157893" lon="-2.1045019">
-    <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="5859629007" lat="48.7254873" lon="2.2609614">
     <tag k="amenity" v="public_bookcase"/>
@@ -9860,6 +9980,9 @@
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="5866509621" lat="44.8079186" lon="-0.5851896">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="5866510540" lat="44.6819679" lon="-0.5262467">
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="5869296200" lat="51.9987730" lon="4.2050041">
@@ -9946,6 +10069,10 @@
     <tag k="opening_hours" v="24/7"/>
     <tag k="survey:date" v="2018-09-05"/>
   </node>
+  <node id="5889112543" lat="44.7290999" lon="-0.5974961">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
+  </node>
   <node id="5889147000" lat="50.6220823" lon="6.0403221">
     <tag k="amenity" v="public_bookcase"/>
   </node>
@@ -9964,6 +10091,10 @@
   <node id="5893156414" lat="45.8261363" lon="1.2625517">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Cultivons le goût de lire"/>
+  </node>
+  <node id="5893260770" lat="44.7112842" lon="-0.4749441">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
   </node>
   <node id="5894269172" lat="45.1280725" lon="5.5890838">
     <tag k="amenity" v="public_bookcase"/>
@@ -10042,6 +10173,15 @@
     <tag k="capacity" v="200"/>
     <tag k="name" v="Bücherzelle"/>
     <tag k="operator" v="Gemeinde Neuenkirchen"/>
+  </node>
+  <node id="5915896026" lat="44.0886891" lon="6.2306091">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="15"/>
+  </node>
+  <node id="5915897568" lat="44.0921117" lon="6.2338795">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="25"/>
+    <tag k="survey:date" v="2018-10-25"/>
   </node>
   <node id="5916784716" lat="50.4200191" lon="2.9548304">
     <tag k="amenity" v="public_bookcase"/>
@@ -10295,6 +10435,10 @@
   <node id="5997735787" lat="50.1221088" lon="8.6899623">
     <tag k="amenity" v="public_bookcase"/>
   </node>
+  <node id="5999839541" lat="44.1556108" lon="4.3640879">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Libres livres"/>
+  </node>
   <node id="5999855587" lat="45.7510643" lon="4.8479980">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="La Partagère"/>
@@ -10540,6 +10684,15 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="operator" v="Amiens métropole"/>
   </node>
+  <node id="6043706269" lat="44.7369750" lon="1.3844303">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="6043706275" lat="44.7373598" lon="1.3799451">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="6043706276" lat="44.7358993" lon="1.3827588">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
   <node id="6043870081" lat="48.4365282" lon="2.1593281">
     <tag k="amenity" v="public_bookcase"/>
   </node>
@@ -10644,6 +10797,10 @@
   <node id="6068309968" lat="44.8000647" lon="0.3262957">
     <tag k="amenity" v="public_bookcase"/>
   </node>
+  <node id="6069606844" lat="44.7248738" lon="-0.4716007">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
+  </node>
   <node id="6071627358" lat="47.3425642" lon="5.1898874">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="source" v="survey"/>
@@ -10668,8 +10825,11 @@
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="6079779495" lat="48.6420820" lon="8.9030608">
+    <tag k="access:covid19" v="yes"/>
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="delivery:covid19" v="no"/>
     <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="24/7"/>
     <tag k="operator" v="Bücherei Gärtringen"/>
     <tag k="public_bookcase:type" v="phone_box"/>
   </node>
@@ -10777,7 +10937,7 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="collibri Bücherbar"/>
   </node>
-  <node id="6132434692" lat="48.6282386" lon="2.0979501">
+  <node id="6132434692" lat="48.6282064" lon="2.0979287">
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="6137185412" lat="50.1374769" lon="9.0599093">
@@ -10830,6 +10990,7 @@
   </node>
   <node id="6153533949" lat="51.2163913" lon="3.2063610">
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="books" v="children"/>
     <tag k="brand" v="Little Free Library"/>
     <tag k="capacity" v="70"/>
     <tag k="image" v="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Boekenkast_Sint-Lodewijks.jpg/1024px-Boekenkast_Sint-Lodewijks.jpg"/>
@@ -10851,22 +11012,6 @@
     <tag k="capacity" v="150"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="public_bookcase:type" v="reading_box"/>
-  </node>
-  <node id="6156051610" lat="51.2057076" lon="3.1962513">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="brand" v="Little Free Library"/>
-    <tag k="capacity" v="25"/>
-    <tag k="description" v="I came up with the idea of a Little Free Library in our street because I know many people here (especialy women) like to read. We recommend and lend books to each other. I also love the idea of sharing things with each other."/>
-    <tag k="description_1" v="My husband made the library all by himself. He painted it yellow and green, the Brazilian Fifa World Cup colours :-). A lot of people from other streets pass by here while jogging or walking with their dog, we intend to reach them too."/>
-    <tag k="image" v="https://3c62p93gfps217cemn2fgzd3-wpengine.netdna-ssl.com/wp-content/uploads/2014/11/Hertsvelde_4.jpg"/>
-    <tag k="image_1" v="https://littlefreelibrary.secure.force.com/servlet/servlet.FileDownload?file=00Pd000000IisiiEAB"/>
-    <tag k="name" v="Little Free Library Hertsvelde-West"/>
-    <tag k="opening_hours" v="24/7"/>
-    <tag k="operator" v="Manon Billiet"/>
-    <tag k="public_bookcase:type" v="reading_box"/>
-    <tag k="ref" v="13695"/>
-    <tag k="start_date" v="2014"/>
-    <tag k="website" v="https://booksinboxes.eu/13694-hertsvelde-west-9-8200-sint-andries/"/>
   </node>
   <node id="6156187094" lat="51.2037968" lon="3.1862056">
     <tag k="amenity" v="public_bookcase"/>
@@ -10919,7 +11064,11 @@
   <node id="6162051425" lat="49.2352604" lon="8.1703861">
     <tag k="amenity" v="public_bookcase"/>
   </node>
-  <node id="6166315215" lat="45.9143231" lon="6.0914434">
+  <node id="6162090499" lat="44.3384615" lon="2.6262260">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="6166315215" lat="45.9143176" lon="6.0913005">
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="6166499878" lat="47.7335328" lon="7.0574203">
@@ -11019,7 +11168,7 @@
   </node>
   <node id="6185611329" lat="45.1887925" lon="5.7194642">
     <tag k="amenity" v="public_bookcase"/>
-    <tag k="name" v="Boîte à Livres"/>
+    <tag k="name" v="Boîte à livres"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="public_bookcase:type" v="reading_box"/>
   </node>
@@ -11163,15 +11312,6 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="noname" v="yes"/>
   </node>
-  <node id="6222814738" lat="52.4771117" lon="13.3329269">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="fee" v="no"/>
-    <tag k="image" v="https://commons.wikimedia.org/wiki/File:B%C3%BCcherbox_Handjerystra%C3%9Fe.jpg"/>
-    <tag k="name" v="Bücherbox"/>
-    <tag k="opening_hours" v="24/7"/>
-    <tag k="public_bookcase:type" v="phone_box"/>
-    <tag k="wheelchair" v="limited"/>
-  </node>
   <node id="6223608165" lat="51.2302709" lon="3.2431685">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="capacity" v="30"/>
@@ -11304,6 +11444,10 @@
     <tag k="public_bookcase:type" v="phone_box"/>
   </node>
   <node id="6253979147" lat="52.6705137" lon="13.2829965">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="6254644861" lat="44.3344613" lon="7.4323663">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="phone_box"/>
   </node>
@@ -11475,7 +11619,7 @@
   </node>
   <node id="6277341776" lat="51.1845721" lon="3.2098215">
     <tag k="amenity" v="public_bookcase"/>
-    <tag k="capacity" v="40"/>
+    <tag k="capacity" v="140"/>
     <tag k="email" v="monique.van.parys@gmail.com"/>
     <tag k="image" v="https://i.imgur.com/Q3rNBbP.jpg"/>
     <tag k="name" v="MoniqueBib"/>
@@ -11668,8 +11812,21 @@
   <node id="6312700669" lat="49.5708701" lon="5.8379097">
     <tag k="amenity" v="public_bookcase"/>
   </node>
-  <node id="6318693167" lat="47.6547396" lon="-2.0887837">
+  <node id="6313172591" lat="44.6079746" lon="-0.7706174">
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
+  </node>
+  <node id="6313723847" lat="44.4026416" lon="11.4600208">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="operator" v="ACS Amici Cagnano Settefonti"/>
+  </node>
+  <node id="6316377929" lat="44.4869649" lon="-1.0837687">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
+  </node>
+  <node id="6316377930" lat="44.4943183" lon="-1.0766085">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
   </node>
   <node id="6320368794" lat="48.8715570" lon="2.4040544">
     <tag k="amenity" v="public_bookcase"/>
@@ -11786,6 +11943,7 @@
   <node id="6333356542" lat="50.9721966" lon="3.1386292">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="image" v="https://i.pinimg.com/564x/bc/79/06/bc79061538f4940756c8605356456e4b.jpg"/>
+    <tag k="mapillary" v="Zu2FEDfi1pHZBwnz-NlaSA"/>
     <tag k="name" v="Mini bib"/>
     <tag k="public_bookcase:type" v="wooden_cabinet"/>
   </node>
@@ -11926,17 +12084,19 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="metal_cabinet"/>
   </node>
+  <node id="6353267075" lat="44.6236632" lon="-1.0432532">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
+  </node>
+  <node id="6353267288" lat="44.6116618" lon="-0.9968618">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
+  </node>
   <node id="6356197283" lat="50.6775062" lon="4.3718746">
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="6356340789" lat="51.5137830" lon="7.4751908">
     <tag k="amenity" v="public_bookcase"/>
-  </node>
-  <node id="6356501588" lat="47.2865961" lon="-2.3909596">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="capacity" v="50"/>
-    <tag k="operator" v="Ville de La Baule Escoublac"/>
-    <tag k="wheelchair" v="yes"/>
   </node>
   <node id="6356732724" lat="50.2264144" lon="8.7739284">
     <tag k="amenity" v="public_bookcase"/>
@@ -12277,6 +12437,8 @@
   </node>
   <node id="6372370702" lat="49.0240860" lon="12.1007037">
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="lit" v="no"/>
+    <tag k="opening_hours" v="24/7"/>
   </node>
   <node id="6373561503" lat="50.9456941" lon="6.9508449">
     <tag k="amenity" v="public_bookcase"/>
@@ -12320,6 +12482,9 @@
     <tag k="mapillary" v="LGPE6XTVPH38MIN0WwAX8w"/>
     <tag k="name" v="Boekenruilkast"/>
     <tag k="opening_hours" v="24/7"/>
+  </node>
+  <node id="6386677450" lat="44.1741592" lon="11.9497351">
+    <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="6386905025" lat="51.0637620" lon="3.0990853">
     <tag k="amenity" v="public_bookcase"/>
@@ -12588,8 +12753,9 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="phone_box"/>
   </node>
-  <node id="6418405035" lat="47.1150434" lon="-2.0933427">
+  <node id="6418456180" lat="44.6068756" lon="-0.5536951">
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
   </node>
   <node id="6419059594" lat="50.7542492" lon="2.5185948">
     <tag k="amenity" v="public_bookcase"/>
@@ -12608,10 +12774,6 @@
     <tag k="material" v="wood"/>
     <tag k="operator" v="Mairie d'hondeghem"/>
     <tag k="public_bookcase:type" v="reading_box"/>
-  </node>
-  <node id="6419647193" lat="47.1137805" lon="-2.1066348">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="public_bookcase:type" v="phone_box"/>
   </node>
   <node id="6419668139" lat="52.8876157" lon="13.4787589">
     <tag k="amenity" v="public_bookcase"/>
@@ -12671,6 +12833,7 @@
   <node id="6427625590" lat="48.8392611" lon="2.6338698">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="La boîte à livres"/>
+    <tag k="opening_hours:covid19" v="open"/>
     <tag k="operator" v="Mairie de Lognes"/>
   </node>
   <node id="6428040772" lat="45.6991193" lon="4.9426467">
@@ -12727,9 +12890,6 @@
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="6434197433" lat="50.2072615" lon="8.7440068">
-    <tag k="amenity" v="public_bookcase"/>
-  </node>
-  <node id="6434234371" lat="47.2705987" lon="-2.2161378">
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="6434724284" lat="48.1470813" lon="17.0616744">
@@ -12852,6 +13012,10 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="reading_box"/>
     <tag k="source" v="survey 2019-05"/>
+  </node>
+  <node id="6468456586" lat="44.5384773" lon="-1.1528698">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
   </node>
   <node id="6470911325" lat="51.3249576" lon="-1.8981148">
     <tag k="amenity" v="public_bookcase"/>
@@ -12987,6 +13151,9 @@
   <node id="6487599379" lat="48.0449398" lon="-1.6037392">
     <tag k="amenity" v="public_bookcase"/>
   </node>
+  <node id="6488374215" lat="44.1552407" lon="12.3842540">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
   <node id="6491637380" lat="48.0306593" lon="-1.5970295">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="reading_box"/>
@@ -13020,6 +13187,9 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="reading_box"/>
     <tag k="source" v="survey"/>
+  </node>
+  <node id="6503168771" lat="44.3318396" lon="8.5039222">
+    <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="6506025862" lat="49.5159002" lon="6.1903433">
     <tag k="amenity" v="public_bookcase"/>
@@ -13170,6 +13340,9 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Boîte à livres"/>
   </node>
+  <node id="6520946989" lat="44.4013039" lon="1.6448614">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
   <node id="6521249085" lat="52.0312104" lon="4.3119491">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="level" v="1"/>
@@ -13282,25 +13455,11 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Boîte à livres"/>
   </node>
-  <node id="6535580022" lat="48.1049299" lon="11.5834937">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="name" v="Give Box Giesing"/>
-    <tag k="operator" v="Evangelisch in Giesing"/>
-  </node>
   <node id="6535927061" lat="52.3178679" lon="13.6725283">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="description" v="Ehemalige Telephonzelle mit Büchern"/>
     <tag k="public_bookcase:type" v="phone_box"/>
     <tag k="wheelchair" v="limited"/>
-  </node>
-  <node id="6536551088" lat="51.7004619" lon="-2.2061917">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="brand" v="Little Free Library"/>
-    <tag k="brand:wikidata" v="Q6650101"/>
-    <tag k="brand:wikipedia" v="en:Little Free Library"/>
-    <tag k="covered" v="booth"/>
-    <tag k="disused:amenity" v="telephone"/>
-    <tag k="name" v="Little Free Library"/>
   </node>
   <node id="6536646777" lat="50.6520280" lon="4.5522198">
     <tag k="amenity" v="public_bookcase"/>
@@ -13530,7 +13689,11 @@
     <tag k="public_bookcase:type" v="phone_box"/>
   </node>
   <node id="6568699701" lat="45.7972844" lon="1.1416904">
+    <tag k="access:covid19" v="no"/>
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="delivery:covid19" v="no"/>
+    <tag k="opening_hours" v="Mo-Su,PH 00:00-23:55"/>
+    <tag k="opening_hours:covid19" v="Mo-Su,PH 00:00-23:55"/>
   </node>
   <node id="6569410206" lat="51.7307136" lon="8.7933348">
     <tag k="amenity" v="public_bookcase"/>
@@ -13669,6 +13832,10 @@
   </node>
   <node id="6578205132" lat="51.1818162" lon="6.9302711">
     <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="6578480921" lat="44.3942589" lon="7.5499970">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Biblioteca 0-18"/>
   </node>
   <node id="6578496405" lat="50.9174139" lon="1.7130338">
     <tag k="amenity" v="public_bookcase"/>
@@ -13908,9 +14075,6 @@
   <node id="6605463824" lat="52.8872913" lon="6.2446182">
     <tag k="amenity" v="public_bookcase"/>
   </node>
-  <node id="6605849943" lat="47.6463489" lon="-2.0876273">
-    <tag k="amenity" v="public_bookcase"/>
-  </node>
   <node id="6605950067" lat="52.6301632" lon="13.3193599">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="lit" v="no"/>
@@ -14137,6 +14301,8 @@
   </node>
   <node id="6646407696" lat="50.8609426" lon="4.3315260">
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="20"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Deelboekenkast_vanhuffelplein.jpg"/>
   </node>
   <node id="6648157711" lat="49.2321192" lon="-0.3848030">
     <tag k="amenity" v="public_bookcase"/>
@@ -14148,6 +14314,7 @@
     <tag k="colour" v="blue"/>
     <tag k="image" v="https://upload.wikimedia.org/wikipedia/commons/5/50/Boekenruilkast_op_het_Guido_Gezelleplein.jpg"/>
     <tag k="image_1" v="https://upload.wikimedia.org/wikipedia/commons/f/f6/Inhoud_van_het_boekenruilkastje_in_het_Guido_Gezelleplein.jpg"/>
+    <tag k="image_2" v="https://commons.wikimedia.org/wiki/File:Deelboekenkast_G_Gezelleplein.jpg"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Boîte a livres - Boekenbox"/>
     <tag k="name:fr" v="Boîte a livres"/>
@@ -14330,12 +14497,19 @@
     <tag k="addr:street" v="Via Stazione"/>
     <tag k="amenity" v="public_bookcase"/>
     <tag k="brand" v="Bookcrossing"/>
+    <tag k="description" v="Il contenitore si trova nell'angolo nord del Parco Giuseppe Antonelli"/>
+    <tag k="lit" v="yes"/>
     <tag k="mapillary" v="SjGljrFRTWr9U_JezlWFkw"/>
     <tag k="name" v="Parco Giuseppe Antonelli"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="public_bookcase:type" v="reading_box"/>
     <tag k="reuse:policy" v="free_to_take_or_give"/>
     <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="6681264562" lat="44.1226028" lon="4.0783664">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="material" v="wood"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
   </node>
   <node id="6681482941" lat="49.1205696" lon="16.3362519">
     <tag k="amenity" v="public_bookcase"/>
@@ -14358,9 +14532,6 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="metal_cabinet"/>
     <tag k="website" v="http://www.hclbox.org"/>
-  </node>
-  <node id="6684255763" lat="51.3097614" lon="-2.0494957">
-    <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="6685126386" lat="45.2039447" lon="5.7365657">
     <tag k="amenity" v="public_bookcase"/>
@@ -14487,9 +14658,22 @@
     <tag k="opening_hours" v="Mo-Th 09:00-22:00; Fr 09:00-19:00; Sa, Su 10:00-19:00"/>
   </node>
   <node id="6698682890" lat="47.1817613" lon="8.4609161">
+    <tag k="access" v="yes"/>
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="contact:email" v="info@bibliothek-cham.ch"/>
+    <tag k="mapillary" v="lj8cEj2Ob2LJTcLhMzZyDw"/>
+    <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="Zentralschweizer Umweltfachstellen"/>
     <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="6699141455" lat="44.2155232" lon="12.0435349">
+    <tag k="access" v="customers"/>
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="brand" v="Bookcrossing"/>
+    <tag k="indoor" v="yes"/>
+    <tag k="location" v="indoor"/>
+    <tag k="name" v="Heaven Cafè"/>
+    <tag k="website" v="https://www.bookcrossing.com/hunt/19/512/33150/828035"/>
   </node>
   <node id="6699384950" lat="51.1814044" lon="7.1890565">
     <tag k="amenity" v="public_bookcase"/>
@@ -14612,6 +14796,9 @@
     <tag k="name" v="Boîte à Lire"/>
     <tag k="public_bookcase:type" v="reading_box"/>
     <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="6710371811" lat="44.4578286" lon="3.9283942">
+    <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="6710496753" lat="45.8905290" lon="4.4459614">
     <tag k="amenity" v="public_bookcase"/>
@@ -14758,6 +14945,9 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="reading_box"/>
   </node>
+  <node id="6723413874" lat="44.6657103" lon="5.7053611">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
   <node id="6723772838" lat="47.0670974" lon="15.4667730">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="brand" v="Book Crossing"/>
@@ -14794,6 +14984,15 @@
     <tag k="name" v="Minibieb"/>
     <tag k="public_bookcase:type" v="reading_box"/>
   </node>
+  <node id="6731823295" lat="52.3294339" lon="4.8942650">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="note" v="In memoriam Max Lauteslager 1947 2015"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="6732428757" lat="44.4796375" lon="-0.3662919">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
+  </node>
   <node id="6733298523" lat="45.8210950" lon="5.8470977">
     <tag k="amenity" v="public_bookcase"/>
   </node>
@@ -14804,7 +15003,11 @@
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="6735429612" lat="45.7966852" lon="1.1356539">
+    <tag k="access:covid19" v="no"/>
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="delivery:covid19" v="no"/>
+    <tag k="opening_hours" v="Mo-Su,PH 00:00-23:55"/>
+    <tag k="opening_hours:covid19" v="Mo-Su,PH 00:00-23:55"/>
   </node>
   <node id="6738456423" lat="50.8475015" lon="4.3952595">
     <tag k="amenity" v="public_bookcase"/>
@@ -14813,6 +15016,10 @@
     <tag k="name" v="Le Chaperon Rouge"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="6738911800" lat="44.3520032" lon="3.4594131">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="La Cabane à livre"/>
   </node>
   <node id="6740008387" lat="45.1651057" lon="5.6858198">
     <tag k="amenity" v="public_bookcase"/>
@@ -15003,6 +15210,11 @@
     <tag k="ref" v="Zay, Rosenstraße, Gartenstraße"/>
     <tag k="start_date" v="2019-07"/>
   </node>
+  <node id="6765917227" lat="44.2919165" lon="-0.2612769">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="image" v="https://photos.app.goo.gl/wPm3WQnE9Lnyznja7"/>
+    <tag k="name" v="La Cabane á Libres"/>
+  </node>
   <node id="6766191836" lat="51.1584853" lon="14.3654558">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="location" v="indoor"/>
@@ -15107,8 +15319,11 @@
     <tag k="public_bookcase:type" v="metal_cabinet"/>
     <tag k="wheelchair" v="yes"/>
   </node>
-  <node id="6775335051" lat="50.7607525" lon="7.0510628">
+  <node id="6775335051" lat="50.7607883" lon="7.0510220">
+    <tag k="access:covid19" v="yes"/>
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="delivery:covid19" v="no"/>
+    <tag k="opening_hours:covid19" v="open"/>
   </node>
   <node id="6775441422" lat="47.6354654" lon="6.8603026">
     <tag k="amenity" v="public_bookcase"/>
@@ -15184,6 +15399,9 @@
     <tag k="operator" v="Joannes Rappe"/>
     <tag k="public_bookcase:type" v="reading_box"/>
   </node>
+  <node id="6779688778" lat="44.5655955" lon="6.4967140">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
   <node id="6780716761" lat="52.3543967" lon="15.2711460">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="image" v="https://images.mapillary.com/OVx1IvfAq6LwPC8nNcG2DA/thumb-2048.jpg"/>
@@ -15248,6 +15466,10 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="location" v="outdoor"/>
     <tag k="name" v="Boîte à livres Vival"/>
+  </node>
+  <node id="6786219091" lat="44.3501507" lon="1.6707882">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
   </node>
   <node id="6786651263" lat="50.7815977" lon="5.6941279">
     <tag k="amenity" v="public_bookcase"/>
@@ -15518,6 +15740,9 @@
   <node id="6820736459" lat="50.1461515" lon="11.0642521">
     <tag k="amenity" v="public_bookcase"/>
   </node>
+  <node id="6821183134" lat="44.4053369" lon="8.9322070">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
   <node id="6822365914" lat="45.7591377" lon="5.6863179">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="lit" v="no"/>
@@ -15647,6 +15872,7 @@
   <node id="6838194534" lat="50.8724477" lon="4.6939367">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="image" v="https://upload.wikimedia.org/wikipedia/commons/5/51/Boekenruilkast_Redingenstraat.jpg"/>
+    <tag k="name" v="Koninklijke Atheneum Redingenhof"/>
   </node>
   <node id="6838309148" lat="50.1239920" lon="8.6067346">
     <tag k="amenity" v="public_bookcase"/>
@@ -15677,12 +15903,20 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="metal_cabinet"/>
   </node>
+  <node id="6847236874" lat="44.6213825" lon="1.6430894">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="disused:amenity" v="telephone"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="6851548109" lat="44.3638917" lon="2.5926728">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="disused:amenity" v="telephone"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+    <tag k="source" v="survey 2019"/>
+  </node>
   <node id="6852150887" lat="47.3897347" lon="0.7207892">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Boîte à livres artisanale"/>
-  </node>
-  <node id="6853848797" lat="47.2769541" lon="-2.3677092">
-    <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="6853939739" lat="47.9733511" lon="11.6546702">
     <tag k="amenity" v="public_bookcase"/>
@@ -15832,6 +16066,11 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="capacity" v="300"/>
     <tag k="name" v="Hannover Bult"/>
+    <tag k="opening_hours:covid19" v="open"/>
+  </node>
+  <node id="6883748265" lat="44.7325266" lon="-1.0913781">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
   </node>
   <node id="6884388004" lat="50.1454463" lon="8.9091933">
     <tag k="amenity" v="public_bookcase"/>
@@ -15883,6 +16122,9 @@
     <tag k="public_bookcase:type" v="wooden_cabinet"/>
     <tag k="source" v="Ville de Champigneulles"/>
   </node>
+  <node id="6900022122" lat="44.6765676" lon="0.1838421">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
   <node id="6900639040" lat="48.2138499" lon="15.6320066">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="opening_hours" v="Mo-Fr 08:00-18:00"/>
@@ -15927,6 +16169,10 @@
     <tag k="seasonal" v="spring/summer/autumn"/>
     <tag k="strapline" v="Bring eins, nimm eins"/>
   </node>
+  <node id="6908425210" lat="44.3646595" lon="-0.6409454">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
+  </node>
   <node id="6912377545" lat="51.5223844" lon="9.9406300">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Notenpunkt"/>
@@ -15954,10 +16200,14 @@
     <tag k="image" v="https://commons.wikimedia.org/wiki/File:Pesterwitzer_B%C3%BCcher_Box.jpg"/>
     <tag k="internet_access" v="wlan"/>
     <tag k="internet_access:fee" v="no"/>
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Pesterwitzer Bücher Box"/>
+    <tag k="note" v="Ausgediente Telefonzelle als Bücher-Tausch-Gelegenheit"/>
+    <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="Kulturverein Pesterwitz e.V."/>
     <tag k="public_bookcase:type" v="phone_box"/>
     <tag k="short_name" v="PBB"/>
+    <tag k="website" v="http://www.kulturverein-pesterwitz.de"/>
   </node>
   <node id="6918843218" lat="51.1401466" lon="3.7598739">
     <tag k="amenity" v="public_bookcase"/>
@@ -15974,10 +16224,6 @@
   <node id="6924953769" lat="46.2757006" lon="4.9723150">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="lit" v="no"/>
-    <tag k="public_bookcase:type" v="wooden_cabinet"/>
-  </node>
-  <node id="6925192806" lat="47.5972490" lon="-2.1078033">
-    <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="wooden_cabinet"/>
   </node>
   <node id="6925501104" lat="55.4436271" lon="10.6639664">
@@ -16000,6 +16246,10 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="image" v="https://i.pinimg.com/564x/4f/e5/73/4fe5731aa1b8bda66e99008eda0b4667.jpg"/>
     <tag k="name" v="Boekenhuisje"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="6928721696" lat="44.4092071" lon="0.7057633">
+    <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="reading_box"/>
   </node>
   <node id="6930265069" lat="44.7503858" lon="0.3413123">
@@ -16027,6 +16277,11 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="survey:date" v="2019-11-02"/>
   </node>
+  <node id="6939003626" lat="44.3890942" lon="-1.1693660">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Boite à livre"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
   <node id="6939518059" lat="51.3347297" lon="12.6094749">
     <tag k="amenity" v="public_bookcase"/>
   </node>
@@ -16052,6 +16307,26 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="public_bookcase:type" v="metal_cabinet"/>
+  </node>
+  <node id="6943339436" lat="44.6819059" lon="-1.0115388">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
+  </node>
+  <node id="6943339437" lat="44.6783538" lon="-1.0198925">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
+  </node>
+  <node id="6943354845" lat="44.7075156" lon="-1.0539928">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
+  </node>
+  <node id="6943354847" lat="44.7092446" lon="-1.0576688">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
+  </node>
+  <node id="6943354851" lat="44.7162604" lon="-1.0705984">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="noname" v="yes"/>
   </node>
   <node id="6944853120" lat="49.4231406" lon="8.6812168">
     <tag k="addr:housenumber" v="50"/>
@@ -16102,6 +16377,13 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="location" v="indoor"/>
     <tag k="operator" v="Eppendorfer Heimatverein e. V."/>
+  </node>
+  <node id="6957716091" lat="44.6970866" lon="2.0892114">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="100"/>
+    <tag k="name" v="La boîte à livres"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
   </node>
   <node id="6958853020" lat="48.8118559" lon="14.3230042">
     <tag k="amenity" v="public_bookcase"/>
@@ -16236,9 +16518,13 @@
     <tag k="addr:country" v="IT"/>
     <tag k="addr:street" v="Lungadige Attiraglio"/>
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="description" v="Lo scaffale si trova nella sala d'aspetto del Pronto Soccorso"/>
+    <tag k="indoor" v="yes"/>
+    <tag k="lit" v="yes"/>
+    <tag k="mapillary" v="NkyaaO-B4lDDqCW1WhPfQA"/>
     <tag k="name" v="Pronto Soccorso Ospedale Civile Maggiore"/>
     <tag k="opening_hours" v="24/7"/>
-    <tag k="public_bookcase:type" v="reading_box"/>
+    <tag k="public_bookcase:type" v="shelf"/>
     <tag k="reuse:policy" v="free_to_take_or_give"/>
     <tag k="wheelchair" v="yes"/>
   </node>
@@ -16253,6 +16539,12 @@
     <tag k="public_bookcase:type" v="shelter"/>
   </node>
   <node id="6981872029" lat="48.5902897" lon="7.7444827">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="6982652404" lat="44.5505626" lon="-0.8672105">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="6982694958" lat="44.6051522" lon="-0.9389918">
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="6983263334" lat="49.1528346" lon="2.4394664">
@@ -16359,7 +16651,11 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Boîte à lire"/>
     <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="off"/>
     <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7010033725" lat="44.6918840" lon="-0.8531692">
+    <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="7013423055" lat="47.5327597" lon="3.6317821">
     <tag k="amenity" v="public_bookcase"/>
@@ -16396,7 +16692,7 @@
   <node id="7020818735" lat="48.7063706" lon="2.0745765">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="lit" v="no"/>
-    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
   </node>
   <node id="7021533234" lat="47.3330887" lon="5.0437532">
     <tag k="amenity" v="public_bookcase"/>
@@ -16433,6 +16729,9 @@
     <tag k="public_bookcase:type" v="reading_box"/>
   </node>
   <node id="7023625581" lat="52.4220973" lon="13.7530904">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7023721212" lat="44.6474350" lon="0.3413895">
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="7023991617" lat="51.6014674" lon="5.6834014">
@@ -16595,8 +16894,10 @@
   </node>
   <node id="7055261361" lat="48.9398790" lon="9.2592122">
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Offenes Bücherregal Lugplätzle"/>
     <tag k="public_bookcase:type" v="shelf"/>
+    <tag k="wheelchair" v="yes"/>
   </node>
   <node id="7055261362" lat="48.5509151" lon="9.2032143">
     <tag k="amenity" v="public_bookcase"/>
@@ -16724,10 +17025,7 @@
   <node id="7080328023" lat="51.0443704" lon="3.7254515">
     <tag k="amenity" v="public_bookcase"/>
   </node>
-  <node id="7081790742" lat="51.3770188" lon="20.2890730">
-    <tag k="amenity" v="public_bookcase"/>
-  </node>
-  <node id="7082488481" lat="49.4022119" lon="1.1770519">
+  <node id="7082488481" lat="49.4022031" lon="1.1770828">
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="7082730814" lat="51.4338608" lon="6.7269934">
@@ -16739,7 +17037,7 @@
     <tag k="public_bookcase:type" v="reading_box"/>
     <tag k="wheelchair" v="no"/>
   </node>
-  <node id="7085980228" lat="47.7881109" lon="11.8317126">
+  <node id="7085980228" lat="47.7881081" lon="11.8317457">
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="7086313309" lat="44.7969950" lon="-0.6864806">
@@ -16756,6 +17054,9 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="lit" v="no"/>
     <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7090491914" lat="44.3946764" lon="-1.1625378">
+    <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="7090699358" lat="46.4601825" lon="6.8495824">
     <tag k="amenity" v="public_bookcase"/>
@@ -16901,21 +17202,25 @@
     <tag k="brand" v="Boekentil"/>
     <tag k="public_bookcase:type" v="reading_box"/>
   </node>
-  <node id="7112956150" lat="51.1967960" lon="14.6588712">
+  <node id="7112956150" lat="51.1967920" lon="14.6588826">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="opening_hours" v="24/7"/>
   </node>
   <node id="7113861665" lat="45.6218194" lon="11.0295322">
     <tag k="addr:city" v="Bosco Chiesanuova"/>
     <tag k="addr:country" v="IT"/>
+    <tag k="addr:housenumber" v="20"/>
     <tag k="addr:postcode" v="37021"/>
     <tag k="addr:street" v="Piazza della Chiesa"/>
     <tag k="amenity" v="public_bookcase"/>
     <tag k="brand" v="Bookcrossing"/>
+    <tag k="description" v="La cassetta si trova a destra dell'ingresso dell'erboristeria."/>
+    <tag k="lit" v="yes"/>
     <tag k="mapillary" v="hR2cGfBwz7veBPfVOiIxnA"/>
     <tag k="name" v="Erboristeria Sauro"/>
-    <tag k="opening_hours" v="24/7"/>
-    <tag k="public_bookcase:type" v="reading_box"/>
+    <tag k="opening_hours" v="Mo-Su 09:00-12:00,14:30-19:00"/>
+    <tag k="outdoor" v="yes"/>
+    <tag k="public_bookcase:type" v="movable_cabinet"/>
     <tag k="reuse:policy" v="free_to_take_or_give"/>
     <tag k="wheelchair" v="yes"/>
   </node>
@@ -17257,9 +17562,6 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="wooden_cabinet"/>
   </node>
-  <node id="7178852215" lat="47.1098029" lon="-2.0886281">
-    <tag k="amenity" v="public_bookcase"/>
-  </node>
   <node id="7178916079" lat="50.1055806" lon="8.6214977">
     <tag k="amenity" v="public_bookcase"/>
   </node>
@@ -17302,16 +17604,9 @@
     <tag k="description" v="Boîte d'échanges entre voisins. Des vêtements sont disponibles."/>
     <tag k="lit" v="no"/>
     <tag k="name" v="GreBox"/>
-    <tag k="opening_hours" v="Mo-Sun 09:00-20:00"/>
+    <tag k="opening_hours" v="Mo-Su 09:00-20:00"/>
     <tag k="public_bookcase:type" v="wooden_cabinet"/>
     <tag k="survey:date" v="2020-02-03"/>
-  </node>
-  <node id="7185069218" lat="53.4442051" lon="-2.1929213">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="capacity" v="50"/>
-    <tag k="description" v="inside the train station"/>
-    <tag k="lit" v="yes"/>
-    <tag k="public_bookcase:type" v="shelf"/>
   </node>
   <node id="7187081785" lat="50.8585140" lon="4.7042728">
     <tag k="amenity" v="public_bookcase"/>
@@ -17416,8 +17711,12 @@
     <tag k="addr:postcode" v="37067"/>
     <tag k="addr:street" v="Via Antonio Murari"/>
     <tag k="amenity" v="public_bookcase"/>
+    <tag k="description" v="La cassetta si trova a destra dell'ingresso della biblioteca, lungo la cancellata."/>
+    <tag k="lit" v="yes"/>
+    <tag k="mapillary" v="NELU7TAyUoVJ2VXBJLfhNg"/>
     <tag k="name" v="Biblioteca Comunale Valeggio"/>
     <tag k="opening_hours" v="24/7"/>
+    <tag k="outdoor" v="yes"/>
     <tag k="public_bookcase:type" v="reading_box"/>
     <tag k="reuse:policy" v="free_to_take_or_give"/>
     <tag k="wheelchair" v="yes"/>
@@ -17460,6 +17759,10 @@
     <tag k="public_bookcase:type" v="metal_cabinet"/>
     <tag k="source" v="survey"/>
   </node>
+  <node id="7218320110" lat="44.3483551" lon="-1.0715797">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Boite à livre"/>
+  </node>
   <node id="7221156354" lat="50.6007604" lon="4.9869238">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="name" v="Boîte aux livres"/>
@@ -17498,6 +17801,9 @@
   <node id="7234041934" lat="48.4052807" lon="15.5989263">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="website" v="www.buecherei.krems.at"/>
+  </node>
+  <node id="7234052296" lat="44.0890530" lon="6.8535178">
+    <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="7235084558" lat="46.9380408" lon="7.3880502">
     <tag k="amenity" v="public_bookcase"/>
@@ -17674,11 +17980,6 @@
     <tag k="operator" v="Lions Club"/>
     <tag k="public_bookcase:type" v="wooden_cabinet"/>
   </node>
-  <node id="7255775665" lat="47.5888231" lon="1.3375374">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="operator" v="Lions Club"/>
-    <tag k="public_bookcase:type" v="wooden_cabinet"/>
-  </node>
   <node id="7255775666" lat="47.5963867" lon="1.3168668">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="operator" v="Lions Club"/>
@@ -17760,6 +18061,10 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="phone_box"/>
   </node>
+  <node id="7270207291" lat="44.5423547" lon="4.8477854">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="survey:date" v="2020-03-05"/>
+  </node>
   <node id="7272444226" lat="47.5851873" lon="1.3758457">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="wooden_cabinet"/>
@@ -17835,6 +18140,13 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="mapillary" v="Cf0SRW9dxGcZ7o95jWjFvw"/>
     <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7282246861" lat="44.3471125" lon="-1.1036646">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7282286826" lat="44.3461870" lon="-1.1022109">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="fixme" v="emplacement approximatif"/>
   </node>
   <node id="7282910434" lat="48.9108663" lon="2.1783702">
     <tag k="amenity" v="public_bookcase"/>
@@ -17931,7 +18243,7 @@
     <tag k="opening_hours" v="24/7"/>
     <tag k="public_bookcase:type" v="reading_box"/>
   </node>
-  <node id="7296428937" lat="52.3693069" lon="13.6993832">
+  <node id="7296428937" lat="52.3693231" lon="13.6990631">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="description" v="Ehemalige Telephonzelle mit Büchern"/>
     <tag k="public_bookcase:type" v="phone_box"/>
@@ -18042,6 +18354,9 @@
     <tag k="operator" v="Lions club"/>
     <tag k="public_bookcase:type" v="wooden_cabinet"/>
   </node>
+  <node id="7315975760" lat="44.4446115" lon="-1.2511875">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
   <node id="7316557037" lat="48.6850308" lon="6.1526489">
     <tag k="amenity" v="public_bookcase"/>
     <tag k="public_bookcase:type" v="reading_box"/>
@@ -18054,9 +18369,8 @@
     <tag k="opening_hours" v="24/7"/>
     <tag k="public_bookcase:type" v="reading_box"/>
   </node>
-  <node id="7317206335" lat="46.9268702" lon="6.3491616">
+  <node id="7317206335" lat="46.9270232" lon="6.3491643">
     <tag k="amenity" v="public_bookcase"/>
-    <tag k="fixme" v="Vérifier l'emplacement – placé au hasard, mais dans les environs."/>
   </node>
   <node id="7317210002" lat="50.7491109" lon="4.6160805">
     <tag k="amenity" v="public_bookcase"/>
@@ -18077,10 +18391,6 @@
     <tag k="amenity" v="public_bookcase"/>
     <tag k="start_date" v="octobre 2018"/>
   </node>
-  <node id="7319265053" lat="48.6850308" lon="6.1526489">
-    <tag k="amenity" v="public_bookcase"/>
-    <tag k="public_bookcase:type" v="reading_box"/>
-  </node>
   <node id="7319463385" lat="45.7682388" lon="4.8199628">
     <tag k="amenity" v="public_bookcase"/>
   </node>
@@ -18088,6 +18398,1569 @@
     <tag k="amenity" v="public_bookcase"/>
   </node>
   <node id="7319743292" lat="52.5808663" lon="13.3790828">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7323727825" lat="45.5551277" lon="4.1218757">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="start_date" v="mars 2020"/>
+  </node>
+  <node id="7324078800" lat="50.8516016" lon="-0.9819610">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="description" v="This bookcase is in Caffe Nero up the stairs and to the left."/>
+    <tag k="source" v="visit to cafe"/>
+  </node>
+  <node id="7325819050" lat="50.2094644" lon="9.2255692">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="7326292429" lat="51.2264494" lon="3.1929597">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="15"/>
+    <tag k="image" v="https://upload.wikimedia.org/wikipedia/commons/a/a2/Boekenruilbox_Sint-Pieters.jpg"/>
+    <tag k="image:1" v="https://upload.wikimedia.org/wikipedia/commons/c/c2/Boekenruilkast_Sint-Pieters_geopend.jpg"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7326613413" lat="50.8297937" lon="4.3471022">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="60"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Deelboekenkast_parvis_st_gilles.jpg"/>
+  </node>
+  <node id="7326850122" lat="50.7856318" lon="-1.0886878">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="description" v="This bookcase is inside Panero Lounge on the ground floor at the centre back of this cafe."/>
+    <tag k="source" v="visit to Panero Lounge cafe."/>
+  </node>
+  <node id="7327702872" lat="50.1545873" lon="8.5281333">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7327957931" lat="50.8425390" lon="4.3455160">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="60"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Deelboekenkast_rouppeplein.jpg"/>
+  </node>
+  <node id="7328002989" lat="50.8629904" lon="4.3169350">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="20"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Ruilboekenkast_bastenakenplein.jpg"/>
+  </node>
+  <node id="7328014214" lat="50.8726568" lon="4.2983431">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="30"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Deelboekenkast_M_Oostenrijkplein.jpg"/>
+  </node>
+  <node id="7328016641" lat="50.8658686" lon="4.3118313">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="30"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Deelboekenkast_basilieklaan.jpg"/>
+  </node>
+  <node id="7329050936" lat="47.3687607" lon="3.2794145">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="7329050937" lat="47.2765182" lon="1.3999829">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Vival"/>
+    <tag k="public_bookcase:type" v="metal_cabinet"/>
+  </node>
+  <node id="7329050939" lat="47.2711511" lon="1.3761788">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7329050940" lat="47.2699398" lon="1.3771313">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7329050941" lat="47.2687533" lon="1.3741699">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7329050942" lat="47.2684298" lon="1.3729177">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7329084070" lat="47.4305650" lon="0.9556037">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7329084071" lat="47.4109552" lon="0.9910672">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="metal_cabinet"/>
+  </node>
+  <node id="7329084072" lat="47.3558772" lon="0.9103946">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7329084073" lat="47.6170532" lon="0.4764235">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7329084074" lat="47.4553829" lon="0.7087495">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7329084075" lat="47.4139226" lon="0.7543843">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7329110220" lat="47.3941682" lon="0.7699637">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7329110221" lat="47.4373489" lon="0.6386982">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7329219732" lat="46.9908574" lon="3.1539468">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7329219733" lat="47.4086287" lon="0.5995981">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="operator" v="Lions club"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7329219734" lat="47.4048168" lon="0.5932483">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7329219735" lat="47.4047258" lon="0.6013265">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="7329450164" lat="52.4894391" lon="13.4071381">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Bücherbox"/>
+  </node>
+  <node id="7333002890" lat="49.9870060" lon="8.2571556">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7334537909" lat="47.7780241" lon="12.4507753">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Öffentlicher Bücherschrank"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7335049347" lat="50.8618803" lon="14.3550649">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="shelter"/>
+  </node>
+  <node id="7335067699" lat="52.8326789" lon="13.8172267">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="lit" v="no"/>
+    <tag k="name" v="Tauschbox"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="7342522613" lat="45.7763103" lon="4.8104678">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Troc book"/>
+  </node>
+  <node id="7343507630" lat="47.0782707" lon="15.4647711">
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="covered" v="yes"/>
+    <tag k="lit" v="no"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="outdoor" v="yes"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="7346700372" lat="54.1772214" lon="16.2006119">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="location" v="indoor"/>
+    <tag k="name" v="Book Crossing"/>
+  </node>
+  <node id="7346708640" lat="53.6664562" lon="15.4461581">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Book Crossing"/>
+  </node>
+  <node id="7346847968" lat="49.0804464" lon="9.0914495">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="colour" v="white"/>
+    <tag k="material" v="wood"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7347044100" lat="49.4276169" lon="1.0799367">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="lit" v="no"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="Ville de Rouen"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7347081952" lat="49.4213809" lon="1.0772366">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="operator" v="Ville de Rouen"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7348697600" lat="44.8790137" lon="-0.5850542">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7350183274" lat="47.0781382" lon="15.4478455">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="covered" v="no"/>
+    <tag k="lit" v="no"/>
+    <tag k="public_bookcase:type" v="shelf"/>
+  </node>
+  <node id="7350183276" lat="47.0776996" lon="15.4525030">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="covered" v="no"/>
+    <tag k="lit" v="no"/>
+    <tag k="public_bookcase:type" v="shelf"/>
+  </node>
+  <node id="7350239895" lat="47.0699869" lon="15.4490676">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="covered" v="no"/>
+    <tag k="lit" v="no"/>
+    <tag k="public_bookcase:type" v="shelf"/>
+  </node>
+  <node id="7350429118" lat="51.4873887" lon="7.3786868">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7351758591" lat="47.8158239" lon="3.5764883">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Boite a Livre"/>
+  </node>
+  <node id="7351818424" lat="48.9000626" lon="9.3737487">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="Gemeinde Leutenbach"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="7353930420" lat="51.8212129" lon="19.4218461">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7355020064" lat="51.0844644" lon="3.7713888">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7356068782" lat="51.0856719" lon="3.7269737">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="description" v="gelijkvloers dicht bij de uitgang"/>
+    <tag k="image" v="https://upload.wikimedia.org/wikipedia/commons/7/7f/Boekenruilkastje_CC_Meulestede.jpg"/>
+    <tag k="level" v="0"/>
+    <tag k="location" v="indoor"/>
+    <tag k="opening_hours" v="&quot; openinguren CC Meulestede &quot;"/>
+    <tag k="public_bookcase:type" v="shelf"/>
+  </node>
+  <node id="7358416936" lat="48.8528572" lon="2.1439072">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+  </node>
+  <node id="7359954655" lat="47.7780498" lon="10.6190212">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Offener Bücherschrank"/>
+  </node>
+  <node id="7360392945" lat="45.2175334" lon="0.7282353">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7360392946" lat="45.2159395" lon="0.7263861">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7360392947" lat="45.2147353" lon="0.7205742">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7360427723" lat="45.2128814" lon="0.7262445">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7362045765" lat="50.8642907" lon="4.7112534">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7363177103" lat="48.9127183" lon="2.5986779">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Boîte à livres"/>
+    <tag k="opening_hours:covid19" v="open"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7363470358" lat="48.8273906" lon="2.2784950">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7365395403" lat="46.9523715" lon="6.2583715">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7365395404" lat="46.9704869" lon="6.2762618">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7367504329" lat="45.9399315" lon="6.1414834">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7368529904" lat="49.4591132" lon="8.9424423">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="description" v="Im Buswartehaus"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public" v="yes"/>
+  </node>
+  <node id="7369383485" lat="49.1409264" lon="9.2119330">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="description" v="Öffentlicher Bücherschrank"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="glass_cabinet"/>
+  </node>
+  <node id="7369454608" lat="49.6410589" lon="11.0711778">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7369457411" lat="50.8069699" lon="8.7733400">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7369764048" lat="50.1678085" lon="8.5720125">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7371219048" lat="45.8732370" lon="1.3297521">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7372331539" lat="44.8640393" lon="4.8333263">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7372331540" lat="44.8627359" lon="4.8333200">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7373669382" lat="50.5813958" lon="3.0809129">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7375329161" lat="51.8352208" lon="8.3095300">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="location" v="outdoor"/>
+  </node>
+  <node id="7376605981" lat="53.0735334" lon="13.1714319">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7376977939" lat="44.0849989" lon="7.5919102">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="80"/>
+  </node>
+  <node id="7383965278" lat="50.6013667" lon="15.1700946">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Knihobudka"/>
+  </node>
+  <node id="7384144974" lat="50.0200690" lon="14.3553756">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7385800817" lat="50.6566375" lon="4.5552698">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7389113768" lat="46.4158714" lon="-1.5767038">
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="7389380765" lat="47.1656591" lon="0.2427315">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7389382961" lat="47.8742830" lon="1.9045354">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7389686340" lat="48.7824338" lon="2.6011018">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Boîte à lire"/>
+    <tag k="opening_hours:covid19" v="open"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7390320980" lat="50.0971009" lon="8.4978768">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7392737665" lat="48.1765587" lon="11.7556018">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="metal_cabinet"/>
+  </node>
+  <node id="7394163560" lat="50.9836716" lon="13.5822351">
+    <tag k="addr:full" v="Vereinsvorsitzender: Joachim Jentzsch, Neue Straße 10, 01737 Tharandt, Tel: 0172 3634383, Mail: jjentzsch@t-online.de"/>
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="description:de" v="www.tharandt.de"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:2020_Tharandter_B%C3%BCcherzelle.jpg"/>
+    <tag k="name" v="Tharandter Bücherzelle"/>
+    <tag k="operator" v="Tharandter Verschönerungsverein e.V."/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+    <tag k="start_date" v="2019-12-19"/>
+  </node>
+  <node id="7394514336" lat="48.7149795" lon="9.1119272">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Bücherschrank"/>
+  </node>
+  <node id="7394537508" lat="48.7149756" lon="9.1119343">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7394550054" lat="48.7149980" lon="9.1119395">
+    <tag k="addr:housenumber" v="27"/>
+    <tag k="addr:street" v="Steinbachstr."/>
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="description" v="öffentlicher Bücherschrank"/>
+    <tag k="name" v="Bücherschrank"/>
+    <tag k="opening_hours" v="24/7"/>
+  </node>
+  <node id="7395181713" lat="49.4779193" lon="8.4810081">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="fee" v="no"/>
+    <tag k="name" v="Bücherschrank Friedenskirche"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="start_date" v="2019-06-02"/>
+  </node>
+  <node id="7395760152" lat="47.6959912" lon="7.2939147">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7395991261" lat="47.7655916" lon="-1.9615130">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7395991262" lat="47.6996939" lon="-1.9350008">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7397494615" lat="50.8761879" lon="4.6874030">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7399315865" lat="49.1742182" lon="7.2065940">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7399474979" lat="49.4960652" lon="8.5503617">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="fee" v="no"/>
+    <tag k="name" v="MiNiBiB Wallstadt"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="start_date" v="2015"/>
+  </node>
+  <node id="7399798254" lat="52.3179531" lon="13.6483441">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="description" v="Ehemalige Telephonzelle mit Büchern"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+    <tag k="wheelchair" v="limited"/>
+  </node>
+  <node id="7399895129" lat="48.8057208" lon="9.5334681">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7401648867" lat="48.4947337" lon="8.8095880">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="lit" v="no"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7401648868" lat="48.5215356" lon="8.8331688">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="7401717754" lat="51.3519335" lon="8.1920772">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="booth" v="TelH_78"/>
+    <tag k="colour" v="yellow"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="7401845695" lat="50.0931566" lon="14.8054417">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="7401984177" lat="49.2710904" lon="14.3509033">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7402037785" lat="49.2813888" lon="14.3650835">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7402510202" lat="50.6502729" lon="4.5347523">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7403184484" lat="49.5055339" lon="8.4842536">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="fee" v="no"/>
+    <tag k="name" v="Bücherschrank Herzogenried"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="start_date" v="2015-10-28"/>
+  </node>
+  <node id="7404188659" lat="50.6130793" lon="13.6247190">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404203125" lat="50.1377042" lon="15.4462878">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404226271" lat="50.1342186" lon="15.4309787">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404228523" lat="49.2952359" lon="14.4686610">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404282344" lat="49.1932467" lon="16.6060497">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404294662" lat="50.0765074" lon="14.8843023">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404305278" lat="49.5115150" lon="15.1786283">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404310131" lat="49.5225470" lon="16.2613755">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404330788" lat="49.2892317" lon="13.6743433">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404402310" lat="50.7584394" lon="14.5527966">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404417757" lat="50.0507898" lon="15.7605185">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404615103" lat="49.3098680" lon="14.1492628">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404626933" lat="49.9290563" lon="13.3333112">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404646415" lat="49.7369126" lon="13.3980268">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404647648" lat="49.7369285" lon="13.3750662">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404705506" lat="49.7105378" lon="13.3992311">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404713734" lat="49.7595211" lon="13.3603768">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404738110" lat="49.7525094" lon="13.4106808">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404753856" lat="50.1163695" lon="14.6217440">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404753857" lat="50.1110578" lon="14.6119199">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404822393" lat="50.0732995" lon="14.4214578">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404881051" lat="50.0651897" lon="14.3020117">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404904903" lat="49.9540014" lon="15.7902899">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404921287" lat="50.0944490" lon="14.4815848">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7404957395" lat="50.0226398" lon="14.4627750">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7405407825" lat="50.0455413" lon="14.4779990">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7405441639" lat="50.0231072" lon="14.4516545">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7405444084" lat="50.0397070" lon="14.4105182">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7405479460" lat="50.0483751" lon="14.4604069">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7405492529" lat="50.0736208" lon="14.4033439">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7405540791" lat="50.0746967" lon="14.3534128">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7405593138" lat="50.1009726" lon="14.3993648">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7405643748" lat="50.1051882" lon="14.4501804">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7405647306" lat="50.0832679" lon="14.3281598">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7405715270" lat="50.1005792" lon="14.4360278">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7405720597" lat="50.1017148" lon="14.4489388">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7405786052" lat="50.0987232" lon="14.4337991">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7407497890" lat="49.4866400" lon="8.5336753">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="fee" v="no"/>
+    <tag k="name" v="Bücherschrank Feudenheim"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="start_date" v="2014"/>
+  </node>
+  <node id="7407658445" lat="49.2328450" lon="16.6237687">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="description" v="na schodech nahore"/>
+    <tag k="name" v="Knihobudka"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="shelf"/>
+    <tag k="website" v="http://www.knihobudka.cz/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="7407658446" lat="49.2181855" lon="16.6207544">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Knihobudka"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="shelf"/>
+    <tag k="website" v="http://www.knihobudka.cz/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="7409626672" lat="49.4701530" lon="17.0975093">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7409652334" lat="50.1582010" lon="14.3987612">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7409666606" lat="49.6031126" lon="13.8630860">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7409666607" lat="49.6048445" lon="13.8646783">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7409746956" lat="49.2118271" lon="13.5024267">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7409763220" lat="50.0858480" lon="14.8420810">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7409798054" lat="49.4129492" lon="14.6681912">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7409912159" lat="49.6687800" lon="18.6759805">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7409942009" lat="49.8298217" lon="14.5915024">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7409944275" lat="49.8359334" lon="14.5858301">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7409944276" lat="49.8357124" lon="14.5895952">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7409944277" lat="49.8323225" lon="14.5920684">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7409990102" lat="49.5370196" lon="18.1329181">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7409991721" lat="49.7703404" lon="18.3097990">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7410237666" lat="49.4880503" lon="16.6597575">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7410238776" lat="49.3613679" lon="15.1582921">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7410356205" lat="49.7378573" lon="14.6666702">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7410356206" lat="49.7328651" lon="14.6659168">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7410386790" lat="49.5321969" lon="17.7725347">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7410492192" lat="50.1466613" lon="12.5679830">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7410503234" lat="49.9827975" lon="15.0926570">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7410572663" lat="50.7421343" lon="4.2358288">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7410579569" lat="50.0756954" lon="12.3685614">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7410608766" lat="50.2389262" lon="12.7487135">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7410918670" lat="50.3792770" lon="13.2630089">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7410923131" lat="49.8809125" lon="14.5018593">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7410949788" lat="50.2237665" lon="12.8851581">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7410962119" lat="49.9590372" lon="14.7199927">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7410973165" lat="49.3157726" lon="14.2466454">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7411068545" lat="49.2182488" lon="17.0048583">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7411074289" lat="49.5241118" lon="17.4645330">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7411485656" lat="52.0191350" lon="4.3204311">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="note" v="acces only from water"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="7411840949" lat="50.8609470" lon="4.3844765">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="covered" v="yes"/>
+    <tag k="note" v="the bookcase is not accessible when the bar is closed"/>
+  </node>
+  <node id="7412039934" lat="50.8628686" lon="4.3763218">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="mapillary" v="https://www.mapillary.com/map/im/pJPjZXsewewAD_y54Jn0yw"/>
+    <tag k="opening_hours" v="24/7"/>
+  </node>
+  <node id="7413255365" lat="50.2412815" lon="15.6564451">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413264831" lat="50.5335568" lon="14.1362832">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413303121" lat="50.4295545" lon="14.9096061">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413307848" lat="49.3411156" lon="17.2107510">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413331148" lat="49.9999798" lon="14.0026563">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413406828" lat="49.9361422" lon="17.9036427">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413420334" lat="49.1265162" lon="16.3349700">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413443641" lat="49.0612174" lon="14.3335330">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413475216" lat="50.1486532" lon="15.1229484">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413483331" lat="49.9080684" lon="16.9126131">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413510631" lat="50.0343101" lon="14.5592656">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413525300" lat="50.1231084" lon="14.5708288">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413539192" lat="50.0885492" lon="14.4300474">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413546818" lat="50.0003922" lon="14.4137860">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413546819" lat="49.9988141" lon="14.4104504">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413589141" lat="50.1226387" lon="14.3953276">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413610077" lat="50.1166172" lon="14.4105856">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413610545" lat="50.0256986" lon="14.4124257">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413625358" lat="50.1036948" lon="14.4742011">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413679456" lat="48.8494189" lon="14.4367236">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413692208" lat="49.5648188" lon="18.3356182">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413748665" lat="49.9358062" lon="17.2635009">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413756516" lat="50.0011673" lon="17.0193779">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413803483" lat="49.9412028" lon="15.7659775">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413829474" lat="49.7259956" lon="17.2926205">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413849188" lat="49.3795301" lon="14.4959276">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413914247" lat="50.5643497" lon="15.9080157">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413930205" lat="50.5649077" lon="15.9177601">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7413945539" lat="50.0772767" lon="14.6604760">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7414190090" lat="52.8662023" lon="9.6953925">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="7415001869" lat="52.4034948" lon="12.8250991">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7416119028" lat="47.6011297" lon="1.3427823">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7416381504" lat="50.0152310" lon="8.2983309">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7416386075" lat="51.3220692" lon="4.9378412">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Boekenruilkastje_station_Turnhout.jpg"/>
+    <tag k="name" v="Zwerfboek"/>
+    <tag k="opening_hours" v="&quot;Opening station&quot;"/>
+    <tag k="operator" v="Bibliotheek Turnhout"/>
+    <tag k="public_bookcase:type" v="metal_cabinet"/>
+  </node>
+  <node id="7416704756" lat="50.9588459" lon="3.8975074">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="image" v="https://i.pinimg.com/564x/8b/66/e5/8b66e56ea89d73138a255e4f12ad8e28.jpg"/>
+    <tag k="name" v="Ruilbib"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7417428184" lat="47.7982065" lon="3.5681250">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7417459589" lat="47.7967927" lon="3.5533701">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7417459590" lat="47.7927332" lon="3.5590592">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7417459591" lat="47.7950294" lon="3.5889888">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7417523529" lat="46.0728165" lon="11.1178047">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7417523530" lat="46.0724938" lon="11.1252248">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7417523531" lat="46.0567333" lon="11.1195396">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7417534179" lat="46.0695210" lon="11.1134906">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7417534699" lat="48.8266584" lon="2.1964780">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7417534700" lat="48.8274849" lon="2.1861518">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7419074209" lat="49.7545682" lon="8.6376923">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7419760711" lat="48.1341984" lon="11.3621562">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="LeseEule"/>
+    <tag k="operator" v="Kulturamt Germering"/>
+    <tag k="public_bookcase:type" v="sculpture"/>
+  </node>
+  <node id="7419944233" lat="51.6476314" lon="7.7613725">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="location" v="outdoor"/>
+    <tag k="public_bookcase:type" v="shelter"/>
+  </node>
+  <node id="7422024479" lat="48.1259502" lon="11.3684088">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="LeseEi"/>
+    <tag k="operator" v="Kulturamt Germering"/>
+    <tag k="public_bookcase:type" v="sculpture"/>
+  </node>
+  <node id="7424539701" lat="48.0689757" lon="11.3824390">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="7426469770" lat="53.8347625" lon="9.9658589">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="level" v="0"/>
+    <tag k="operator" v="Stadtbücherei Kaltenkirchen"/>
+    <tag k="public_bookcase:type" v="metal_cabinet"/>
+  </node>
+  <node id="7427560580" lat="50.7212404" lon="12.4962393">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="7433950955" lat="50.5913869" lon="4.3224536">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7435076573" lat="44.1207766" lon="4.8397756">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="indoor" v="yes"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7435130620" lat="44.1649591" lon="4.8737830">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="mapillary" v="gh0PlrICHrEpnzr9t7hGCA"/>
+    <tag k="name" v="Boîte à livres"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7439252042" lat="48.8440009" lon="9.3595731">
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="shelf"/>
+  </node>
+  <node id="7439870866" lat="48.9259413" lon="2.0497567">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="lit" v="no"/>
+  </node>
+  <node id="7442853595" lat="45.5092185" lon="4.0432714">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7443495547" lat="49.5580570" lon="11.1811410">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="shelter"/>
+  </node>
+  <node id="7444095291" lat="45.9100649" lon="6.1401041">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="lit" v="no"/>
+  </node>
+  <node id="7444383146" lat="51.0324602" lon="3.8554183">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7444774485" lat="52.0460645" lon="4.3976856">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="7444873993" lat="48.8119471" lon="2.1870688">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7447274993" lat="45.5929806" lon="3.9951694">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7447274994" lat="45.5873899" lon="4.0109330">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7447274997" lat="45.5902319" lon="4.0150889">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7447290537" lat="45.5986802" lon="4.0365346">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7448061310" lat="50.9741235" lon="3.9561413">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7448061319" lat="50.9602523" lon="3.9519862">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7449295387" lat="52.0366841" lon="4.2266122">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="7449414585" lat="51.9383108" lon="6.3669267">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Mini Bieb"/>
+  </node>
+  <node id="7449611686" lat="53.0362992" lon="8.6379247">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Bücherbox"/>
+  </node>
+  <node id="7450861945" lat="48.9366359" lon="2.3432974">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Boîte à livres"/>
+  </node>
+  <node id="7453518550" lat="50.6002374" lon="4.3227220">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+  </node>
+  <node id="7454276981" lat="50.6804136" lon="4.2992403">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7454747835" lat="51.4376761" lon="7.2030232">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="reuse:books" v="only"/>
+    <tag k="reuse:policy" v="free_to_take_or_give"/>
+  </node>
+  <node id="7454995002" lat="48.8191459" lon="2.2048123">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7460813927" lat="49.2102925" lon="7.4780302">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="7464769082" lat="51.0114796" lon="13.7662630">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="operator:type" v="private_individual"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7464796482" lat="47.2842312" lon="8.4868018">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="mapillary" v="mm3tjUy8oLz-hNgKecNMSw"/>
+    <tag k="name" v="Büchertausch Aeugstertal"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="shelter"/>
+  </node>
+  <node id="7465118500" lat="48.1593342" lon="17.0522993">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="knižná búdka"/>
+  </node>
+  <node id="7466371615" lat="52.3832519" lon="4.9120334">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="50"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7468087815" lat="46.1498327" lon="4.1814358">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="metal_cabinet"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="7468640260" lat="48.3508688" lon="15.7427591">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="fixme" v="exact position"/>
+    <tag k="name" v="Lesefass"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="sculpture"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="7470194905" lat="49.3771018" lon="2.7527287">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7470905941" lat="52.2586088" lon="8.0218500">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7471645195" lat="44.3896908" lon="7.8288348">
+    <tag k="addr:city" v="Mondovì"/>
+    <tag k="addr:housenumber" v="12"/>
+    <tag k="addr:postcode" v="12084"/>
+    <tag k="addr:street" v="Via Francesco Gallo"/>
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="email" v="livio.attanasio@comune.mondovi.cn.it"/>
+    <tag k="fax" v="+39 0174 555448"/>
+    <tag k="name" v="Biblioteca Civica"/>
+    <tag k="phone" v="+39 0174 43003"/>
+    <tag k="website" v="http://www.comune.mondovi.cn.it/"/>
+  </node>
+  <node id="7471676386" lat="51.5029666" lon="9.8999020">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="survey:date" v="2020-04-30"/>
+  </node>
+  <node id="7472403348" lat="52.0166683" lon="15.6301836">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="description" v="https://images.mapillary.com/5FWEe1xFhlF_068D5b6ESg/thumb-2048.jpg  "/>
+    <tag k="image" v="https://images.mapillary.com/UWC5asPADeaEC8OYz82Ubw/thumb-2048.jpg"/>
+    <tag k="mapillary" v="https://www.mapillary.com/map/im/UWC5asPADeaEC8OYz82Ubw"/>
+    <tag k="name" v="Geocaching Logbook *Oderstellung-Linia Odry*"/>
+  </node>
+  <node id="7473373469" lat="45.5031531" lon="4.0392670">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7473460860" lat="45.7455431" lon="4.0039168">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7473535921" lat="45.7451810" lon="4.0044775">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7473556741" lat="45.6075405" lon="4.0822474">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7473980941" lat="50.9325933" lon="4.2578656">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="lit" v="no"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7475146121" lat="52.0661861" lon="4.2587501">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7475191659" lat="50.5640585" lon="6.9661910">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+  </node>
+  <node id="7476256788" lat="48.1294375" lon="11.6315422">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="email" v="buecherschrankbergamlaim@gmail.com"/>
+    <tag k="name" v="Offener Bücherschrank Berg am Laim"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="Bürgerkreis Berg am Laim e.V."/>
+    <tag k="public_bookcase:type" v="metal_cabinet"/>
+  </node>
+  <node id="7476878291" lat="48.8093485" lon="2.1896176">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="shelter"/>
+  </node>
+  <node id="7478019274" lat="50.0240968" lon="14.5861544">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7478345779" lat="52.8956241" lon="13.1488897">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="7478966857" lat="50.9745193" lon="13.0370966">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="colour" v="red"/>
+    <tag k="name" v="Bücherzelle Seifersbach"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="7481453275" lat="47.6761619" lon="15.9379018">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7482060298" lat="48.1371062" lon="11.5423538">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="24"/>
+    <tag k="description" v="Kleine Vitrine an der Wand. Gehörte ein inzwischen geschlossenes Lesecafé. Der Bücherschrank ist noch vorhanden, allerdings ohne Name und ohne die übliche Beschreibung der Idee."/>
+    <tag k="public_bookcase:type" v="glass_cabinet"/>
+  </node>
+  <node id="7491911539" lat="49.2766310" lon="-0.7066583">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7491948550" lat="49.2762594" lon="-0.7025365">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7492314349" lat="48.7927234" lon="9.6010586">
+    <tag k="addr:city" v="Plüderhausen"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:street" v="Remsstraße"/>
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7493978784" lat="47.2352616" lon="7.6549657">
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="lit" v="yes"/>
+    <tag k="mapillary" v="rticbYQmLcV0TGazuwY5AA"/>
+    <tag k="name" v="offener Bücherschrank"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="shelf"/>
+  </node>
+  <node id="7494314168" lat="47.0547439" lon="15.4742924">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="7494314172" lat="47.0769354" lon="15.4931747">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="7494561380" lat="50.9192539" lon="4.4770347">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+  </node>
+  <node id="7496674035" lat="50.2257883" lon="8.6829476">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Bücherschrank"/>
+  </node>
+  <node id="7500540042" lat="49.4632128" lon="11.1672704">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="Bürgerstiftung Nürnberg"/>
+    <tag k="public_bookcase:type" v="metal_cabinet"/>
+    <tag k="start_date" v="2019-07-18"/>
+    <tag k="website" v="http://www.buergerstiftung-nuernberg.de/projekte/eigene-projekte/oeffentliche-buecherschraenke.html"/>
+  </node>
+  <node id="7501893727" lat="48.9030736" lon="9.1383961">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7502649015" lat="49.4432968" lon="8.5308113">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="description" v="nur Kinderbücher"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="7504399657" lat="48.1642406" lon="11.4762369">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Öffentlicher Bücherschrank"/>
+  </node>
+  <node id="7504671754" lat="49.9608664" lon="12.6710571">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="7505715296" lat="51.0273644" lon="3.7573657">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="brand" v="Little Free Library"/>
+    <tag k="brand:wikidata" v="Q6650101"/>
+    <tag k="brand:wikipedia" v="en:Little Free Library"/>
+    <tag k="name" v="Little Free Library"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="leesclub Moscou"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+    <tag k="website" v="https://www.facebook.com/ruilboekenkastjeMoscou/"/>
+  </node>
+  <node id="7505737887" lat="51.0273370" lon="3.7592312">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="Santo"/>
+  </node>
+  <node id="7507571718" lat="48.6466537" lon="-1.3161524">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="30"/>
+    <tag k="name" v="Livre Service"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7507655765" lat="51.4604998" lon="7.2168696">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="30"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7508671027" lat="53.4415647" lon="-1.5513677">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="booth" v="K6"/>
+    <tag k="covered" v="booth"/>
+    <tag k="disused:amenity" v="telephone"/>
+  </node>
+  <node id="7511034402" lat="45.3727003" lon="10.9224527">
+    <tag k="addr:city" v="Alpo"/>
+    <tag k="addr:country" v="IT"/>
+    <tag k="addr:postcode" v="37062"/>
+    <tag k="addr:street" v="Via Don Antonio Provolo"/>
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="brand" v="Bookcrossing"/>
+    <tag k="description" v="Il contenitore si trova nel lato sud del Parco del Donatore"/>
+    <tag k="mapillary" v="p3Zf5uUYBCt-UcdzGMgyBA"/>
+    <tag k="name" v="Parco del Donatore"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+    <tag k="reuse:policy" v="free_to_take_or_give"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="7511785675" lat="49.4331251" lon="1.0877816">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="lit" v="no"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="Commune de Rouen"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7513449063" lat="50.1489760" lon="14.5195803">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="shelf"/>
+  </node>
+  <node id="7513910726" lat="48.8292235" lon="2.4686396">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7514307695" lat="49.5102863" lon="11.2808463">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="operator" v="Altstadtfreunde Lauf e.V."/>
+  </node>
+  <node id="7515091320" lat="49.5116980" lon="2.7934516">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="disused:amenity" v="telephone"/>
+  </node>
+  <node id="7515663684" lat="50.8150404" lon="7.3268435">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="material" v="metal"/>
+  </node>
+  <node id="7515781865" lat="50.6759499" lon="4.3804791">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="operator" v="Commune de Braine-'Alleud"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7517021368" lat="50.2163520" lon="8.8359609">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7517437299" lat="51.1728759" lon="6.4651357">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="400"/>
+    <tag k="covered" v="yes"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="7525593142" lat="50.8001150" lon="2.6912293">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="lit" v="no"/>
+    <tag k="name" v="Boîte à lire - Boeschepe"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7528199150" lat="50.6979430" lon="7.1267902">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="metal_cabinet"/>
+  </node>
+  <node id="7528659839" lat="50.1250601" lon="8.6374885">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7529437589" lat="48.2477340" lon="11.6122180">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Offener Bücherschrank Garching-Hochbrück"/>
+    <tag k="operator" v="Rotary-Club Garching-Ismaning"/>
+  </node>
+  <node id="7531534812" lat="52.8843007" lon="13.8747729">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7531945488" lat="45.7498768" lon="8.5506843">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7532351134" lat="45.9043223" lon="5.1256021">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="lit" v="no"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+    <tag k="wikimedia_commons" v="File:Boîte aux lettres postale à la mairie de Faramans (Ain).jpg"/>
+  </node>
+  <node id="7533222611" lat="50.5426749" lon="9.6653592">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7533967586" lat="49.6824207" lon="11.1432964">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-12:30,14:00-18:00; We,Sa 08:00-12:30; PH off"/>
+  </node>
+  <node id="7535471700" lat="51.2110532" lon="-1.0898419">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="7537730828" lat="46.6584617" lon="5.5683518">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Boîte à lire"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7538370572" lat="53.4911506" lon="-1.5760669">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="booth" v="K6"/>
+    <tag k="covered" v="booth"/>
+    <tag k="disused:amenity" v="telephone"/>
+  </node>
+  <node id="7538481425" lat="48.9280947" lon="2.0440057">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="Mairie de Poissy"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7539079957" lat="53.4598584" lon="9.4458691">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="colour" v="red"/>
+    <tag k="location" v="outdoor"/>
+    <tag k="operator" v="Gemeinde Bargstedt"/>
+  </node>
+  <node id="7540596629" lat="48.1682681" lon="11.5957540">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Erste Hilfe für Bücherfreunde"/>
+  </node>
+  <node id="7542072256" lat="45.4970270" lon="4.1709334">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7545064576" lat="48.4364213" lon="2.1657749">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7545169165" lat="51.2531839" lon="3.1768785">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7545574321" lat="45.0886920" lon="5.1316438">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7545613715" lat="52.1682957" lon="15.8304179">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="image" v="https://images.mapillary.com/D6qUICRL_22vE21G7AdOOg/thumb-2048.jpg"/>
+    <tag k="mapillary" v="https://www.mapillary.com/map/im/D6qUICRL_22vE21G7AdOOg"/>
+  </node>
+  <node id="7545675782" lat="50.7698084" lon="4.6487795">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="image" v="https://upload.wikimedia.org/wikipedia/commons/e/ec/Boite_%C3%A0_Livre.jpg"/>
+    <tag k="name" v="Boite à Livre"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="glass_cabinet"/>
+  </node>
+  <node id="7545753535" lat="50.7614740" lon="4.6954534">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="image" v="https://upload.wikimedia.org/wikipedia/commons/4/4f/Boite_%C3%A0_Livre_Place_de_Bossut_Bossut-Gottechain.jpg"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="glass_cabinet"/>
+  </node>
+  <node id="7547893776" lat="45.7693259" lon="8.0643407">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Cabinalibri"/>
+    <tag k="public_bookcase:type" v="shelter"/>
+  </node>
+  <node id="7547945016" lat="51.1661030" lon="3.0127980">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7548065095" lat="49.4121010" lon="8.6416563">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+  </node>
+  <node id="7548757727" lat="45.8249221" lon="4.9533190">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7548851417" lat="52.0224459" lon="4.2164062">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="7548952997" lat="52.0632868" lon="4.2603285">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="7549016113" lat="47.3394392" lon="0.7164581">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="lit" v="no"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7550103902" lat="49.5605069" lon="11.1731764">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="shelter"/>
+  </node>
+  <node id="7550775822" lat="48.8699329" lon="8.6699667">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Bücherschrank"/>
+  </node>
+  <node id="7551352935" lat="51.4467987" lon="6.9776831">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="metal_cabinet"/>
+  </node>
+  <node id="7551679858" lat="52.3815837" lon="9.7449925">
+    <tag k="access" v="yes"/>
+    <tag k="addr:city" v="Hannover"/>
+    <tag k="addr:street" v="Lister Meile"/>
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="location" v="outdoor"/>
+    <tag k="name" v="Bücherschrank"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="7551708027" lat="47.6646928" lon="6.8398221">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="location" v="indoor"/>
+    <tag k="name" v="Espace lecture"/>
+    <tag k="public_bookcase:type" v="shelf"/>
+  </node>
+  <node id="7551714546" lat="51.9957732" lon="4.3563539">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="7552228988" lat="49.7837687" lon="13.6403155">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Knihobudka Studánka V Habru"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="shelter"/>
+  </node>
+  <node id="7552239076" lat="49.7473965" lon="13.5148541">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Knihobudka Ejpovice"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="phone_box"/>
+  </node>
+  <node id="7552262654" lat="50.1443754" lon="12.8862123">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Knihobudka Dražov"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7552266245" lat="49.9565751" lon="12.9165187">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Knihobudka Heřmanice"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7552275450" lat="49.7706765" lon="13.3681633">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Khihobudka Bazén Lochotín"/>
+    <tag k="opening_hours" v="Mo-Fr 06:00-21:00 Sa-Su 09:00-20:00"/>
+    <tag k="opening_hours:covid19" v="off"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7552616263" lat="47.0582459" lon="6.6698300">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="fixme" v="Vérifier l'emplacement et ajouter des informations détaillées."/>
+  </node>
+  <node id="7552616264" lat="47.0604173" lon="6.6699102">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="fixme" v="Vérifier l'emplacement et ajouter des informations détaillées."/>
+  </node>
+  <node id="7552616265" lat="47.0606158" lon="6.6767766">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="fixme" v="Vérifier l'emplacement et ajouter des informations détaillées."/>
+  </node>
+  <node id="7553319087" lat="53.1867308" lon="13.1396773">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7553465190" lat="51.0323577" lon="3.7777785">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="15"/>
+    <tag k="name" v="Uitleenbibliotheek"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="public_bookcase:type" v="shelter"/>
+  </node>
+  <node id="7554375530" lat="52.4747304" lon="13.4168609">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7555873853" lat="49.5962860" lon="11.1187589">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="shelter"/>
+  </node>
+  <node id="7555899038" lat="50.5868985" lon="15.1406089">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Knihobudka"/>
+    <tag k="operator" v="Městská knihovna Antonína Marka Turnov"/>
+  </node>
+  <node id="7555919903" lat="50.5893150" lon="15.1683667">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Knihobudka"/>
+    <tag k="operator" v="Městská knihovna Antonína Marka Turnov"/>
+  </node>
+  <node id="7555929603" lat="50.5885602" lon="15.1412912">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Knihobudka"/>
+    <tag k="operator" v="Městská knihovna Antonína Marka Turnov"/>
+  </node>
+  <node id="7555931265" lat="50.5894048" lon="15.1597287">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Knihobudka"/>
+    <tag k="operator" v="Městská knihovna Antonína Marka Turnov"/>
+  </node>
+  <node id="7555943691" lat="50.5892975" lon="15.1390965">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Knihobudka"/>
+    <tag k="operator" v="Městská knihovna Antonína Marka Turnov"/>
+  </node>
+  <node id="7556975571" lat="50.9729812" lon="7.6934064">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="capacity" v="50"/>
+    <tag k="lit" v="no"/>
+  </node>
+  <node id="7557009349" lat="45.8191946" lon="4.8728646">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7557116005" lat="49.2143852" lon="1.7839246">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7557116006" lat="49.2187069" lon="1.7915619">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7557116007" lat="49.2315495" lon="1.7874913">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7559609582" lat="45.5399695" lon="5.9895769">
+    <tag k="amenity" v="public_bookcase"/>
+  </node>
+  <node id="7561829247" lat="50.8374722" lon="4.6616866">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="public_bookcase:type" v="reading_box"/>
+  </node>
+  <node id="7563065070" lat="49.7403453" lon="13.3665873">
+    <tag k="amenity" v="public_bookcase"/>
+    <tag k="name" v="Knihobudka Moving Station"/>
+    <tag k="opening_hours" v="Mo-Fr 10:00-19:00"/>
+    <tag k="public_bookcase:type" v="wooden_cabinet"/>
+  </node>
+  <node id="7563748424" lat="50.5696361" lon="4.1752332">
     <tag k="amenity" v="public_bookcase"/>
   </node>
 
