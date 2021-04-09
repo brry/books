@@ -23,7 +23,7 @@ wiki_lists <- paste0("in_",c("Bayern", "Berlin", "Brandenburg",
 wiki_lists <- c(wiki_lists, "im_Saarland")
 # DE Baden Wuerttemberg:
 bw <- "https://de.wikipedia.org/wiki/Liste_%C3%B6ffentlicher_B%C3%BCcherschr%C3%A4nke_in_Baden-W%C3%BCrttemberg"
-bw <- readLines(bw, encoding="UTF-8")
+bw <- readLines(bw, encoding="UTF-8", warn=FALSE)
 bw <- bw[grep('<td><a href="/wiki/Liste', bw)]
 bw <- gsub('" title=.*',"",bw)
 bw <- gsub(".*BCcherschr%C3%A4nke_","",bw)
@@ -43,13 +43,18 @@ if(listURL=="") listURL <- "_landingPage" # for error messaging + source referen
 listURL <- paste0("de.wiki",listURL)
 
 # read table
-html <- readLines(url, encoding="UTF-8")
+html <- readLines(url, encoding="UTF-8", warn=FALSE)
 html <- html[1:grep("</table>", html)[1] ] # first table only
 #
 TAB <- XML::readHTMLTable(doc=html, stringsAsFactors=FALSE, header=TRUE)
 TAB <- TAB[[1]]
 
 # rename / select columns
+if(listURL=="de.wiki_im_Saarland") 
+  {
+  TAB$V7 <- NULL
+  colnames(TAB) <- c("Bild","Ausführung","Ort","Seit","Anmerkung","Lage")
+  }
 colnames(TAB) <- sub("\n",                "",     colnames(TAB))
 colnames(TAB) <- sub("Ausf.*hrung",       "Typ",  colnames(TAB))
 colnames(TAB) <- sub("Geokoordinaten",    "Lage", colnames(TAB))
@@ -57,6 +62,7 @@ if(!"Ort" %in% colnames(TAB))
   {
   colnames(TAB) <- sub("Stadtteil",       "Ort",  colnames(TAB))
   colnames(TAB) <- sub("Bezirk.*Ortsteil","Ort",  colnames(TAB))
+  colnames(TAB) <- sub("Ortsteil / Bezirk","Ort",  colnames(TAB))
   }
 TAB$Bild <- NULL # remove column
 TAB$Seit <- berryFunctions::removeSpace(gsub(".*\U{2660}", "", TAB$Seit))
@@ -125,11 +131,25 @@ write_books(table_tgn, "files/table_tgn.txt")
 
 browseURL("https://overpass-turbo.eu/")
 ' Copy the query below for constant bbox, then click "Run" ("Ausfuehren")
-node
-  [amenity=public_bookcase]
-  (44,-2,56,20);
+node[amenity=public_bookcase](44, -2, 56, 20);
 out;
 ' # "Speichere als OSM Rohdaten" at C:/Dropbox/R/books  /files/export.osm
+  
+# Potential expansion ----
+# https://github.com/ToastHawaii/public-bookcase-map/blob/master/src/filters.ts
+# https://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide#By_exact_name
+# https://wiki.openstreetmap.org/wiki/Tags#Finding_your_tag
+# https://taginfo.openstreetmap.org/search?q=book
+# https://wiki.openstreetmap.org/w/index.php?search=books&title=Special%3ASearch&profile=default&fulltext=1
+
+' 
+(
+  node[amenity=public_bookcase]({{bbox}});
+  node[amenity=give_box]({{bbox}});
+  node[amenity=library][name!~ibliothek]({{bbox}});
+  );
+out;
+'
 
 cases <- readLines("files/export.osm", encoding="UTF-8", warn=FALSE)
 n_beg <- grep( "<node id", cases)
@@ -159,19 +179,6 @@ write_books(table_osm, "files/table_osm.txt")
 rm(n_beg, n_end, cases)
 
 
-# Potential expansion ----
-
-# https://github.com/ToastHawaii/public-bookcase-map/blob/master/src/filters.ts
-# amenity="public_bookcase"
-# amenity="give_box"
-# amenity="library", "fee"="no" #  Library free of charge
-# shop="books", "charity"="yes" # Charity book shop
-# shop="charity", "books"
-# shop="freestore"
-# shop="charity", "payment:none"="yes"
-# shop="second_hand", "payment:none"="yes"
-# shop="charity", "fee"="no"
-# shop="second_hand", "fee"="no"`,
 
 
 
@@ -200,7 +207,7 @@ write_books(table_lst, "files/table_lst.txt")
 
 # URL found through https://github.com/Binnette/bookcases-to-check
 table_bal <- read.csv2("https://www.boite-a-lire.com/boite_a_lire.csv", 
-                         stringsAsFactors=FALSE, encoding="UTF-8", quote="")
+                         stringsAsFactors=FALSE, encoding="UTF-8", quote="", skip=1)
 
 table_bal$Source <- "boite-a-lire.com"
 
@@ -226,7 +233,7 @@ rm(ll)
 
 # 6. OpenBookCase --------------------------------------------------------------
 
-table_obc <- rjson::fromJSON(file="https://openbookcase.org/api/list")
+table_obc <- rjson::fromJSON(file="https://openbookcase.de/api/list")
 table_obc <- lapply(table_obc[[2]], function(x) {
   x[sapply(x, is.null)] <- NA
   x <- unlist(x)

@@ -72,6 +72,10 @@ tocut <- ! colnames(table) %in% c("group", "OSM")
 table[,tocut] <- lapply(table[,tocut], truncString, 80) # cut long comments to reduce html size
 table <- cbind(table, ll) ; rm(ll, tocut)
 sel <- ! colnames(table) %in% c("col","group")
+if(min(table$lon, na.rm=TRUE) < -180) stop("min table$lon is too small: ", min(table$lon, na.rm=TRUE))
+if(max(table$lon, na.rm=TRUE) >  180) stop("max table$lon is too large: ", max(table$lon, na.rm=TRUE))
+if(min(table$lat, na.rm=TRUE) <  -90) stop("min table$lat is too small: ", min(table$lat, na.rm=TRUE))
+if(max(table$lat, na.rm=TRUE) >   90) stop("max table$lat is too large: ", max(table$lat, na.rm=TRUE))
 table$popup <- berryFunctions::popleaf(table, sel=sel, na.rm=TRUE) ; rm(sel)
 # table$id <- nchar(table$popup)
 
